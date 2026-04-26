@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-paper text-ink font-body antialiased;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+  /* Subtle paper texture via layered gradients */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      radial-gradient(at 20% 10%, rgba(194, 65, 12, 0.04) 0px, transparent 50%),
+      radial-gradient(at 80% 90%, rgba(77, 124, 15, 0.03) 0px, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full font-medium
+           transition-all duration-200 select-none active:scale-[0.98];
+  }
+  .btn-primary {
+    @apply btn bg-ink text-paper shadow-soft hover:bg-black;
+  }
+  .btn-ghost {
+    @apply btn bg-transparent text-ink hover:bg-ink/5 border border-line;
+  }
+  .btn-accent {
+    @apply btn bg-amber text-paper hover:bg-amber/90 shadow-soft;
+  }
+  .card {
+    @apply bg-white rounded-3xl shadow-card border border-line/60;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium
+           bg-ink/5 text-mute;
+  }
+}
+
+/* Cross-fade animation helpers */
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up {
+  animation: fade-in-up 0.35s ease-out both;
+}
+@keyframes pop {
+  0% { transform: scale(0.95); opacity: 0; }
+  60% { transform: scale(1.03); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.animate-pop { animation: pop 0.25s ease-out both; }
+
+/* Shake animation for wrong answers */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+.animate-shake { animation: shake 0.3s ease-in-out; }

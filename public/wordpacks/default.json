@@ -1,0 +1,4179 @@
+{
+  "name": "朗曼基础词包 · 401 词",
+  "version": 1,
+  "description": "朗曼核心 134 词 + 日常生活 103 词 + 学校与学习 164 词",
+  "words": [
+    {
+      "word": "about",
+      "pos": "prep.",
+      "ipa": "/əˈbaʊt/",
+      "meanings": [
+        "关于",
+        "大约"
+      ],
+      "example": "We talked about the new movie.",
+      "exampleZh": "我们聊了那部新电影。"
+    },
+    {
+      "word": "after",
+      "pos": "prep.",
+      "ipa": "/ˈæftər/",
+      "meanings": [
+        "在...之后"
+      ],
+      "example": "I do homework after dinner.",
+      "exampleZh": "我吃完晚饭后写作业。"
+    },
+    {
+      "word": "again",
+      "pos": "adv.",
+      "ipa": "/əˈɡɛn/",
+      "meanings": [
+        "再次",
+        "又一次"
+      ],
+      "example": "Please say that again.",
+      "exampleZh": "请再说一遍。"
+    },
+    {
+      "word": "always",
+      "pos": "adv.",
+      "ipa": "/ˈɔːlweɪz/",
+      "meanings": [
+        "总是",
+        "一直"
+      ],
+      "example": "He always arrives on time.",
+      "exampleZh": "他总是准时到。"
+    },
+    {
+      "word": "answer",
+      "pos": "v./n.",
+      "ipa": "/ˈænsər/",
+      "meanings": [
+        "回答",
+        "答案"
+      ],
+      "example": "Can you answer my question?",
+      "exampleZh": "你能回答我的问题吗?"
+    },
+    {
+      "word": "ask",
+      "pos": "v.",
+      "ipa": "/æsk/",
+      "meanings": [
+        "问",
+        "请求"
+      ],
+      "example": "I want to ask the teacher something.",
+      "exampleZh": "我想问老师一些事。"
+    },
+    {
+      "word": "away",
+      "pos": "adv.",
+      "ipa": "/əˈweɪ/",
+      "meanings": [
+        "离开",
+        "远离"
+      ],
+      "example": "Please put your toys away.",
+      "exampleZh": "请把你的玩具收起来。"
+    },
+    {
+      "word": "back",
+      "pos": "n./adv.",
+      "ipa": "/bæk/",
+      "meanings": [
+        "后面",
+        "回来"
+      ],
+      "example": "I will be back at six.",
+      "exampleZh": "我六点回来。"
+    },
+    {
+      "word": "bag",
+      "pos": "n.",
+      "ipa": "/bæɡ/",
+      "meanings": [
+        "包",
+        "袋子"
+      ],
+      "example": "My school bag is too heavy.",
+      "exampleZh": "我的书包太重了。"
+    },
+    {
+      "word": "bath",
+      "pos": "n.",
+      "ipa": "/bæθ/",
+      "meanings": [
+        "洗澡",
+        "浴缸"
+      ],
+      "example": "He takes a bath every night.",
+      "exampleZh": "他每晚洗澡。"
+    },
+    {
+      "word": "beautiful",
+      "pos": "adj.",
+      "ipa": "/ˈbjuːtɪfl/",
+      "meanings": [
+        "美丽的",
+        "漂亮的"
+      ],
+      "example": "The flowers are beautiful today.",
+      "exampleZh": "今天的花很美。"
+    },
+    {
+      "word": "because",
+      "pos": "conj.",
+      "ipa": "/bɪˈkɔːz/",
+      "meanings": [
+        "因为"
+      ],
+      "example": "I am happy because it's Friday.",
+      "exampleZh": "我很高兴因为今天是周五。"
+    },
+    {
+      "word": "bed",
+      "pos": "n.",
+      "ipa": "/bɛd/",
+      "meanings": [
+        "床"
+      ],
+      "example": "She made her bed this morning.",
+      "exampleZh": "她今早整理了自己的床。"
+    },
+    {
+      "word": "before",
+      "pos": "prep.",
+      "ipa": "/bɪˈfɔːr/",
+      "meanings": [
+        "在...之前"
+      ],
+      "example": "Wash your hands before dinner.",
+      "exampleZh": "吃饭前洗手。"
+    },
+    {
+      "word": "begin",
+      "pos": "v.",
+      "ipa": "/bɪˈɡɪn/",
+      "meanings": [
+        "开始"
+      ],
+      "example": "Class begins at eight thirty.",
+      "exampleZh": "课在八点半开始。"
+    },
+    {
+      "word": "big",
+      "pos": "adj.",
+      "ipa": "/bɪɡ/",
+      "meanings": [
+        "大的"
+      ],
+      "example": "They live in a big house.",
+      "exampleZh": "他们住在一间大房子里。"
+    },
+    {
+      "word": "book",
+      "pos": "n.",
+      "ipa": "/bʊk/",
+      "meanings": [
+        "书"
+      ],
+      "example": "This book is really interesting.",
+      "exampleZh": "这本书真有趣。"
+    },
+    {
+      "word": "boy",
+      "pos": "n.",
+      "ipa": "/bɔɪ/",
+      "meanings": [
+        "男孩"
+      ],
+      "example": "The boy is riding his bike.",
+      "exampleZh": "那个男孩在骑自行车。"
+    },
+    {
+      "word": "bring",
+      "pos": "v.",
+      "ipa": "/brɪŋ/",
+      "meanings": [
+        "带来",
+        "拿来"
+      ],
+      "example": "Please bring your homework tomorrow.",
+      "exampleZh": "明天请把作业带来。"
+    },
+    {
+      "word": "busy",
+      "pos": "adj.",
+      "ipa": "/ˈbɪzi/",
+      "meanings": [
+        "忙的",
+        "繁忙的"
+      ],
+      "example": "Mom is busy in the kitchen.",
+      "exampleZh": "妈妈在厨房里很忙。"
+    },
+    {
+      "word": "buy",
+      "pos": "v.",
+      "ipa": "/baɪ/",
+      "meanings": [
+        "买",
+        "购买"
+      ],
+      "example": "I need to buy some milk.",
+      "exampleZh": "我要买点牛奶。"
+    },
+    {
+      "word": "call",
+      "pos": "v.",
+      "ipa": "/kɔːl/",
+      "meanings": [
+        "打电话",
+        "叫"
+      ],
+      "example": "I will call you after work.",
+      "exampleZh": "下班后我给你打电话。"
+    },
+    {
+      "word": "car",
+      "pos": "n.",
+      "ipa": "/kɑːr/",
+      "meanings": [
+        "汽车",
+        "轿车"
+      ],
+      "example": "Dad washes the car on weekends.",
+      "exampleZh": "爸爸周末洗车。"
+    },
+    {
+      "word": "carry",
+      "pos": "v.",
+      "ipa": "/ˈkæri/",
+      "meanings": [
+        "携带",
+        "搬运"
+      ],
+      "example": "Can you carry this box upstairs?",
+      "exampleZh": "你能把这个箱子搬上楼吗?"
+    },
+    {
+      "word": "change",
+      "pos": "v./n.",
+      "ipa": "/tʃeɪndʒ/",
+      "meanings": [
+        "改变",
+        "零钱"
+      ],
+      "example": "I want to change my plan.",
+      "exampleZh": "我想改变我的计划。"
+    },
+    {
+      "word": "child",
+      "pos": "n.",
+      "ipa": "/tʃaɪld/",
+      "meanings": [
+        "孩子",
+        "儿童"
+      ],
+      "example": "Every child loves that song.",
+      "exampleZh": "每个孩子都爱那首歌。"
+    },
+    {
+      "word": "city",
+      "pos": "n.",
+      "ipa": "/ˈsɪti/",
+      "meanings": [
+        "城市"
+      ],
+      "example": "Shanghai is a huge city.",
+      "exampleZh": "上海是一座巨大的城市。"
+    },
+    {
+      "word": "class",
+      "pos": "n.",
+      "ipa": "/klæs/",
+      "meanings": [
+        "班级",
+        "课"
+      ],
+      "example": "Our class has thirty students.",
+      "exampleZh": "我们班有三十个学生。"
+    },
+    {
+      "word": "clean",
+      "pos": "v./adj.",
+      "ipa": "/kliːn/",
+      "meanings": [
+        "清洁",
+        "干净的"
+      ],
+      "example": "I need to clean my room.",
+      "exampleZh": "我需要打扫我的房间。"
+    },
+    {
+      "word": "close",
+      "pos": "v./adj.",
+      "ipa": "/kloʊz/",
+      "meanings": [
+        "关闭",
+        "近的"
+      ],
+      "example": "Please close the door quietly.",
+      "exampleZh": "请轻轻地关门。"
+    },
+    {
+      "word": "cold",
+      "pos": "adj.",
+      "ipa": "/koʊld/",
+      "meanings": [
+        "冷的",
+        "寒冷的"
+      ],
+      "example": "The water is very cold.",
+      "exampleZh": "水很冷。"
+    },
+    {
+      "word": "come",
+      "pos": "v.",
+      "ipa": "/kʌm/",
+      "meanings": [
+        "来"
+      ],
+      "example": "Come here and see this.",
+      "exampleZh": "过来看看这个。"
+    },
+    {
+      "word": "cook",
+      "pos": "v.",
+      "ipa": "/kʊk/",
+      "meanings": [
+        "烹饪",
+        "煮"
+      ],
+      "example": "My dad cooks dinner every night.",
+      "exampleZh": "我爸爸每晚做晚饭。"
+    },
+    {
+      "word": "day",
+      "pos": "n.",
+      "ipa": "/deɪ/",
+      "meanings": [
+        "一天",
+        "白天"
+      ],
+      "example": "Have a nice day.",
+      "exampleZh": "祝你今天愉快。"
+    },
+    {
+      "word": "decide",
+      "pos": "v.",
+      "ipa": "/dɪˈsaɪd/",
+      "meanings": [
+        "决定"
+      ],
+      "example": "We need to decide by Monday.",
+      "exampleZh": "我们得在周一前决定。"
+    },
+    {
+      "word": "dog",
+      "pos": "n.",
+      "ipa": "/dɔːɡ/",
+      "meanings": [
+        "狗"
+      ],
+      "example": "Their dog loves to play outside.",
+      "exampleZh": "他们的狗喜欢在外面玩。"
+    },
+    {
+      "word": "door",
+      "pos": "n.",
+      "ipa": "/dɔːr/",
+      "meanings": [
+        "门"
+      ],
+      "example": "Someone is knocking on the door.",
+      "exampleZh": "有人在敲门。"
+    },
+    {
+      "word": "drink",
+      "pos": "v./n.",
+      "ipa": "/drɪŋk/",
+      "meanings": [
+        "喝",
+        "饮料"
+      ],
+      "example": "Drink some water after exercise.",
+      "exampleZh": "运动后喝点水。"
+    },
+    {
+      "word": "drive",
+      "pos": "v.",
+      "ipa": "/draɪv/",
+      "meanings": [
+        "开车",
+        "驾驶"
+      ],
+      "example": "She drives to work every day.",
+      "exampleZh": "她每天开车上班。"
+    },
+    {
+      "word": "early",
+      "pos": "adv./adj.",
+      "ipa": "/ˈɜːrli/",
+      "meanings": [
+        "早的",
+        "提早"
+      ],
+      "example": "I wake up early on weekdays.",
+      "exampleZh": "工作日我起得早。"
+    },
+    {
+      "word": "eat",
+      "pos": "v.",
+      "ipa": "/iːt/",
+      "meanings": [
+        "吃"
+      ],
+      "example": "Let's eat lunch at noon.",
+      "exampleZh": "我们中午吃午饭吧。"
+    },
+    {
+      "word": "enjoy",
+      "pos": "v.",
+      "ipa": "/ɪnˈdʒɔɪ/",
+      "meanings": [
+        "享受",
+        "喜欢"
+      ],
+      "example": "The kids enjoy playing in the snow.",
+      "exampleZh": "孩子们喜欢在雪里玩。"
+    },
+    {
+      "word": "enough",
+      "pos": "adj./adv.",
+      "ipa": "/ɪˈnʌf/",
+      "meanings": [
+        "足够的"
+      ],
+      "example": "We have enough time.",
+      "exampleZh": "我们有足够的时间。"
+    },
+    {
+      "word": "family",
+      "pos": "n.",
+      "ipa": "/ˈfæməli/",
+      "meanings": [
+        "家庭",
+        "家人"
+      ],
+      "example": "My family loves hiking together.",
+      "exampleZh": "我的家人喜欢一起徒步。"
+    },
+    {
+      "word": "father",
+      "pos": "n.",
+      "ipa": "/ˈfɑːðər/",
+      "meanings": [
+        "父亲",
+        "爸爸"
+      ],
+      "example": "Her father works at a hospital.",
+      "exampleZh": "她的父亲在医院工作。"
+    },
+    {
+      "word": "feel",
+      "pos": "v.",
+      "ipa": "/fiːl/",
+      "meanings": [
+        "感觉",
+        "觉得"
+      ],
+      "example": "I feel tired after school.",
+      "exampleZh": "放学后我觉得很累。"
+    },
+    {
+      "word": "find",
+      "pos": "v.",
+      "ipa": "/faɪnd/",
+      "meanings": [
+        "找到",
+        "发现"
+      ],
+      "example": "I cannot find my keys.",
+      "exampleZh": "我找不到我的钥匙。"
+    },
+    {
+      "word": "finish",
+      "pos": "v.",
+      "ipa": "/ˈfɪnɪʃ/",
+      "meanings": [
+        "完成",
+        "结束"
+      ],
+      "example": "Finish your homework before dinner.",
+      "exampleZh": "晚饭前把作业做完。"
+    },
+    {
+      "word": "first",
+      "pos": "adj./adv.",
+      "ipa": "/fɜːrst/",
+      "meanings": [
+        "第一的",
+        "首先"
+      ],
+      "example": "He sits in the first row.",
+      "exampleZh": "他坐在第一排。"
+    },
+    {
+      "word": "food",
+      "pos": "n.",
+      "ipa": "/fuːd/",
+      "meanings": [
+        "食物"
+      ],
+      "example": "The food here is delicious.",
+      "exampleZh": "这里的食物很好吃。"
+    },
+    {
+      "word": "friend",
+      "pos": "n.",
+      "ipa": "/frɛnd/",
+      "meanings": [
+        "朋友"
+      ],
+      "example": "She is my best friend.",
+      "exampleZh": "她是我最好的朋友。"
+    },
+    {
+      "word": "game",
+      "pos": "n.",
+      "ipa": "/ɡeɪm/",
+      "meanings": [
+        "游戏",
+        "比赛"
+      ],
+      "example": "Let's play a board game tonight.",
+      "exampleZh": "我们今晚玩桌游吧。"
+    },
+    {
+      "word": "give",
+      "pos": "v.",
+      "ipa": "/ɡɪv/",
+      "meanings": [
+        "给",
+        "赠送"
+      ],
+      "example": "I will give you my pen.",
+      "exampleZh": "我会把我的笔给你。"
+    },
+    {
+      "word": "good",
+      "pos": "adj.",
+      "ipa": "/ɡʊd/",
+      "meanings": [
+        "好的"
+      ],
+      "example": "That is a good idea.",
+      "exampleZh": "那是个好主意。"
+    },
+    {
+      "word": "green",
+      "pos": "adj.",
+      "ipa": "/ɡriːn/",
+      "meanings": [
+        "绿色的"
+      ],
+      "example": "The grass is very green today.",
+      "exampleZh": "今天的草非常绿。"
+    },
+    {
+      "word": "happy",
+      "pos": "adj.",
+      "ipa": "/ˈhæpi/",
+      "meanings": [
+        "高兴的",
+        "开心的"
+      ],
+      "example": "She looks happy today.",
+      "exampleZh": "她今天看起来很开心。"
+    },
+    {
+      "word": "hard",
+      "pos": "adj./adv.",
+      "ipa": "/hɑːrd/",
+      "meanings": [
+        "困难的",
+        "努力地"
+      ],
+      "example": "This question is really hard.",
+      "exampleZh": "这道题真难。"
+    },
+    {
+      "word": "head",
+      "pos": "n.",
+      "ipa": "/hɛd/",
+      "meanings": [
+        "头"
+      ],
+      "example": "My head hurts a little.",
+      "exampleZh": "我的头有点疼。"
+    },
+    {
+      "word": "hear",
+      "pos": "v.",
+      "ipa": "/hɪr/",
+      "meanings": [
+        "听到"
+      ],
+      "example": "I can hear the music clearly.",
+      "exampleZh": "我能清楚地听到音乐。"
+    },
+    {
+      "word": "help",
+      "pos": "v./n.",
+      "ipa": "/hɛlp/",
+      "meanings": [
+        "帮助"
+      ],
+      "example": "Can you help me carry this?",
+      "exampleZh": "你能帮我搬这个吗?"
+    },
+    {
+      "word": "home",
+      "pos": "n.",
+      "ipa": "/hoʊm/",
+      "meanings": [
+        "家"
+      ],
+      "example": "I go home at five.",
+      "exampleZh": "我五点回家。"
+    },
+    {
+      "word": "hope",
+      "pos": "v./n.",
+      "ipa": "/hoʊp/",
+      "meanings": [
+        "希望"
+      ],
+      "example": "I hope you feel better soon.",
+      "exampleZh": "希望你早日康复。"
+    },
+    {
+      "word": "hot",
+      "pos": "adj.",
+      "ipa": "/hɑːt/",
+      "meanings": [
+        "热的",
+        "辣的"
+      ],
+      "example": "The soup is too hot.",
+      "exampleZh": "汤太烫了。"
+    },
+    {
+      "word": "idea",
+      "pos": "n.",
+      "ipa": "/aɪˈdiːə/",
+      "meanings": [
+        "主意",
+        "想法"
+      ],
+      "example": "I have a great idea.",
+      "exampleZh": "我有个好主意。"
+    },
+    {
+      "word": "important",
+      "pos": "adj.",
+      "ipa": "/ɪmˈpɔːrtnt/",
+      "meanings": [
+        "重要的"
+      ],
+      "example": "Family is the most important thing.",
+      "exampleZh": "家庭是最重要的事。"
+    },
+    {
+      "word": "job",
+      "pos": "n.",
+      "ipa": "/dʒɑːb/",
+      "meanings": [
+        "工作"
+      ],
+      "example": "He got a new job yesterday.",
+      "exampleZh": "他昨天得到一份新工作。"
+    },
+    {
+      "word": "keep",
+      "pos": "v.",
+      "ipa": "/kiːp/",
+      "meanings": [
+        "保持",
+        "保留"
+      ],
+      "example": "Keep your room clean, please.",
+      "exampleZh": "请保持你的房间干净。"
+    },
+    {
+      "word": "kind",
+      "pos": "adj./n.",
+      "ipa": "/kaɪnd/",
+      "meanings": [
+        "善良的",
+        "种类"
+      ],
+      "example": "She is kind to everyone.",
+      "exampleZh": "她对每个人都很友善。"
+    },
+    {
+      "word": "know",
+      "pos": "v.",
+      "ipa": "/noʊ/",
+      "meanings": [
+        "知道",
+        "认识"
+      ],
+      "example": "I know the answer.",
+      "exampleZh": "我知道答案。"
+    },
+    {
+      "word": "late",
+      "pos": "adj./adv.",
+      "ipa": "/leɪt/",
+      "meanings": [
+        "迟的",
+        "晚的"
+      ],
+      "example": "Sorry I am late.",
+      "exampleZh": "抱歉我迟到了。"
+    },
+    {
+      "word": "learn",
+      "pos": "v.",
+      "ipa": "/lɜːrn/",
+      "meanings": [
+        "学习"
+      ],
+      "example": "We learn English at school.",
+      "exampleZh": "我们在学校学英语。"
+    },
+    {
+      "word": "leave",
+      "pos": "v.",
+      "ipa": "/liːv/",
+      "meanings": [
+        "离开",
+        "留下"
+      ],
+      "example": "I leave for work at seven.",
+      "exampleZh": "我七点去上班。"
+    },
+    {
+      "word": "life",
+      "pos": "n.",
+      "ipa": "/laɪf/",
+      "meanings": [
+        "生活",
+        "生命"
+      ],
+      "example": "City life is very busy.",
+      "exampleZh": "城市生活很忙碌。"
+    },
+    {
+      "word": "light",
+      "pos": "n./adj.",
+      "ipa": "/laɪt/",
+      "meanings": [
+        "光",
+        "轻的"
+      ],
+      "example": "Please turn off the light.",
+      "exampleZh": "请关灯。"
+    },
+    {
+      "word": "listen",
+      "pos": "v.",
+      "ipa": "/ˈlɪsən/",
+      "meanings": [
+        "听",
+        "倾听"
+      ],
+      "example": "Listen carefully to your teacher.",
+      "exampleZh": "认真听老师讲。"
+    },
+    {
+      "word": "make",
+      "pos": "v.",
+      "ipa": "/meɪk/",
+      "meanings": [
+        "制作",
+        "使"
+      ],
+      "example": "Let's make a cake together.",
+      "exampleZh": "我们一起做蛋糕吧。"
+    },
+    {
+      "word": "many",
+      "pos": "adj.",
+      "ipa": "/ˈmɛni/",
+      "meanings": [
+        "许多的"
+      ],
+      "example": "Many children like ice cream.",
+      "exampleZh": "许多孩子喜欢冰激凌。"
+    },
+    {
+      "word": "meet",
+      "pos": "v.",
+      "ipa": "/miːt/",
+      "meanings": [
+        "见面",
+        "遇到"
+      ],
+      "example": "Let's meet at the library.",
+      "exampleZh": "我们在图书馆见面吧。"
+    },
+    {
+      "word": "money",
+      "pos": "n.",
+      "ipa": "/ˈmʌni/",
+      "meanings": [
+        "钱",
+        "金钱"
+      ],
+      "example": "I don't have enough money.",
+      "exampleZh": "我的钱不够。"
+    },
+    {
+      "word": "morning",
+      "pos": "n.",
+      "ipa": "/ˈmɔːrnɪŋ/",
+      "meanings": [
+        "早晨",
+        "上午"
+      ],
+      "example": "I drink coffee every morning.",
+      "exampleZh": "我每天早上喝咖啡。"
+    },
+    {
+      "word": "mother",
+      "pos": "n.",
+      "ipa": "/ˈmʌðər/",
+      "meanings": [
+        "母亲",
+        "妈妈"
+      ],
+      "example": "My mother is a nurse.",
+      "exampleZh": "我妈妈是护士。"
+    },
+    {
+      "word": "name",
+      "pos": "n.",
+      "ipa": "/neɪm/",
+      "meanings": [
+        "名字"
+      ],
+      "example": "What is your dog's name?",
+      "exampleZh": "你的狗叫什么名字?"
+    },
+    {
+      "word": "need",
+      "pos": "v.",
+      "ipa": "/niːd/",
+      "meanings": [
+        "需要"
+      ],
+      "example": "I need a new backpack.",
+      "exampleZh": "我需要一个新书包。"
+    },
+    {
+      "word": "new",
+      "pos": "adj.",
+      "ipa": "/nuː/",
+      "meanings": [
+        "新的"
+      ],
+      "example": "She has a new phone.",
+      "exampleZh": "她有一部新手机。"
+    },
+    {
+      "word": "night",
+      "pos": "n.",
+      "ipa": "/naɪt/",
+      "meanings": [
+        "夜晚"
+      ],
+      "example": "I read before bed every night.",
+      "exampleZh": "我每晚睡前看书。"
+    },
+    {
+      "word": "often",
+      "pos": "adv.",
+      "ipa": "/ˈɔːfən/",
+      "meanings": [
+        "经常"
+      ],
+      "example": "We often eat dinner together.",
+      "exampleZh": "我们经常一起吃晚饭。"
+    },
+    {
+      "word": "open",
+      "pos": "v./adj.",
+      "ipa": "/ˈoʊpən/",
+      "meanings": [
+        "打开",
+        "开着的"
+      ],
+      "example": "Please open the window.",
+      "exampleZh": "请打开窗户。"
+    },
+    {
+      "word": "paper",
+      "pos": "n.",
+      "ipa": "/ˈpeɪpər/",
+      "meanings": [
+        "纸",
+        "论文"
+      ],
+      "example": "I need a piece of paper.",
+      "exampleZh": "我需要一张纸。"
+    },
+    {
+      "word": "park",
+      "pos": "n./v.",
+      "ipa": "/pɑːrk/",
+      "meanings": [
+        "公园",
+        "停车"
+      ],
+      "example": "We walked to the park.",
+      "exampleZh": "我们走去公园。"
+    },
+    {
+      "word": "people",
+      "pos": "n.",
+      "ipa": "/ˈpiːpl/",
+      "meanings": [
+        "人们"
+      ],
+      "example": "Many people love this song.",
+      "exampleZh": "很多人喜欢这首歌。"
+    },
+    {
+      "word": "play",
+      "pos": "v.",
+      "ipa": "/pleɪ/",
+      "meanings": [
+        "玩",
+        "演奏"
+      ],
+      "example": "The kids play in the yard.",
+      "exampleZh": "孩子们在院子里玩。"
+    },
+    {
+      "word": "please",
+      "pos": "adv.",
+      "ipa": "/pliːz/",
+      "meanings": [
+        "请"
+      ],
+      "example": "Please pass me the salt.",
+      "exampleZh": "请把盐递给我。"
+    },
+    {
+      "word": "practice",
+      "pos": "v./n.",
+      "ipa": "/ˈpræktɪs/",
+      "meanings": [
+        "练习"
+      ],
+      "example": "I practice piano every day.",
+      "exampleZh": "我每天练钢琴。"
+    },
+    {
+      "word": "problem",
+      "pos": "n.",
+      "ipa": "/ˈprɑːbləm/",
+      "meanings": [
+        "问题"
+      ],
+      "example": "We have a small problem.",
+      "exampleZh": "我们有个小问题。"
+    },
+    {
+      "word": "put",
+      "pos": "v.",
+      "ipa": "/pʊt/",
+      "meanings": [
+        "放",
+        "放置"
+      ],
+      "example": "Put your books on the shelf.",
+      "exampleZh": "把你的书放架子上。"
+    },
+    {
+      "word": "question",
+      "pos": "n.",
+      "ipa": "/ˈkwɛstʃən/",
+      "meanings": [
+        "问题",
+        "疑问"
+      ],
+      "example": "I have a question for you.",
+      "exampleZh": "我有个问题要问你。"
+    },
+    {
+      "word": "quick",
+      "pos": "adj.",
+      "ipa": "/kwɪk/",
+      "meanings": [
+        "快的",
+        "迅速的"
+      ],
+      "example": "Take a quick shower, please.",
+      "exampleZh": "请快点洗个澡。"
+    },
+    {
+      "word": "read",
+      "pos": "v.",
+      "ipa": "/riːd/",
+      "meanings": [
+        "读",
+        "阅读"
+      ],
+      "example": "He reads two books a month.",
+      "exampleZh": "他一个月读两本书。"
+    },
+    {
+      "word": "ready",
+      "pos": "adj.",
+      "ipa": "/ˈrɛdi/",
+      "meanings": [
+        "准备好的"
+      ],
+      "example": "Are you ready to go now?",
+      "exampleZh": "你准备好现在走了吗?"
+    },
+    {
+      "word": "remember",
+      "pos": "v.",
+      "ipa": "/rɪˈmɛmbər/",
+      "meanings": [
+        "记得"
+      ],
+      "example": "Remember to bring your lunch.",
+      "exampleZh": "记得带上你的午饭。"
+    },
+    {
+      "word": "right",
+      "pos": "adj./n.",
+      "ipa": "/raɪt/",
+      "meanings": [
+        "正确的",
+        "右边"
+      ],
+      "example": "You gave the right answer.",
+      "exampleZh": "你回答对了。"
+    },
+    {
+      "word": "run",
+      "pos": "v.",
+      "ipa": "/rʌn/",
+      "meanings": [
+        "跑",
+        "经营"
+      ],
+      "example": "She runs in the park.",
+      "exampleZh": "她在公园里跑步。"
+    },
+    {
+      "word": "sad",
+      "pos": "adj.",
+      "ipa": "/sæd/",
+      "meanings": [
+        "难过的",
+        "悲伤的"
+      ],
+      "example": "He looks sad today.",
+      "exampleZh": "他今天看起来很难过。"
+    },
+    {
+      "word": "safe",
+      "pos": "adj.",
+      "ipa": "/seɪf/",
+      "meanings": [
+        "安全的"
+      ],
+      "example": "The kids are safe at home.",
+      "exampleZh": "孩子们在家很安全。"
+    },
+    {
+      "word": "same",
+      "pos": "adj.",
+      "ipa": "/seɪm/",
+      "meanings": [
+        "相同的"
+      ],
+      "example": "We have the same phone.",
+      "exampleZh": "我们有同款手机。"
+    },
+    {
+      "word": "school",
+      "pos": "n.",
+      "ipa": "/skuːl/",
+      "meanings": [
+        "学校"
+      ],
+      "example": "My school is near here.",
+      "exampleZh": "我的学校在这附近。"
+    },
+    {
+      "word": "see",
+      "pos": "v.",
+      "ipa": "/siː/",
+      "meanings": [
+        "看见",
+        "明白"
+      ],
+      "example": "I see my friends every weekend.",
+      "exampleZh": "我每周末都见我的朋友。"
+    },
+    {
+      "word": "sell",
+      "pos": "v.",
+      "ipa": "/sɛl/",
+      "meanings": [
+        "卖",
+        "销售"
+      ],
+      "example": "They sell fresh bread.",
+      "exampleZh": "他们卖新鲜面包。"
+    },
+    {
+      "word": "send",
+      "pos": "v.",
+      "ipa": "/sɛnd/",
+      "meanings": [
+        "发送",
+        "寄"
+      ],
+      "example": "I will send you an email.",
+      "exampleZh": "我会发邮件给你。"
+    },
+    {
+      "word": "show",
+      "pos": "v./n.",
+      "ipa": "/ʃoʊ/",
+      "meanings": [
+        "展示",
+        "节目"
+      ],
+      "example": "Show me your drawing.",
+      "exampleZh": "把你的画给我看。"
+    },
+    {
+      "word": "sleep",
+      "pos": "v./n.",
+      "ipa": "/sliːp/",
+      "meanings": [
+        "睡觉"
+      ],
+      "example": "Kids need eight hours of sleep.",
+      "exampleZh": "孩子需要八小时的睡眠。"
+    },
+    {
+      "word": "slow",
+      "pos": "adj./adv.",
+      "ipa": "/sloʊ/",
+      "meanings": [
+        "慢的"
+      ],
+      "example": "The train is slow today.",
+      "exampleZh": "今天火车开得慢。"
+    },
+    {
+      "word": "small",
+      "pos": "adj.",
+      "ipa": "/smɔːl/",
+      "meanings": [
+        "小的"
+      ],
+      "example": "She lives in a small town.",
+      "exampleZh": "她住在一个小镇上。"
+    },
+    {
+      "word": "start",
+      "pos": "v./n.",
+      "ipa": "/stɑːrt/",
+      "meanings": [
+        "开始"
+      ],
+      "example": "Let's start the meeting now.",
+      "exampleZh": "我们现在开会吧。"
+    },
+    {
+      "word": "table",
+      "pos": "n.",
+      "ipa": "/ˈteɪbəl/",
+      "meanings": [
+        "桌子"
+      ],
+      "example": "Put the plate on the table.",
+      "exampleZh": "把盘子放桌上。"
+    },
+    {
+      "word": "take",
+      "pos": "v.",
+      "ipa": "/teɪk/",
+      "meanings": [
+        "拿",
+        "带"
+      ],
+      "example": "Take an umbrella with you.",
+      "exampleZh": "带把伞。"
+    },
+    {
+      "word": "talk",
+      "pos": "v./n.",
+      "ipa": "/tɔːk/",
+      "meanings": [
+        "说话",
+        "交谈"
+      ],
+      "example": "We talk on the phone daily.",
+      "exampleZh": "我们每天通电话。"
+    },
+    {
+      "word": "teach",
+      "pos": "v.",
+      "ipa": "/tiːtʃ/",
+      "meanings": [
+        "教",
+        "教导"
+      ],
+      "example": "My mom teaches me to cook.",
+      "exampleZh": "妈妈教我做饭。"
+    },
+    {
+      "word": "teacher",
+      "pos": "n.",
+      "ipa": "/ˈtiːtʃər/",
+      "meanings": [
+        "老师"
+      ],
+      "example": "Our teacher is very kind.",
+      "exampleZh": "我们的老师很友善。"
+    },
+    {
+      "word": "thank",
+      "pos": "v.",
+      "ipa": "/θæŋk/",
+      "meanings": [
+        "感谢"
+      ],
+      "example": "I want to thank you.",
+      "exampleZh": "我想感谢你。"
+    },
+    {
+      "word": "think",
+      "pos": "v.",
+      "ipa": "/θɪŋk/",
+      "meanings": [
+        "想",
+        "认为"
+      ],
+      "example": "I think it will rain.",
+      "exampleZh": "我觉得要下雨了。"
+    },
+    {
+      "word": "time",
+      "pos": "n.",
+      "ipa": "/taɪm/",
+      "meanings": [
+        "时间"
+      ],
+      "example": "What time is it now?",
+      "exampleZh": "现在几点了?"
+    },
+    {
+      "word": "use",
+      "pos": "v.",
+      "ipa": "/juːz/",
+      "meanings": [
+        "使用",
+        "利用"
+      ],
+      "example": "Can I use your pen?",
+      "exampleZh": "我能用你的笔吗?"
+    },
+    {
+      "word": "visit",
+      "pos": "v./n.",
+      "ipa": "/ˈvɪzɪt/",
+      "meanings": [
+        "拜访",
+        "参观"
+      ],
+      "example": "We visit grandma every Sunday.",
+      "exampleZh": "我们每周日看奶奶。"
+    },
+    {
+      "word": "walk",
+      "pos": "v./n.",
+      "ipa": "/wɔːk/",
+      "meanings": [
+        "走",
+        "散步"
+      ],
+      "example": "Let's take a walk after dinner.",
+      "exampleZh": "晚饭后我们散散步吧。"
+    },
+    {
+      "word": "want",
+      "pos": "v.",
+      "ipa": "/wɑːnt/",
+      "meanings": [
+        "想要"
+      ],
+      "example": "I want some ice cream.",
+      "exampleZh": "我想要点冰激凌。"
+    },
+    {
+      "word": "warm",
+      "pos": "adj.",
+      "ipa": "/wɔːrm/",
+      "meanings": [
+        "温暖的"
+      ],
+      "example": "The sun is warm today.",
+      "exampleZh": "今天阳光很暖和。"
+    },
+    {
+      "word": "water",
+      "pos": "n.",
+      "ipa": "/ˈwɔːtər/",
+      "meanings": [
+        "水"
+      ],
+      "example": "Please give me some water.",
+      "exampleZh": "请给我点水。"
+    },
+    {
+      "word": "week",
+      "pos": "n.",
+      "ipa": "/wiːk/",
+      "meanings": [
+        "周",
+        "星期"
+      ],
+      "example": "I work five days a week.",
+      "exampleZh": "我一周工作五天。"
+    },
+    {
+      "word": "welcome",
+      "pos": "v./adj.",
+      "ipa": "/ˈwɛlkəm/",
+      "meanings": [
+        "欢迎"
+      ],
+      "example": "Welcome to our home.",
+      "exampleZh": "欢迎来我家。"
+    },
+    {
+      "word": "work",
+      "pos": "v./n.",
+      "ipa": "/wɜːrk/",
+      "meanings": [
+        "工作"
+      ],
+      "example": "I work in an office.",
+      "exampleZh": "我在办公室工作。"
+    },
+    {
+      "word": "write",
+      "pos": "v.",
+      "ipa": "/raɪt/",
+      "meanings": [
+        "写"
+      ],
+      "example": "She writes a letter every month.",
+      "exampleZh": "她每月写一封信。"
+    },
+    {
+      "word": "year",
+      "pos": "n.",
+      "ipa": "/jɪr/",
+      "meanings": [
+        "年"
+      ],
+      "example": "My brother is seven years old.",
+      "exampleZh": "我弟弟七岁。"
+    },
+    {
+      "word": "young",
+      "pos": "adj.",
+      "ipa": "/jʌŋ/",
+      "meanings": [
+        "年轻的",
+        "年少的"
+      ],
+      "example": "She has two young children.",
+      "exampleZh": "她有两个小孩。"
+    },
+    {
+      "word": "address",
+      "pos": "n.",
+      "ipa": "/əˈdrɛs/",
+      "meanings": [
+        "地址"
+      ],
+      "example": "Please write your address here.",
+      "exampleZh": "请把你的地址写在这里。"
+    },
+    {
+      "word": "afraid",
+      "pos": "adj.",
+      "ipa": "/əˈfreɪd/",
+      "meanings": [
+        "害怕的"
+      ],
+      "example": "She is afraid of the dark.",
+      "exampleZh": "她怕黑。"
+    },
+    {
+      "word": "agree",
+      "pos": "v.",
+      "ipa": "/əˈɡriː/",
+      "meanings": [
+        "同意"
+      ],
+      "example": "I agree with your idea.",
+      "exampleZh": "我同意你的想法。"
+    },
+    {
+      "word": "air",
+      "pos": "n.",
+      "ipa": "/ɛr/",
+      "meanings": [
+        "空气"
+      ],
+      "example": "The air is fresh this morning.",
+      "exampleZh": "今天早上空气很清新。"
+    },
+    {
+      "word": "angry",
+      "pos": "adj.",
+      "ipa": "/ˈæŋɡri/",
+      "meanings": [
+        "生气的"
+      ],
+      "example": "Mom looks angry at me.",
+      "exampleZh": "妈妈看起来在生我的气。"
+    },
+    {
+      "word": "animal",
+      "pos": "n.",
+      "ipa": "/ˈænɪml/",
+      "meanings": [
+        "动物"
+      ],
+      "example": "Pandas are my favorite animal.",
+      "exampleZh": "熊猫是我最喜欢的动物。"
+    },
+    {
+      "word": "apple",
+      "pos": "n.",
+      "ipa": "/ˈæpəl/",
+      "meanings": [
+        "苹果"
+      ],
+      "example": "She eats an apple every day.",
+      "exampleZh": "她每天吃一个苹果。"
+    },
+    {
+      "word": "art",
+      "pos": "n.",
+      "ipa": "/ɑːrt/",
+      "meanings": [
+        "艺术",
+        "美术"
+      ],
+      "example": "Art class is my favorite.",
+      "exampleZh": "美术课是我的最爱。"
+    },
+    {
+      "word": "baby",
+      "pos": "n.",
+      "ipa": "/ˈbeɪbi/",
+      "meanings": [
+        "婴儿",
+        "宝宝"
+      ],
+      "example": "The baby is sleeping now.",
+      "exampleZh": "宝宝在睡觉。"
+    },
+    {
+      "word": "ball",
+      "pos": "n.",
+      "ipa": "/bɔːl/",
+      "meanings": [
+        "球"
+      ],
+      "example": "He kicked the ball hard.",
+      "exampleZh": "他用力踢了那个球。"
+    },
+    {
+      "word": "banana",
+      "pos": "n.",
+      "ipa": "/bəˈnænə/",
+      "meanings": [
+        "香蕉"
+      ],
+      "example": "Monkeys love eating bananas.",
+      "exampleZh": "猴子爱吃香蕉。"
+    },
+    {
+      "word": "beach",
+      "pos": "n.",
+      "ipa": "/biːtʃ/",
+      "meanings": [
+        "海滩"
+      ],
+      "example": "We went to the beach yesterday.",
+      "exampleZh": "我们昨天去了海滩。"
+    },
+    {
+      "word": "bicycle",
+      "pos": "n.",
+      "ipa": "/ˈbaɪsɪkl/",
+      "meanings": [
+        "自行车"
+      ],
+      "example": "I ride my bicycle to school.",
+      "exampleZh": "我骑自行车上学。"
+    },
+    {
+      "word": "bird",
+      "pos": "n.",
+      "ipa": "/bɜːrd/",
+      "meanings": [
+        "鸟"
+      ],
+      "example": "A bird is singing outside.",
+      "exampleZh": "一只鸟在外面唱歌。"
+    },
+    {
+      "word": "birthday",
+      "pos": "n.",
+      "ipa": "/ˈbɜːrθdeɪ/",
+      "meanings": [
+        "生日"
+      ],
+      "example": "My birthday is in May.",
+      "exampleZh": "我的生日在五月。"
+    },
+    {
+      "word": "blue",
+      "pos": "adj.",
+      "ipa": "/bluː/",
+      "meanings": [
+        "蓝色的"
+      ],
+      "example": "The sky looks blue today.",
+      "exampleZh": "今天天空看起来很蓝。"
+    },
+    {
+      "word": "boat",
+      "pos": "n.",
+      "ipa": "/boʊt/",
+      "meanings": [
+        "船"
+      ],
+      "example": "We took a boat across the lake.",
+      "exampleZh": "我们坐船过了湖。"
+    },
+    {
+      "word": "bored",
+      "pos": "adj.",
+      "ipa": "/bɔːrd/",
+      "meanings": [
+        "无聊的"
+      ],
+      "example": "I feel bored on rainy days.",
+      "exampleZh": "下雨天我觉得无聊。"
+    },
+    {
+      "word": "bread",
+      "pos": "n.",
+      "ipa": "/brɛd/",
+      "meanings": [
+        "面包"
+      ],
+      "example": "I had bread for breakfast.",
+      "exampleZh": "我早餐吃了面包。"
+    },
+    {
+      "word": "breakfast",
+      "pos": "n.",
+      "ipa": "/ˈbrɛkfəst/",
+      "meanings": [
+        "早餐"
+      ],
+      "example": "Breakfast is ready on the table.",
+      "exampleZh": "早餐已经摆在桌上了。"
+    },
+    {
+      "word": "brother",
+      "pos": "n.",
+      "ipa": "/ˈbrʌðər/",
+      "meanings": [
+        "兄弟",
+        "哥哥",
+        "弟弟"
+      ],
+      "example": "My brother plays basketball well.",
+      "exampleZh": "我哥哥篮球打得好。"
+    },
+    {
+      "word": "brown",
+      "pos": "adj.",
+      "ipa": "/braʊn/",
+      "meanings": [
+        "棕色的"
+      ],
+      "example": "She has long brown hair.",
+      "exampleZh": "她有一头棕色长发。"
+    },
+    {
+      "word": "build",
+      "pos": "v.",
+      "ipa": "/bɪld/",
+      "meanings": [
+        "建造",
+        "搭建"
+      ],
+      "example": "Let's build a sand castle.",
+      "exampleZh": "我们来搭个沙堡吧。"
+    },
+    {
+      "word": "cake",
+      "pos": "n.",
+      "ipa": "/keɪk/",
+      "meanings": [
+        "蛋糕"
+      ],
+      "example": "The cake tastes very sweet.",
+      "exampleZh": "蛋糕味道很甜。"
+    },
+    {
+      "word": "candy",
+      "pos": "n.",
+      "ipa": "/ˈkændi/",
+      "meanings": [
+        "糖果"
+      ],
+      "example": "Kids love eating candy.",
+      "exampleZh": "小孩爱吃糖。"
+    },
+    {
+      "word": "cat",
+      "pos": "n.",
+      "ipa": "/kæt/",
+      "meanings": [
+        "猫"
+      ],
+      "example": "Our cat sleeps on the sofa.",
+      "exampleZh": "我们的猫睡在沙发上。"
+    },
+    {
+      "word": "chair",
+      "pos": "n.",
+      "ipa": "/tʃɛr/",
+      "meanings": [
+        "椅子"
+      ],
+      "example": "Please sit on this chair.",
+      "exampleZh": "请坐这把椅子。"
+    },
+    {
+      "word": "cheese",
+      "pos": "n.",
+      "ipa": "/tʃiːz/",
+      "meanings": [
+        "奶酪"
+      ],
+      "example": "I want cheese on my pizza.",
+      "exampleZh": "我的披萨要加奶酪。"
+    },
+    {
+      "word": "chicken",
+      "pos": "n.",
+      "ipa": "/ˈtʃɪkɪn/",
+      "meanings": [
+        "鸡",
+        "鸡肉"
+      ],
+      "example": "We had chicken for dinner.",
+      "exampleZh": "我们晚饭吃了鸡肉。"
+    },
+    {
+      "word": "color",
+      "pos": "n.",
+      "ipa": "/ˈkʌlər/",
+      "meanings": [
+        "颜色"
+      ],
+      "example": "What color do you like?",
+      "exampleZh": "你喜欢什么颜色?"
+    },
+    {
+      "word": "computer",
+      "pos": "n.",
+      "ipa": "/kəmˈpjuːtər/",
+      "meanings": [
+        "电脑"
+      ],
+      "example": "I use a computer for homework.",
+      "exampleZh": "我用电脑做作业。"
+    },
+    {
+      "word": "cup",
+      "pos": "n.",
+      "ipa": "/kʌp/",
+      "meanings": [
+        "杯子"
+      ],
+      "example": "Pour milk into the cup.",
+      "exampleZh": "把牛奶倒进杯子里。"
+    },
+    {
+      "word": "dance",
+      "pos": "v.",
+      "ipa": "/dæns/",
+      "meanings": [
+        "跳舞"
+      ],
+      "example": "She loves to dance with music.",
+      "exampleZh": "她喜欢跟着音乐跳舞。"
+    },
+    {
+      "word": "dinner",
+      "pos": "n.",
+      "ipa": "/ˈdɪnər/",
+      "meanings": [
+        "晚餐"
+      ],
+      "example": "Dinner is at seven tonight.",
+      "exampleZh": "今晚七点吃晚饭。"
+    },
+    {
+      "word": "draw",
+      "pos": "v.",
+      "ipa": "/drɔː/",
+      "meanings": [
+        "画画"
+      ],
+      "example": "She likes to draw flowers.",
+      "exampleZh": "她喜欢画花。"
+    },
+    {
+      "word": "easy",
+      "pos": "adj.",
+      "ipa": "/ˈiːzi/",
+      "meanings": [
+        "容易的"
+      ],
+      "example": "This puzzle is easy for me.",
+      "exampleZh": "这个拼图对我来说很简单。"
+    },
+    {
+      "word": "egg",
+      "pos": "n.",
+      "ipa": "/ɛɡ/",
+      "meanings": [
+        "鸡蛋",
+        "蛋"
+      ],
+      "example": "I eat one egg every morning.",
+      "exampleZh": "我每天早上吃一个鸡蛋。"
+    },
+    {
+      "word": "excited",
+      "pos": "adj.",
+      "ipa": "/ɪkˈsaɪtɪd/",
+      "meanings": [
+        "兴奋的"
+      ],
+      "example": "The kids are excited about Friday.",
+      "exampleZh": "孩子们对周五感到兴奋。"
+    },
+    {
+      "word": "exercise",
+      "pos": "n./v.",
+      "ipa": "/ˈɛksərsaɪz/",
+      "meanings": [
+        "锻炼",
+        "练习"
+      ],
+      "example": "Exercise is good for you.",
+      "exampleZh": "锻炼对身体有好处。"
+    },
+    {
+      "word": "face",
+      "pos": "n.",
+      "ipa": "/feɪs/",
+      "meanings": [
+        "脸"
+      ],
+      "example": "Wash your face before bed.",
+      "exampleZh": "睡前要洗脸。"
+    },
+    {
+      "word": "fast",
+      "pos": "adj./adv.",
+      "ipa": "/fæst/",
+      "meanings": [
+        "快的",
+        "快地"
+      ],
+      "example": "He runs really fast.",
+      "exampleZh": "他跑得真快。"
+    },
+    {
+      "word": "fish",
+      "pos": "n.",
+      "ipa": "/fɪʃ/",
+      "meanings": [
+        "鱼"
+      ],
+      "example": "I keep two fish at home.",
+      "exampleZh": "我家养着两条鱼。"
+    },
+    {
+      "word": "fly",
+      "pos": "v.",
+      "ipa": "/flaɪ/",
+      "meanings": [
+        "飞"
+      ],
+      "example": "Birds fly south in winter.",
+      "exampleZh": "鸟儿冬天往南飞。"
+    },
+    {
+      "word": "fruit",
+      "pos": "n.",
+      "ipa": "/fruːt/",
+      "meanings": [
+        "水果"
+      ],
+      "example": "Eat more fruit, please.",
+      "exampleZh": "多吃点水果。"
+    },
+    {
+      "word": "fun",
+      "pos": "n./adj.",
+      "ipa": "/fʌn/",
+      "meanings": [
+        "有趣的",
+        "乐趣"
+      ],
+      "example": "Skating is so much fun.",
+      "exampleZh": "滑冰真有趣。"
+    },
+    {
+      "word": "garden",
+      "pos": "n.",
+      "ipa": "/ˈɡɑːrdn/",
+      "meanings": [
+        "花园",
+        "菜园"
+      ],
+      "example": "Grandma grows roses in her garden.",
+      "exampleZh": "奶奶在花园里种玫瑰。"
+    },
+    {
+      "word": "grass",
+      "pos": "n.",
+      "ipa": "/ɡræs/",
+      "meanings": [
+        "草",
+        "草地"
+      ],
+      "example": "Don't walk on the grass.",
+      "exampleZh": "不要踩草地。"
+    },
+    {
+      "word": "hand",
+      "pos": "n.",
+      "ipa": "/hænd/",
+      "meanings": [
+        "手"
+      ],
+      "example": "Wash your hands before eating.",
+      "exampleZh": "吃饭前洗手。"
+    },
+    {
+      "word": "hat",
+      "pos": "n.",
+      "ipa": "/hæt/",
+      "meanings": [
+        "帽子"
+      ],
+      "example": "Put on your hat outside.",
+      "exampleZh": "出门戴上帽子。"
+    },
+    {
+      "word": "high",
+      "pos": "adj.",
+      "ipa": "/haɪ/",
+      "meanings": [
+        "高的"
+      ],
+      "example": "The shelf is too high.",
+      "exampleZh": "架子太高了。"
+    },
+    {
+      "word": "house",
+      "pos": "n.",
+      "ipa": "/haʊs/",
+      "meanings": [
+        "房子"
+      ],
+      "example": "Their house has a big yard.",
+      "exampleZh": "他们的房子有个大院子。"
+    },
+    {
+      "word": "ice",
+      "pos": "n.",
+      "ipa": "/aɪs/",
+      "meanings": [
+        "冰"
+      ],
+      "example": "Add some ice to my water.",
+      "exampleZh": "在我的水里加点冰。"
+    },
+    {
+      "word": "interesting",
+      "pos": "adj.",
+      "ipa": "/ˈɪntrəstɪŋ/",
+      "meanings": [
+        "有趣的"
+      ],
+      "example": "This story is really interesting.",
+      "exampleZh": "这个故事真有趣。"
+    },
+    {
+      "word": "juice",
+      "pos": "n.",
+      "ipa": "/dʒuːs/",
+      "meanings": [
+        "果汁"
+      ],
+      "example": "I drink orange juice for breakfast.",
+      "exampleZh": "早餐我喝橙汁。"
+    },
+    {
+      "word": "jump",
+      "pos": "v.",
+      "ipa": "/dʒʌmp/",
+      "meanings": [
+        "跳"
+      ],
+      "example": "The cat jumped onto the table.",
+      "exampleZh": "那只猫跳上了桌子。"
+    },
+    {
+      "word": "kitchen",
+      "pos": "n.",
+      "ipa": "/ˈkɪtʃɪn/",
+      "meanings": [
+        "厨房"
+      ],
+      "example": "Mom is cooking in the kitchen.",
+      "exampleZh": "妈妈在厨房做饭。"
+    },
+    {
+      "word": "lake",
+      "pos": "n.",
+      "ipa": "/leɪk/",
+      "meanings": [
+        "湖"
+      ],
+      "example": "We swam in the lake yesterday.",
+      "exampleZh": "昨天我们在湖里游泳。"
+    },
+    {
+      "word": "letter",
+      "pos": "n.",
+      "ipa": "/ˈlɛtər/",
+      "meanings": [
+        "信",
+        "字母"
+      ],
+      "example": "Grandpa wrote me a letter.",
+      "exampleZh": "爷爷给我写了封信。"
+    },
+    {
+      "word": "library",
+      "pos": "n.",
+      "ipa": "/ˈlaɪbrɛri/",
+      "meanings": [
+        "图书馆"
+      ],
+      "example": "The library is quiet today.",
+      "exampleZh": "今天图书馆很安静。"
+    },
+    {
+      "word": "long",
+      "pos": "adj.",
+      "ipa": "/lɔːŋ/",
+      "meanings": [
+        "长的"
+      ],
+      "example": "She has long black hair.",
+      "exampleZh": "她有一头乌黑的长发。"
+    },
+    {
+      "word": "love",
+      "pos": "v./n.",
+      "ipa": "/lʌv/",
+      "meanings": [
+        "爱"
+      ],
+      "example": "I love my family.",
+      "exampleZh": "我爱我的家人。"
+    },
+    {
+      "word": "lunch",
+      "pos": "n.",
+      "ipa": "/lʌntʃ/",
+      "meanings": [
+        "午餐"
+      ],
+      "example": "We have lunch at noon.",
+      "exampleZh": "我们中午吃午饭。"
+    },
+    {
+      "word": "math",
+      "pos": "n.",
+      "ipa": "/mæθ/",
+      "meanings": [
+        "数学"
+      ],
+      "example": "Math homework takes me an hour.",
+      "exampleZh": "数学作业要花我一小时。"
+    },
+    {
+      "word": "milk",
+      "pos": "n.",
+      "ipa": "/mɪlk/",
+      "meanings": [
+        "牛奶"
+      ],
+      "example": "She drinks milk every night.",
+      "exampleZh": "她每晚喝牛奶。"
+    },
+    {
+      "word": "moon",
+      "pos": "n.",
+      "ipa": "/muːn/",
+      "meanings": [
+        "月亮"
+      ],
+      "example": "The moon is bright tonight.",
+      "exampleZh": "今晚月亮很亮。"
+    },
+    {
+      "word": "mouth",
+      "pos": "n.",
+      "ipa": "/maʊθ/",
+      "meanings": [
+        "嘴"
+      ],
+      "example": "Open your mouth and say ah.",
+      "exampleZh": "张开嘴巴说啊。"
+    },
+    {
+      "word": "music",
+      "pos": "n.",
+      "ipa": "/ˈmjuːzɪk/",
+      "meanings": [
+        "音乐"
+      ],
+      "example": "I listen to music while studying.",
+      "exampleZh": "我学习时听音乐。"
+    },
+    {
+      "word": "noise",
+      "pos": "n.",
+      "ipa": "/nɔɪz/",
+      "meanings": [
+        "噪音",
+        "声音"
+      ],
+      "example": "Please don't make loud noise.",
+      "exampleZh": "请不要大声吵闹。"
+    },
+    {
+      "word": "nose",
+      "pos": "n.",
+      "ipa": "/noʊz/",
+      "meanings": [
+        "鼻子"
+      ],
+      "example": "Her nose is red from cold.",
+      "exampleZh": "她的鼻子冻红了。"
+    },
+    {
+      "word": "old",
+      "pos": "adj.",
+      "ipa": "/oʊld/",
+      "meanings": [
+        "老的",
+        "旧的"
+      ],
+      "example": "These shoes are too old.",
+      "exampleZh": "这双鞋太旧了。"
+    },
+    {
+      "word": "orange",
+      "pos": "n./adj.",
+      "ipa": "/ˈɔːrɪndʒ/",
+      "meanings": [
+        "橙子",
+        "橙色的"
+      ],
+      "example": "Oranges are full of vitamin C.",
+      "exampleZh": "橙子富含维生素C。"
+    },
+    {
+      "word": "pen",
+      "pos": "n.",
+      "ipa": "/pɛn/",
+      "meanings": [
+        "钢笔",
+        "笔"
+      ],
+      "example": "Can I borrow your pen?",
+      "exampleZh": "我能借你的笔吗?"
+    },
+    {
+      "word": "phone",
+      "pos": "n.",
+      "ipa": "/foʊn/",
+      "meanings": [
+        "电话",
+        "手机"
+      ],
+      "example": "My phone needs charging now.",
+      "exampleZh": "我手机现在要充电。"
+    },
+    {
+      "word": "picture",
+      "pos": "n.",
+      "ipa": "/ˈpɪktʃər/",
+      "meanings": [
+        "图片",
+        "照片"
+      ],
+      "example": "Take a picture of us.",
+      "exampleZh": "给我们拍张照吧。"
+    },
+    {
+      "word": "pizza",
+      "pos": "n.",
+      "ipa": "/ˈpiːtsə/",
+      "meanings": [
+        "披萨"
+      ],
+      "example": "Let's order pizza tonight.",
+      "exampleZh": "今晚我们点披萨吧。"
+    },
+    {
+      "word": "rain",
+      "pos": "n./v.",
+      "ipa": "/reɪn/",
+      "meanings": [
+        "雨",
+        "下雨"
+      ],
+      "example": "It's going to rain soon.",
+      "exampleZh": "马上要下雨了。"
+    },
+    {
+      "word": "rice",
+      "pos": "n.",
+      "ipa": "/raɪs/",
+      "meanings": [
+        "米饭",
+        "大米"
+      ],
+      "example": "We eat rice every day.",
+      "exampleZh": "我们每天吃米饭。"
+    },
+    {
+      "word": "river",
+      "pos": "n.",
+      "ipa": "/ˈrɪvər/",
+      "meanings": [
+        "河"
+      ],
+      "example": "The river runs through our city.",
+      "exampleZh": "这条河流过我们的城市。"
+    },
+    {
+      "word": "room",
+      "pos": "n.",
+      "ipa": "/ruːm/",
+      "meanings": [
+        "房间"
+      ],
+      "example": "My room has a small window.",
+      "exampleZh": "我的房间有一扇小窗。"
+    },
+    {
+      "word": "shoe",
+      "pos": "n.",
+      "ipa": "/ʃuː/",
+      "meanings": [
+        "鞋"
+      ],
+      "example": "Put on your shoes, please.",
+      "exampleZh": "请穿上鞋。"
+    },
+    {
+      "word": "sing",
+      "pos": "v.",
+      "ipa": "/sɪŋ/",
+      "meanings": [
+        "唱歌"
+      ],
+      "example": "She loves to sing in the shower.",
+      "exampleZh": "她喜欢洗澡时唱歌。"
+    },
+    {
+      "word": "sister",
+      "pos": "n.",
+      "ipa": "/ˈsɪstər/",
+      "meanings": [
+        "姐妹",
+        "姐姐",
+        "妹妹"
+      ],
+      "example": "My sister is two years younger.",
+      "exampleZh": "我妹妹比我小两岁。"
+    },
+    {
+      "word": "sky",
+      "pos": "n.",
+      "ipa": "/skaɪ/",
+      "meanings": [
+        "天空"
+      ],
+      "example": "Look at the beautiful sky.",
+      "exampleZh": "看看那美丽的天空。"
+    },
+    {
+      "word": "snow",
+      "pos": "n./v.",
+      "ipa": "/snoʊ/",
+      "meanings": [
+        "雪",
+        "下雪"
+      ],
+      "example": "It snows a lot in winter.",
+      "exampleZh": "冬天雪下得很多。"
+    },
+    {
+      "word": "song",
+      "pos": "n.",
+      "ipa": "/sɔːŋ/",
+      "meanings": [
+        "歌曲",
+        "歌"
+      ],
+      "example": "I love this song so much.",
+      "exampleZh": "我太喜欢这首歌了。"
+    },
+    {
+      "word": "story",
+      "pos": "n.",
+      "ipa": "/ˈstɔːri/",
+      "meanings": [
+        "故事"
+      ],
+      "example": "Tell me a bedtime story.",
+      "exampleZh": "给我讲个睡前故事。"
+    },
+    {
+      "word": "study",
+      "pos": "v.",
+      "ipa": "/ˈstʌdi/",
+      "meanings": [
+        "学习",
+        "研究"
+      ],
+      "example": "I study English for an hour.",
+      "exampleZh": "我学一小时英语。"
+    },
+    {
+      "word": "sun",
+      "pos": "n.",
+      "ipa": "/sʌn/",
+      "meanings": [
+        "太阳"
+      ],
+      "example": "The sun rises in the east.",
+      "exampleZh": "太阳从东边升起。"
+    },
+    {
+      "word": "swim",
+      "pos": "v.",
+      "ipa": "/swɪm/",
+      "meanings": [
+        "游泳"
+      ],
+      "example": "We swim every Saturday morning.",
+      "exampleZh": "我们每周六上午游泳。"
+    },
+    {
+      "word": "tea",
+      "pos": "n.",
+      "ipa": "/tiː/",
+      "meanings": [
+        "茶"
+      ],
+      "example": "Mom drinks tea after dinner.",
+      "exampleZh": "妈妈晚饭后喝茶。"
+    },
+    {
+      "word": "tired",
+      "pos": "adj.",
+      "ipa": "/ˈtaɪərd/",
+      "meanings": [
+        "累的",
+        "疲倦的"
+      ],
+      "example": "I feel tired after running.",
+      "exampleZh": "跑完步我觉得累。"
+    },
+    {
+      "word": "tree",
+      "pos": "n.",
+      "ipa": "/triː/",
+      "meanings": [
+        "树"
+      ],
+      "example": "A bird sat on the tree.",
+      "exampleZh": "一只鸟停在树上。"
+    },
+    {
+      "word": "umbrella",
+      "pos": "n.",
+      "ipa": "/ʌmˈbrɛlə/",
+      "meanings": [
+        "雨伞"
+      ],
+      "example": "Bring your umbrella, it's raining.",
+      "exampleZh": "带上你的伞,下雨了。"
+    },
+    {
+      "word": "vegetable",
+      "pos": "n.",
+      "ipa": "/ˈvɛdʒtəbl/",
+      "meanings": [
+        "蔬菜"
+      ],
+      "example": "Eat your vegetables, please.",
+      "exampleZh": "请把蔬菜吃了。"
+    },
+    {
+      "word": "video",
+      "pos": "n.",
+      "ipa": "/ˈvɪdioʊ/",
+      "meanings": [
+        "视频"
+      ],
+      "example": "We watched a funny video.",
+      "exampleZh": "我们看了个好笑的视频。"
+    },
+    {
+      "word": "wait",
+      "pos": "v.",
+      "ipa": "/weɪt/",
+      "meanings": [
+        "等待"
+      ],
+      "example": "Please wait for me here.",
+      "exampleZh": "请在这里等我。"
+    },
+    {
+      "word": "wash",
+      "pos": "v.",
+      "ipa": "/wɑːʃ/",
+      "meanings": [
+        "洗"
+      ],
+      "example": "Wash the dishes after dinner.",
+      "exampleZh": "晚饭后洗碗。"
+    },
+    {
+      "word": "wear",
+      "pos": "v.",
+      "ipa": "/wɛr/",
+      "meanings": [
+        "穿",
+        "戴"
+      ],
+      "example": "She wears glasses to read.",
+      "exampleZh": "她看书要戴眼镜。"
+    },
+    {
+      "word": "weather",
+      "pos": "n.",
+      "ipa": "/ˈwɛðər/",
+      "meanings": [
+        "天气"
+      ],
+      "example": "The weather is nice today.",
+      "exampleZh": "今天天气很好。"
+    },
+    {
+      "word": "white",
+      "pos": "adj.",
+      "ipa": "/waɪt/",
+      "meanings": [
+        "白色的"
+      ],
+      "example": "She wore a white dress.",
+      "exampleZh": "她穿了一条白裙子。"
+    },
+    {
+      "word": "window",
+      "pos": "n.",
+      "ipa": "/ˈwɪndoʊ/",
+      "meanings": [
+        "窗户"
+      ],
+      "example": "Open the window for fresh air.",
+      "exampleZh": "打开窗户透透气。"
+    },
+    {
+      "word": "winter",
+      "pos": "n.",
+      "ipa": "/ˈwɪntər/",
+      "meanings": [
+        "冬天"
+      ],
+      "example": "Winter is cold and snowy.",
+      "exampleZh": "冬天又冷又多雪。"
+    },
+    {
+      "word": "world",
+      "pos": "n.",
+      "ipa": "/wɜːrld/",
+      "meanings": [
+        "世界"
+      ],
+      "example": "She wants to see the world.",
+      "exampleZh": "她想看看这个世界。"
+    },
+    {
+      "word": "absent",
+      "pos": "adj.",
+      "ipa": "/ˈæbsənt/",
+      "meanings": [
+        "缺席的"
+      ],
+      "example": "Tom is absent from school today.",
+      "exampleZh": "Tom 今天没来上学。"
+    },
+    {
+      "word": "backpack",
+      "pos": "n.",
+      "ipa": "/ˈbækpæk/",
+      "meanings": [
+        "背包",
+        "书包"
+      ],
+      "example": "My backpack is too heavy today.",
+      "exampleZh": "我今天的书包太重了。"
+    },
+    {
+      "word": "behave",
+      "pos": "v.",
+      "ipa": "/bɪˈheɪv/",
+      "meanings": [
+        "举止",
+        "表现"
+      ],
+      "example": "Please behave well in class.",
+      "exampleZh": "请在课堂上好好表现。"
+    },
+    {
+      "word": "bell",
+      "pos": "n.",
+      "ipa": "/bɛl/",
+      "meanings": [
+        "铃",
+        "铃声"
+      ],
+      "example": "The school bell just rang.",
+      "exampleZh": "学校的铃声刚响。"
+    },
+    {
+      "word": "blackboard",
+      "pos": "n.",
+      "ipa": "/ˈblækbɔːrd/",
+      "meanings": [
+        "黑板"
+      ],
+      "example": "Write your name on the blackboard.",
+      "exampleZh": "把你的名字写在黑板上。"
+    },
+    {
+      "word": "borrow",
+      "pos": "v.",
+      "ipa": "/ˈbɑːroʊ/",
+      "meanings": [
+        "借",
+        "借入"
+      ],
+      "example": "Can I borrow your eraser?",
+      "exampleZh": "我能借你的橡皮吗?"
+    },
+    {
+      "word": "calculate",
+      "pos": "v.",
+      "ipa": "/ˈkælkjəleɪt/",
+      "meanings": [
+        "计算"
+      ],
+      "example": "Calculate the answer in your head.",
+      "exampleZh": "在脑子里算出答案。"
+    },
+    {
+      "word": "calculator",
+      "pos": "n.",
+      "ipa": "/ˈkælkjəleɪtər/",
+      "meanings": [
+        "计算器"
+      ],
+      "example": "The teacher let us use calculators.",
+      "exampleZh": "老师让我们用计算器。"
+    },
+    {
+      "word": "campus",
+      "pos": "n.",
+      "ipa": "/ˈkæmpəs/",
+      "meanings": [
+        "校园"
+      ],
+      "example": "Our campus has a big library.",
+      "exampleZh": "我们的校园有一座大图书馆。"
+    },
+    {
+      "word": "chapter",
+      "pos": "n.",
+      "ipa": "/ˈtʃæptər/",
+      "meanings": [
+        "章节"
+      ],
+      "example": "Read chapter three for tomorrow.",
+      "exampleZh": "明天前读完第三章。"
+    },
+    {
+      "word": "cheat",
+      "pos": "v.",
+      "ipa": "/tʃiːt/",
+      "meanings": [
+        "作弊"
+      ],
+      "example": "Don't cheat on the test.",
+      "exampleZh": "考试时不要作弊。"
+    },
+    {
+      "word": "classmate",
+      "pos": "n.",
+      "ipa": "/ˈklæsmeɪt/",
+      "meanings": [
+        "同学"
+      ],
+      "example": "My classmate sits next to me.",
+      "exampleZh": "我的同学坐在我旁边。"
+    },
+    {
+      "word": "classroom",
+      "pos": "n.",
+      "ipa": "/ˈklæsruːm/",
+      "meanings": [
+        "教室"
+      ],
+      "example": "Our classroom is on the second floor.",
+      "exampleZh": "我们的教室在二楼。"
+    },
+    {
+      "word": "clever",
+      "pos": "adj.",
+      "ipa": "/ˈklɛvər/",
+      "meanings": [
+        "聪明的"
+      ],
+      "example": "She is a clever student.",
+      "exampleZh": "她是个聪明的学生。"
+    },
+    {
+      "word": "college",
+      "pos": "n.",
+      "ipa": "/ˈkɑːlɪdʒ/",
+      "meanings": [
+        "大学",
+        "学院"
+      ],
+      "example": "My sister goes to college now.",
+      "exampleZh": "我姐姐现在上大学了。"
+    },
+    {
+      "word": "copy",
+      "pos": "v.",
+      "ipa": "/ˈkɑːpi/",
+      "meanings": [
+        "抄写",
+        "复制"
+      ],
+      "example": "Copy these words into your book.",
+      "exampleZh": "把这些词抄到你的本子上。"
+    },
+    {
+      "word": "correct",
+      "pos": "adj./v.",
+      "ipa": "/kəˈrɛkt/",
+      "meanings": [
+        "正确的",
+        "改正"
+      ],
+      "example": "Your answer is correct.",
+      "exampleZh": "你的答案是正确的。"
+    },
+    {
+      "word": "course",
+      "pos": "n.",
+      "ipa": "/kɔːrs/",
+      "meanings": [
+        "课程"
+      ],
+      "example": "I am taking a Chinese course.",
+      "exampleZh": "我在上一门中文课。"
+    },
+    {
+      "word": "date",
+      "pos": "n.",
+      "ipa": "/deɪt/",
+      "meanings": [
+        "日期"
+      ],
+      "example": "What is the date today?",
+      "exampleZh": "今天是几号?"
+    },
+    {
+      "word": "desk",
+      "pos": "n.",
+      "ipa": "/dɛsk/",
+      "meanings": [
+        "书桌",
+        "课桌"
+      ],
+      "example": "Put your books on the desk.",
+      "exampleZh": "把你的书放在课桌上。"
+    },
+    {
+      "word": "dictionary",
+      "pos": "n.",
+      "ipa": "/ˈdɪkʃənɛri/",
+      "meanings": [
+        "字典"
+      ],
+      "example": "Look it up in the dictionary.",
+      "exampleZh": "在字典里查一下。"
+    },
+    {
+      "word": "difficult",
+      "pos": "adj.",
+      "ipa": "/ˈdɪfɪkəlt/",
+      "meanings": [
+        "困难的"
+      ],
+      "example": "This question is too difficult.",
+      "exampleZh": "这个题太难了。"
+    },
+    {
+      "word": "education",
+      "pos": "n.",
+      "ipa": "/ˌɛdʒəˈkeɪʃən/",
+      "meanings": [
+        "教育"
+      ],
+      "example": "Good education changes a child's life.",
+      "exampleZh": "好的教育改变孩子的人生。"
+    },
+    {
+      "word": "english",
+      "pos": "n.",
+      "ipa": "/ˈɪŋɡlɪʃ/",
+      "meanings": [
+        "英语",
+        "英文"
+      ],
+      "example": "English is fun to learn.",
+      "exampleZh": "学英语很有意思。"
+    },
+    {
+      "word": "eraser",
+      "pos": "n.",
+      "ipa": "/ɪˈreɪsər/",
+      "meanings": [
+        "橡皮擦"
+      ],
+      "example": "I lost my eraser at school.",
+      "exampleZh": "我把橡皮擦丢在学校了。"
+    },
+    {
+      "word": "exam",
+      "pos": "n.",
+      "ipa": "/ɪɡˈzæm/",
+      "meanings": [
+        "考试"
+      ],
+      "example": "We have a math exam tomorrow.",
+      "exampleZh": "我们明天有数学考试。"
+    },
+    {
+      "word": "example",
+      "pos": "n.",
+      "ipa": "/ɪɡˈzæmpl/",
+      "meanings": [
+        "例子"
+      ],
+      "example": "Give me an example, please.",
+      "exampleZh": "请给我举个例子。"
+    },
+    {
+      "word": "explain",
+      "pos": "v.",
+      "ipa": "/ɪkˈspleɪn/",
+      "meanings": [
+        "解释"
+      ],
+      "example": "Can you explain this word?",
+      "exampleZh": "你能解释这个词吗?"
+    },
+    {
+      "word": "fail",
+      "pos": "v.",
+      "ipa": "/feɪl/",
+      "meanings": [
+        "失败",
+        "不及格"
+      ],
+      "example": "He failed the math test.",
+      "exampleZh": "他数学考试不及格。"
+    },
+    {
+      "word": "folder",
+      "pos": "n.",
+      "ipa": "/ˈfoʊldər/",
+      "meanings": [
+        "文件夹"
+      ],
+      "example": "Put your homework in this folder.",
+      "exampleZh": "把作业放在这个文件夹里。"
+    },
+    {
+      "word": "geography",
+      "pos": "n.",
+      "ipa": "/dʒiˈɑːɡrəfi/",
+      "meanings": [
+        "地理"
+      ],
+      "example": "Geography teaches about countries.",
+      "exampleZh": "地理课讲各个国家。"
+    },
+    {
+      "word": "grade",
+      "pos": "n.",
+      "ipa": "/ɡreɪd/",
+      "meanings": [
+        "成绩",
+        "年级"
+      ],
+      "example": "She got a good grade.",
+      "exampleZh": "她得了好成绩。"
+    },
+    {
+      "word": "guess",
+      "pos": "v.",
+      "ipa": "/ɡɛs/",
+      "meanings": [
+        "猜"
+      ],
+      "example": "Guess what's in my bag.",
+      "exampleZh": "猜猜我包里有什么。"
+    },
+    {
+      "word": "history",
+      "pos": "n.",
+      "ipa": "/ˈhɪstəri/",
+      "meanings": [
+        "历史"
+      ],
+      "example": "I love studying Chinese history.",
+      "exampleZh": "我喜欢学中国历史。"
+    },
+    {
+      "word": "homework",
+      "pos": "n.",
+      "ipa": "/ˈhoʊmwɜːrk/",
+      "meanings": [
+        "家庭作业"
+      ],
+      "example": "Finish your homework before dinner.",
+      "exampleZh": "晚饭前做完作业。"
+    },
+    {
+      "word": "instruction",
+      "pos": "n.",
+      "ipa": "/ɪnˈstrʌkʃən/",
+      "meanings": [
+        "说明",
+        "指示"
+      ],
+      "example": "Read the instructions carefully.",
+      "exampleZh": "仔细读说明。"
+    },
+    {
+      "word": "knowledge",
+      "pos": "n.",
+      "ipa": "/ˈnɑːlɪdʒ/",
+      "meanings": [
+        "知识"
+      ],
+      "example": "Books give us new knowledge.",
+      "exampleZh": "书给我们新的知识。"
+    },
+    {
+      "word": "language",
+      "pos": "n.",
+      "ipa": "/ˈlæŋɡwɪdʒ/",
+      "meanings": [
+        "语言"
+      ],
+      "example": "She speaks three languages.",
+      "exampleZh": "她会说三种语言。"
+    },
+    {
+      "word": "lazy",
+      "pos": "adj.",
+      "ipa": "/ˈleɪzi/",
+      "meanings": [
+        "懒的"
+      ],
+      "example": "Don't be lazy with your homework.",
+      "exampleZh": "做作业别偷懒。"
+    },
+    {
+      "word": "lesson",
+      "pos": "n.",
+      "ipa": "/ˈlɛsən/",
+      "meanings": [
+        "课",
+        "课程"
+      ],
+      "example": "Today's lesson is about animals.",
+      "exampleZh": "今天的课讲的是动物。"
+    },
+    {
+      "word": "level",
+      "pos": "n.",
+      "ipa": "/ˈlɛvl/",
+      "meanings": [
+        "级别",
+        "水平"
+      ],
+      "example": "Her English level is high.",
+      "exampleZh": "她的英语水平很高。"
+    },
+    {
+      "word": "list",
+      "pos": "n.",
+      "ipa": "/lɪst/",
+      "meanings": [
+        "清单",
+        "列表"
+      ],
+      "example": "Make a list of new words.",
+      "exampleZh": "列一个新单词的清单。"
+    },
+    {
+      "word": "mark",
+      "pos": "v./n.",
+      "ipa": "/mɑːrk/",
+      "meanings": [
+        "标记",
+        "分数"
+      ],
+      "example": "Mark the correct answer.",
+      "exampleZh": "标出正确答案。"
+    },
+    {
+      "word": "memorize",
+      "pos": "v.",
+      "ipa": "/ˈmɛməraɪz/",
+      "meanings": [
+        "记住",
+        "背诵"
+      ],
+      "example": "Memorize ten new words tonight.",
+      "exampleZh": "今晚背十个新单词。"
+    },
+    {
+      "word": "middle",
+      "pos": "adj./n.",
+      "ipa": "/ˈmɪdl/",
+      "meanings": [
+        "中间的",
+        "中部"
+      ],
+      "example": "She is in the middle row.",
+      "exampleZh": "她在中间一排。"
+    },
+    {
+      "word": "mistake",
+      "pos": "n.",
+      "ipa": "/mɪˈsteɪk/",
+      "meanings": [
+        "错误"
+      ],
+      "example": "Everyone makes mistakes sometimes.",
+      "exampleZh": "每个人都会犯错。"
+    },
+    {
+      "word": "notebook",
+      "pos": "n.",
+      "ipa": "/ˈnoʊtbʊk/",
+      "meanings": [
+        "笔记本"
+      ],
+      "example": "Write notes in your notebook.",
+      "exampleZh": "把笔记写在笔记本上。"
+    },
+    {
+      "word": "page",
+      "pos": "n.",
+      "ipa": "/peɪdʒ/",
+      "meanings": [
+        "页"
+      ],
+      "example": "Open your book to page ten.",
+      "exampleZh": "把书翻到第十页。"
+    },
+    {
+      "word": "paint",
+      "pos": "v.",
+      "ipa": "/peɪnt/",
+      "meanings": [
+        "画画",
+        "上色"
+      ],
+      "example": "He likes to paint with red.",
+      "exampleZh": "他喜欢用红色画画。"
+    },
+    {
+      "word": "pass",
+      "pos": "v.",
+      "ipa": "/pæs/",
+      "meanings": [
+        "通过",
+        "及格"
+      ],
+      "example": "She passed the English test.",
+      "exampleZh": "她通过了英语考试。"
+    },
+    {
+      "word": "pencil",
+      "pos": "n.",
+      "ipa": "/ˈpɛnsl/",
+      "meanings": [
+        "铅笔"
+      ],
+      "example": "My pencil is too short.",
+      "exampleZh": "我的铅笔太短了。"
+    },
+    {
+      "word": "physics",
+      "pos": "n.",
+      "ipa": "/ˈfɪzɪks/",
+      "meanings": [
+        "物理"
+      ],
+      "example": "Physics is hard but interesting.",
+      "exampleZh": "物理很难但有意思。"
+    },
+    {
+      "word": "poem",
+      "pos": "n.",
+      "ipa": "/ˈpoʊəm/",
+      "meanings": [
+        "诗"
+      ],
+      "example": "We learned a new poem today.",
+      "exampleZh": "我们今天学了一首新诗。"
+    },
+    {
+      "word": "point",
+      "pos": "n.",
+      "ipa": "/pɔɪnt/",
+      "meanings": [
+        "要点",
+        "分数"
+      ],
+      "example": "I see your point now.",
+      "exampleZh": "我现在明白你的意思了。"
+    },
+    {
+      "word": "prepare",
+      "pos": "v.",
+      "ipa": "/prɪˈpɛr/",
+      "meanings": [
+        "准备"
+      ],
+      "example": "Prepare for the test tonight.",
+      "exampleZh": "今晚为考试做准备。"
+    },
+    {
+      "word": "primary",
+      "pos": "adj.",
+      "ipa": "/ˈpraɪmɛri/",
+      "meanings": [
+        "小学的",
+        "主要的"
+      ],
+      "example": "She teaches primary school students.",
+      "exampleZh": "她教小学生。"
+    },
+    {
+      "word": "principal",
+      "pos": "n.",
+      "ipa": "/ˈprɪnsəpl/",
+      "meanings": [
+        "校长"
+      ],
+      "example": "Our principal is very kind.",
+      "exampleZh": "我们的校长很友善。"
+    },
+    {
+      "word": "project",
+      "pos": "n.",
+      "ipa": "/ˈprɑːdʒɛkt/",
+      "meanings": [
+        "项目",
+        "课题"
+      ],
+      "example": "Our science project is due Friday.",
+      "exampleZh": "我们的科学课题周五交。"
+    },
+    {
+      "word": "pupil",
+      "pos": "n.",
+      "ipa": "/ˈpjuːpl/",
+      "meanings": [
+        "学生",
+        "小学生"
+      ],
+      "example": "Every pupil has a name tag.",
+      "exampleZh": "每个学生都有名牌。"
+    },
+    {
+      "word": "quiet",
+      "pos": "adj.",
+      "ipa": "/ˈkwaɪət/",
+      "meanings": [
+        "安静的"
+      ],
+      "example": "Please be quiet in the library.",
+      "exampleZh": "在图书馆请保持安静。"
+    },
+    {
+      "word": "raise",
+      "pos": "v.",
+      "ipa": "/reɪz/",
+      "meanings": [
+        "举起"
+      ],
+      "example": "Raise your hand to ask.",
+      "exampleZh": "举手提问。"
+    },
+    {
+      "word": "recess",
+      "pos": "n.",
+      "ipa": "/ˈriːsɛs/",
+      "meanings": [
+        "课间休息"
+      ],
+      "example": "Kids play during recess.",
+      "exampleZh": "孩子们在课间休息时玩耍。"
+    },
+    {
+      "word": "repeat",
+      "pos": "v.",
+      "ipa": "/rɪˈpiːt/",
+      "meanings": [
+        "重复"
+      ],
+      "example": "Please repeat after me.",
+      "exampleZh": "请跟我重复。"
+    },
+    {
+      "word": "report",
+      "pos": "n.",
+      "ipa": "/rɪˈpɔːrt/",
+      "meanings": [
+        "报告"
+      ],
+      "example": "I wrote a book report.",
+      "exampleZh": "我写了一篇读书报告。"
+    },
+    {
+      "word": "review",
+      "pos": "v.",
+      "ipa": "/rɪˈvjuː/",
+      "meanings": [
+        "复习"
+      ],
+      "example": "Review your notes before bed.",
+      "exampleZh": "睡前复习一下笔记。"
+    },
+    {
+      "word": "rule",
+      "pos": "n.",
+      "ipa": "/ruːl/",
+      "meanings": [
+        "规则"
+      ],
+      "example": "Follow the school rules, please.",
+      "exampleZh": "请遵守学校规则。"
+    },
+    {
+      "word": "ruler",
+      "pos": "n.",
+      "ipa": "/ˈruːlər/",
+      "meanings": [
+        "尺子"
+      ],
+      "example": "I need a ruler to draw lines.",
+      "exampleZh": "我需要尺子画线。"
+    },
+    {
+      "word": "science",
+      "pos": "n.",
+      "ipa": "/ˈsaɪəns/",
+      "meanings": [
+        "科学"
+      ],
+      "example": "Science is my favorite subject.",
+      "exampleZh": "科学是我最喜欢的科目。"
+    },
+    {
+      "word": "score",
+      "pos": "n.",
+      "ipa": "/skɔːr/",
+      "meanings": [
+        "分数"
+      ],
+      "example": "What was your test score?",
+      "exampleZh": "你考试得了多少分?"
+    },
+    {
+      "word": "share",
+      "pos": "v.",
+      "ipa": "/ʃɛr/",
+      "meanings": [
+        "分享"
+      ],
+      "example": "Share your snack with your friend.",
+      "exampleZh": "和朋友分享你的零食。"
+    },
+    {
+      "word": "skill",
+      "pos": "n.",
+      "ipa": "/skɪl/",
+      "meanings": [
+        "技能",
+        "能力"
+      ],
+      "example": "Reading is an important skill.",
+      "exampleZh": "阅读是一项重要的技能。"
+    },
+    {
+      "word": "smart",
+      "pos": "adj.",
+      "ipa": "/smɑːrt/",
+      "meanings": [
+        "聪明的"
+      ],
+      "example": "He is a smart kid.",
+      "exampleZh": "他是个聪明的孩子。"
+    },
+    {
+      "word": "speak",
+      "pos": "v.",
+      "ipa": "/spiːk/",
+      "meanings": [
+        "说话",
+        "讲"
+      ],
+      "example": "Please speak slowly to me.",
+      "exampleZh": "请对我说慢一点。"
+    },
+    {
+      "word": "spell",
+      "pos": "v.",
+      "ipa": "/spɛl/",
+      "meanings": [
+        "拼写"
+      ],
+      "example": "How do you spell your name?",
+      "exampleZh": "你的名字怎么拼?"
+    },
+    {
+      "word": "student",
+      "pos": "n.",
+      "ipa": "/ˈstuːdnt/",
+      "meanings": [
+        "学生"
+      ],
+      "example": "She is a hard-working student.",
+      "exampleZh": "她是个勤奋的学生。"
+    },
+    {
+      "word": "subject",
+      "pos": "n.",
+      "ipa": "/ˈsʌbdʒɛkt/",
+      "meanings": [
+        "科目"
+      ],
+      "example": "Math is my favorite subject.",
+      "exampleZh": "数学是我最爱的科目。"
+    },
+    {
+      "word": "summer",
+      "pos": "n.",
+      "ipa": "/ˈsʌmər/",
+      "meanings": [
+        "夏天",
+        "暑假"
+      ],
+      "example": "Summer vacation starts in July.",
+      "exampleZh": "暑假从七月开始。"
+    },
+    {
+      "word": "test",
+      "pos": "n.",
+      "ipa": "/tɛst/",
+      "meanings": [
+        "测试",
+        "考试"
+      ],
+      "example": "We have a test on Friday.",
+      "exampleZh": "我们周五有考试。"
+    },
+    {
+      "word": "textbook",
+      "pos": "n.",
+      "ipa": "/ˈtɛkstbʊk/",
+      "meanings": [
+        "课本",
+        "教科书"
+      ],
+      "example": "Open your textbook to page five.",
+      "exampleZh": "把课本翻到第五页。"
+    },
+    {
+      "word": "topic",
+      "pos": "n.",
+      "ipa": "/ˈtɑːpɪk/",
+      "meanings": [
+        "话题",
+        "主题"
+      ],
+      "example": "Today's topic is healthy food.",
+      "exampleZh": "今天的话题是健康食物。"
+    },
+    {
+      "word": "translate",
+      "pos": "v.",
+      "ipa": "/trænsˈleɪt/",
+      "meanings": [
+        "翻译"
+      ],
+      "example": "Translate this sentence into Chinese.",
+      "exampleZh": "把这句话翻译成中文。"
+    },
+    {
+      "word": "understand",
+      "pos": "v.",
+      "ipa": "/ˌʌndərˈstænd/",
+      "meanings": [
+        "理解",
+        "明白"
+      ],
+      "example": "I don't understand this question.",
+      "exampleZh": "我不明白这道题。"
+    },
+    {
+      "word": "uniform",
+      "pos": "n.",
+      "ipa": "/ˈjuːnɪfɔːrm/",
+      "meanings": [
+        "校服",
+        "制服"
+      ],
+      "example": "We wear school uniforms every day.",
+      "exampleZh": "我们每天穿校服。"
+    },
+    {
+      "word": "vacation",
+      "pos": "n.",
+      "ipa": "/veɪˈkeɪʃən/",
+      "meanings": [
+        "假期"
+      ],
+      "example": "Summer vacation is two months long.",
+      "exampleZh": "暑假有两个月。"
+    },
+    {
+      "word": "wise",
+      "pos": "adj.",
+      "ipa": "/waɪz/",
+      "meanings": [
+        "明智的",
+        "聪明的"
+      ],
+      "example": "That was a wise choice.",
+      "exampleZh": "那是个明智的选择。"
+    },
+    {
+      "word": "word",
+      "pos": "n.",
+      "ipa": "/wɜːrd/",
+      "meanings": [
+        "单词",
+        "词"
+      ],
+      "example": "Learn five new words today.",
+      "exampleZh": "今天学五个新单词。"
+    },
+    {
+      "word": "wrong",
+      "pos": "adj.",
+      "ipa": "/rɔːŋ/",
+      "meanings": [
+        "错的"
+      ],
+      "example": "My answer was wrong.",
+      "exampleZh": "我的答案错了。"
+    },
+    {
+      "word": "afternoon",
+      "pos": "n.",
+      "ipa": "/ˌæftərˈnuːn/",
+      "meanings": [
+        "下午"
+      ],
+      "example": "We have art in the afternoon.",
+      "exampleZh": "我们下午有美术课。"
+    },
+    {
+      "word": "break",
+      "pos": "n.",
+      "ipa": "/breɪk/",
+      "meanings": [
+        "休息"
+      ],
+      "example": "Let's take a short break.",
+      "exampleZh": "我们休息一下吧。"
+    },
+    {
+      "word": "schedule",
+      "pos": "n.",
+      "ipa": "/ˈskɛdʒuːl/",
+      "meanings": [
+        "时间表",
+        "日程"
+      ],
+      "example": "Check your class schedule online.",
+      "exampleZh": "在网上查你的课表。"
+    },
+    {
+      "word": "kindergarten",
+      "pos": "n.",
+      "ipa": "/ˈkɪndərɡɑːrtn/",
+      "meanings": [
+        "幼儿园"
+      ],
+      "example": "My brother is in kindergarten.",
+      "exampleZh": "我弟弟在上幼儿园。"
+    },
+    {
+      "word": "elementary",
+      "pos": "adj.",
+      "ipa": "/ˌɛlɪˈmɛntəri/",
+      "meanings": [
+        "基础的",
+        "小学的"
+      ],
+      "example": "She teaches elementary school.",
+      "exampleZh": "她教小学。"
+    },
+    {
+      "word": "junior",
+      "pos": "adj.",
+      "ipa": "/ˈdʒuːnjər/",
+      "meanings": [
+        "初级的",
+        "年少的"
+      ],
+      "example": "He is in junior high school.",
+      "exampleZh": "他在上初中。"
+    },
+    {
+      "word": "senior",
+      "pos": "adj.",
+      "ipa": "/ˈsiːnjər/",
+      "meanings": [
+        "高级的",
+        "高年级的"
+      ],
+      "example": "My cousin is a senior student.",
+      "exampleZh": "我表哥是高年级学生。"
+    },
+    {
+      "word": "graduate",
+      "pos": "v.",
+      "ipa": "/ˈɡrædʒueɪt/",
+      "meanings": [
+        "毕业"
+      ],
+      "example": "She will graduate next year.",
+      "exampleZh": "她明年毕业。"
+    },
+    {
+      "word": "competition",
+      "pos": "n.",
+      "ipa": "/ˌkɑːmpəˈtɪʃən/",
+      "meanings": [
+        "比赛"
+      ],
+      "example": "He won the math competition.",
+      "exampleZh": "他赢了数学比赛。"
+    },
+    {
+      "word": "prize",
+      "pos": "n.",
+      "ipa": "/praɪz/",
+      "meanings": [
+        "奖品",
+        "奖"
+      ],
+      "example": "She got first prize.",
+      "exampleZh": "她得了一等奖。"
+    },
+    {
+      "word": "presentation",
+      "pos": "n.",
+      "ipa": "/ˌprɛzənˈteɪʃən/",
+      "meanings": [
+        "演讲",
+        "展示"
+      ],
+      "example": "Give a short presentation tomorrow.",
+      "exampleZh": "明天做一个简短的演讲。"
+    },
+    {
+      "word": "speech",
+      "pos": "n.",
+      "ipa": "/spiːtʃ/",
+      "meanings": [
+        "演讲"
+      ],
+      "example": "His speech was very moving.",
+      "exampleZh": "他的演讲很感人。"
+    },
+    {
+      "word": "discuss",
+      "pos": "v.",
+      "ipa": "/dɪˈskʌs/",
+      "meanings": [
+        "讨论"
+      ],
+      "example": "Let's discuss this in groups.",
+      "exampleZh": "我们分组讨论这个。"
+    },
+    {
+      "word": "group",
+      "pos": "n.",
+      "ipa": "/ɡruːp/",
+      "meanings": [
+        "小组",
+        "群"
+      ],
+      "example": "Work in groups of four.",
+      "exampleZh": "四人一组活动。"
+    },
+    {
+      "word": "team",
+      "pos": "n.",
+      "ipa": "/tiːm/",
+      "meanings": [
+        "队",
+        "团队"
+      ],
+      "example": "Our team won the game.",
+      "exampleZh": "我们队赢了比赛。"
+    },
+    {
+      "word": "win",
+      "pos": "v.",
+      "ipa": "/wɪn/",
+      "meanings": [
+        "赢",
+        "获胜"
+      ],
+      "example": "I want to win the race.",
+      "exampleZh": "我想赢得比赛。"
+    },
+    {
+      "word": "lose",
+      "pos": "v.",
+      "ipa": "/luːz/",
+      "meanings": [
+        "输",
+        "丢失"
+      ],
+      "example": "Don't lose your homework.",
+      "exampleZh": "别把作业弄丢了。"
+    },
+    {
+      "word": "lecture",
+      "pos": "n.",
+      "ipa": "/ˈlɛktʃər/",
+      "meanings": [
+        "讲座",
+        "课"
+      ],
+      "example": "The lecture lasted one hour.",
+      "exampleZh": "讲座持续了一个小时。"
+    },
+    {
+      "word": "note",
+      "pos": "n.",
+      "ipa": "/noʊt/",
+      "meanings": [
+        "笔记",
+        "便条"
+      ],
+      "example": "Take notes during the lesson.",
+      "exampleZh": "上课时做笔记。"
+    },
+    {
+      "word": "underline",
+      "pos": "v.",
+      "ipa": "/ˌʌndərˈlaɪn/",
+      "meanings": [
+        "在...下面画线"
+      ],
+      "example": "Underline the important words.",
+      "exampleZh": "把重要的词画线。"
+    },
+    {
+      "word": "circle",
+      "pos": "v./n.",
+      "ipa": "/ˈsɜːrkl/",
+      "meanings": [
+        "圈出",
+        "圆圈"
+      ],
+      "example": "Circle the correct answer.",
+      "exampleZh": "圈出正确答案。"
+    },
+    {
+      "word": "fold",
+      "pos": "v.",
+      "ipa": "/foʊld/",
+      "meanings": [
+        "折叠"
+      ],
+      "example": "Fold the paper in half.",
+      "exampleZh": "把纸对折。"
+    },
+    {
+      "word": "cut",
+      "pos": "v.",
+      "ipa": "/kʌt/",
+      "meanings": [
+        "剪",
+        "切"
+      ],
+      "example": "Cut along the dotted line.",
+      "exampleZh": "沿虚线剪。"
+    },
+    {
+      "word": "paste",
+      "pos": "v.",
+      "ipa": "/peɪst/",
+      "meanings": [
+        "粘贴"
+      ],
+      "example": "Paste the picture on paper.",
+      "exampleZh": "把图片贴在纸上。"
+    },
+    {
+      "word": "glue",
+      "pos": "n./v.",
+      "ipa": "/ɡluː/",
+      "meanings": [
+        "胶水",
+        "粘"
+      ],
+      "example": "Glue the corners together.",
+      "exampleZh": "把四个角粘在一起。"
+    },
+    {
+      "word": "scissors",
+      "pos": "n.",
+      "ipa": "/ˈsɪzərz/",
+      "meanings": [
+        "剪刀"
+      ],
+      "example": "Be careful with the scissors.",
+      "exampleZh": "用剪刀小心点。"
+    },
+    {
+      "word": "marker",
+      "pos": "n.",
+      "ipa": "/ˈmɑːrkər/",
+      "meanings": [
+        "马克笔"
+      ],
+      "example": "Use a red marker for this.",
+      "exampleZh": "用红色马克笔写这个。"
+    },
+    {
+      "word": "stapler",
+      "pos": "n.",
+      "ipa": "/ˈsteɪplər/",
+      "meanings": [
+        "订书机"
+      ],
+      "example": "Pass me the stapler, please.",
+      "exampleZh": "请把订书机递给我。"
+    },
+    {
+      "word": "envelope",
+      "pos": "n.",
+      "ipa": "/ˈɛnvəloʊp/",
+      "meanings": [
+        "信封"
+      ],
+      "example": "Put the letter in the envelope.",
+      "exampleZh": "把信放进信封里。"
+    },
+    {
+      "word": "stamp",
+      "pos": "n.",
+      "ipa": "/stæmp/",
+      "meanings": [
+        "邮票"
+      ],
+      "example": "Stick a stamp on the envelope.",
+      "exampleZh": "在信封上贴一张邮票。"
+    },
+    {
+      "word": "shelf",
+      "pos": "n.",
+      "ipa": "/ʃɛlf/",
+      "meanings": [
+        "架子",
+        "书架"
+      ],
+      "example": "Put the book back on the shelf.",
+      "exampleZh": "把书放回书架上。"
+    },
+    {
+      "word": "magazine",
+      "pos": "n.",
+      "ipa": "/ˌmæɡəˈziːn/",
+      "meanings": [
+        "杂志"
+      ],
+      "example": "I read a kids' magazine.",
+      "exampleZh": "我读了一本儿童杂志。"
+    },
+    {
+      "word": "newspaper",
+      "pos": "n.",
+      "ipa": "/ˈnuːzpeɪpər/",
+      "meanings": [
+        "报纸"
+      ],
+      "example": "Dad reads the newspaper every morning.",
+      "exampleZh": "爸爸每天早上看报纸。"
+    },
+    {
+      "word": "novel",
+      "pos": "n.",
+      "ipa": "/ˈnɑːvl/",
+      "meanings": [
+        "小说"
+      ],
+      "example": "She reads one novel a month.",
+      "exampleZh": "她一个月读一本小说。"
+    },
+    {
+      "word": "comic",
+      "pos": "n.",
+      "ipa": "/ˈkɑːmɪk/",
+      "meanings": [
+        "漫画"
+      ],
+      "example": "Kids love reading comics.",
+      "exampleZh": "孩子们喜欢看漫画。"
+    },
+    {
+      "word": "title",
+      "pos": "n.",
+      "ipa": "/ˈtaɪtl/",
+      "meanings": [
+        "标题",
+        "题目"
+      ],
+      "example": "What's the title of your essay?",
+      "exampleZh": "你作文的题目是什么?"
+    },
+    {
+      "word": "essay",
+      "pos": "n.",
+      "ipa": "/ˈɛseɪ/",
+      "meanings": [
+        "作文",
+        "短文"
+      ],
+      "example": "Write a short essay about summer.",
+      "exampleZh": "写一篇关于夏天的短文。"
+    },
+    {
+      "word": "sentence",
+      "pos": "n.",
+      "ipa": "/ˈsɛntəns/",
+      "meanings": [
+        "句子"
+      ],
+      "example": "Make a sentence with this word.",
+      "exampleZh": "用这个词造个句子。"
+    },
+    {
+      "word": "paragraph",
+      "pos": "n.",
+      "ipa": "/ˈpærəɡræf/",
+      "meanings": [
+        "段落"
+      ],
+      "example": "Read the first paragraph aloud.",
+      "exampleZh": "大声读第一段。"
+    },
+    {
+      "word": "punctuation",
+      "pos": "n.",
+      "ipa": "/ˌpʌŋktʃuˈeɪʃən/",
+      "meanings": [
+        "标点",
+        "标点符号"
+      ],
+      "example": "Don't forget the punctuation marks.",
+      "exampleZh": "别忘了标点符号。"
+    },
+    {
+      "word": "vowel",
+      "pos": "n.",
+      "ipa": "/ˈvaʊəl/",
+      "meanings": [
+        "元音"
+      ],
+      "example": "A, E, I, O, U are vowels.",
+      "exampleZh": "A、E、I、O、U 是元音。"
+    },
+    {
+      "word": "noun",
+      "pos": "n.",
+      "ipa": "/naʊn/",
+      "meanings": [
+        "名词"
+      ],
+      "example": "Apple is a noun.",
+      "exampleZh": "Apple 是名词。"
+    },
+    {
+      "word": "verb",
+      "pos": "n.",
+      "ipa": "/vɜːrb/",
+      "meanings": [
+        "动词"
+      ],
+      "example": "Run is a common verb.",
+      "exampleZh": "Run 是个常见的动词。"
+    },
+    {
+      "word": "grammar",
+      "pos": "n.",
+      "ipa": "/ˈɡræmər/",
+      "meanings": [
+        "语法"
+      ],
+      "example": "English grammar is tricky.",
+      "exampleZh": "英语语法有点难。"
+    },
+    {
+      "word": "vocabulary",
+      "pos": "n.",
+      "ipa": "/voʊˈkæbjəlɛri/",
+      "meanings": [
+        "词汇"
+      ],
+      "example": "Build your vocabulary every day.",
+      "exampleZh": "每天积累词汇。"
+    },
+    {
+      "word": "pronounce",
+      "pos": "v.",
+      "ipa": "/prəˈnaʊns/",
+      "meanings": [
+        "发音"
+      ],
+      "example": "How do you pronounce this word?",
+      "exampleZh": "这个词怎么发音?"
+    },
+    {
+      "word": "loud",
+      "pos": "adj.",
+      "ipa": "/laʊd/",
+      "meanings": [
+        "大声的"
+      ],
+      "example": "Don't be too loud, please.",
+      "exampleZh": "请不要太大声。"
+    },
+    {
+      "word": "voice",
+      "pos": "n.",
+      "ipa": "/vɔɪs/",
+      "meanings": [
+        "声音",
+        "嗓音"
+      ],
+      "example": "She has a sweet voice.",
+      "exampleZh": "她有甜美的嗓音。"
+    },
+    {
+      "word": "whisper",
+      "pos": "v.",
+      "ipa": "/ˈwɪspər/",
+      "meanings": [
+        "低声说"
+      ],
+      "example": "Don't whisper in class.",
+      "exampleZh": "上课不要小声讲话。"
+    },
+    {
+      "word": "guitar",
+      "pos": "n.",
+      "ipa": "/ɡɪˈtɑːr/",
+      "meanings": [
+        "吉他"
+      ],
+      "example": "She plays guitar very well.",
+      "exampleZh": "她吉他弹得很好。"
+    },
+    {
+      "word": "piano",
+      "pos": "n.",
+      "ipa": "/piˈænoʊ/",
+      "meanings": [
+        "钢琴"
+      ],
+      "example": "I take piano lessons on Saturdays.",
+      "exampleZh": "我周六上钢琴课。"
+    },
+    {
+      "word": "drum",
+      "pos": "n.",
+      "ipa": "/drʌm/",
+      "meanings": [
+        "鼓"
+      ],
+      "example": "He plays the drums in a band.",
+      "exampleZh": "他在乐队里打鼓。"
+    },
+    {
+      "word": "violin",
+      "pos": "n.",
+      "ipa": "/ˌvaɪəˈlɪn/",
+      "meanings": [
+        "小提琴"
+      ],
+      "example": "My sister learns the violin.",
+      "exampleZh": "我妹妹学小提琴。"
+    },
+    {
+      "word": "concert",
+      "pos": "n.",
+      "ipa": "/ˈkɑːnsərt/",
+      "meanings": [
+        "音乐会"
+      ],
+      "example": "We went to a concert yesterday.",
+      "exampleZh": "我们昨天去听了音乐会。"
+    },
+    {
+      "word": "stage",
+      "pos": "n.",
+      "ipa": "/steɪdʒ/",
+      "meanings": [
+        "舞台"
+      ],
+      "example": "The kids danced on the stage.",
+      "exampleZh": "孩子们在舞台上跳舞。"
+    },
+    {
+      "word": "audience",
+      "pos": "n.",
+      "ipa": "/ˈɔːdiəns/",
+      "meanings": [
+        "观众"
+      ],
+      "example": "The audience clapped loudly.",
+      "exampleZh": "观众大声鼓掌。"
+    },
+    {
+      "word": "perform",
+      "pos": "v.",
+      "ipa": "/pərˈfɔːrm/",
+      "meanings": [
+        "表演",
+        "演出"
+      ],
+      "example": "We perform at the school party.",
+      "exampleZh": "我们在学校晚会上表演。"
+    },
+    {
+      "word": "highlighter",
+      "pos": "n.",
+      "ipa": "/ˈhaɪlaɪtər/",
+      "meanings": [
+        "荧光笔"
+      ],
+      "example": "Use a highlighter on key words.",
+      "exampleZh": "用荧光笔标关键词。"
+    },
+    {
+      "word": "abroad",
+      "pos": "adv.",
+      "ipa": "/əˈbrɔːd/",
+      "meanings": [
+        "在国外"
+      ],
+      "example": "She wants to study abroad.",
+      "exampleZh": "她想出国留学。"
+    },
+    {
+      "word": "diary",
+      "pos": "n.",
+      "ipa": "/ˈdaɪəri/",
+      "meanings": [
+        "日记"
+      ],
+      "example": "I write in my diary every night.",
+      "exampleZh": "我每晚写日记。"
+    },
+    {
+      "word": "hobby",
+      "pos": "n.",
+      "ipa": "/ˈhɑːbi/",
+      "meanings": [
+        "爱好"
+      ],
+      "example": "Reading is my favorite hobby.",
+      "exampleZh": "阅读是我最爱的爱好。"
+    },
+    {
+      "word": "puzzle",
+      "pos": "n.",
+      "ipa": "/ˈpʌzl/",
+      "meanings": [
+        "拼图",
+        "谜题"
+      ],
+      "example": "Let's solve this puzzle together.",
+      "exampleZh": "我们一起解这个谜题吧。"
+    },
+    {
+      "word": "solve",
+      "pos": "v.",
+      "ipa": "/sɑːlv/",
+      "meanings": [
+        "解决"
+      ],
+      "example": "Can you solve this problem?",
+      "exampleZh": "你能解决这个问题吗?"
+    },
+    {
+      "word": "result",
+      "pos": "n.",
+      "ipa": "/rɪˈzʌlt/",
+      "meanings": [
+        "结果"
+      ],
+      "example": "I got my test result today.",
+      "exampleZh": "我今天拿到考试结果了。"
+    },
+    {
+      "word": "improve",
+      "pos": "v.",
+      "ipa": "/ɪmˈpruːv/",
+      "meanings": [
+        "提高",
+        "改善"
+      ],
+      "example": "She wants to improve her writing.",
+      "exampleZh": "她想提高自己的写作。"
+    },
+    {
+      "word": "progress",
+      "pos": "n.",
+      "ipa": "/ˈprɑːɡrɛs/",
+      "meanings": [
+        "进步"
+      ],
+      "example": "Your English makes good progress.",
+      "exampleZh": "你的英语进步很大。"
+    },
+    {
+      "word": "challenge",
+      "pos": "n.",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "meanings": [
+        "挑战"
+      ],
+      "example": "The math test was a challenge.",
+      "exampleZh": "数学考试是个挑战。"
+    },
+    {
+      "word": "effort",
+      "pos": "n.",
+      "ipa": "/ˈɛfərt/",
+      "meanings": [
+        "努力"
+      ],
+      "example": "Put more effort into your homework.",
+      "exampleZh": "做作业再多用点心。"
+    },
+    {
+      "word": "patient",
+      "pos": "adj.",
+      "ipa": "/ˈpeɪʃənt/",
+      "meanings": [
+        "耐心的"
+      ],
+      "example": "Our teacher is very patient.",
+      "exampleZh": "我们的老师很有耐心。"
+    },
+    {
+      "word": "proud",
+      "pos": "adj.",
+      "ipa": "/praʊd/",
+      "meanings": [
+        "自豪的"
+      ],
+      "example": "Mom is proud of me.",
+      "exampleZh": "妈妈为我感到自豪。"
+    },
+    {
+      "word": "confident",
+      "pos": "adj.",
+      "ipa": "/ˈkɑːnfɪdənt/",
+      "meanings": [
+        "自信的"
+      ],
+      "example": "She feels confident on stage.",
+      "exampleZh": "她在舞台上很自信。"
+    },
+    {
+      "word": "shy",
+      "pos": "adj.",
+      "ipa": "/ʃaɪ/",
+      "meanings": [
+        "害羞的"
+      ],
+      "example": "He is shy around strangers.",
+      "exampleZh": "他在陌生人面前害羞。"
+    },
+    {
+      "word": "polite",
+      "pos": "adj.",
+      "ipa": "/pəˈlaɪt/",
+      "meanings": [
+        "有礼貌的"
+      ],
+      "example": "Please be polite to your teacher.",
+      "exampleZh": "对老师要有礼貌。"
+    },
+    {
+      "word": "honest",
+      "pos": "adj.",
+      "ipa": "/ˈɑːnɪst/",
+      "meanings": [
+        "诚实的"
+      ],
+      "example": "Be honest about your mistake.",
+      "exampleZh": "对自己的错误要诚实。"
+    },
+    {
+      "word": "brave",
+      "pos": "adj.",
+      "ipa": "/breɪv/",
+      "meanings": [
+        "勇敢的"
+      ],
+      "example": "She is a brave girl.",
+      "exampleZh": "她是个勇敢的女孩。"
+    },
+    {
+      "word": "creative",
+      "pos": "adj.",
+      "ipa": "/kriˈeɪtɪv/",
+      "meanings": [
+        "有创造力的"
+      ],
+      "example": "She has creative ideas.",
+      "exampleZh": "她有很有创意的想法。"
+    },
+    {
+      "word": "diligent",
+      "pos": "adj.",
+      "ipa": "/ˈdɪlɪdʒənt/",
+      "meanings": [
+        "勤奋的"
+      ],
+      "example": "He is a diligent student.",
+      "exampleZh": "他是个勤奋的学生。"
+    }
+  ]
+}
