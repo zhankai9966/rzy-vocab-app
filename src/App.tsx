@@ -7,7 +7,8 @@ import VaultSwitcher from './components/VaultSwitcher';
 import BackupReminder from './components/BackupReminder';
 import { Word, VaultId, LearningMode, VAULT_LABELS } from './types';
 import { drawSession } from './lib/session';
-import { getActiveVault, setActiveVault } from './lib/db';
+import { getActiveVault, getVaultWords, setActiveVault } from './lib/db';
+import { getDueWords } from './lib/srs';
 
 type Screen = 'home' | 'learn' | 'test' | 'settings';
 
@@ -35,6 +36,22 @@ export default function App() {
     const words = await drawSession(vaultId, 10);
     if (words.length === 0) {
       alert('这个词库里还没有词。请先在「设置」里加载默认词包或导入自己的词包。');
+      return;
+    }
+    setMode(selectedMode);
+    setSessionWords(words);
+    setScreen(selectedMode === 'test-only' ? 'test' : 'learn');
+  }
+
+  async function startDueReview(selectedMode: LearningMode) {
+    const [dueWords, allWords] = await Promise.all([
+      getDueWords(vaultId),
+      getVaultWords(vaultId),
+    ]);
+    const dueSet = new Set(dueWords.map(w => w.toLowerCase()));
+    const words = allWords.filter(w => dueSet.has(w.word.toLowerCase())).slice(0, 10);
+    if (words.length === 0) {
+      alert('当前没有到期需要复习的单词。');
       return;
     }
     setMode(selectedMode);
@@ -82,7 +99,12 @@ export default function App() {
 
         <main className="animate-fade-up">
           {screen === 'home' && (
-            <Home key={`${vaultId}-${reloadKey}`} vaultId={vaultId} onStart={startLearning} />
+            <Home
+              key={`${vaultId}-${reloadKey}`}
+              vaultId={vaultId}
+              onStart={startLearning}
+              onReviewDue={startDueReview}
+            />
           )}
           {screen === 'learn' && (
             <LearnSession words={sessionWords} onFinish={goToTest} onQuit={goHome} />
@@ -93,6 +115,7 @@ export default function App() {
               words={sessionWords}
               mode={mode}
               onFinish={goHome}
+              onQuit={goHome}
             />
           )}
           {screen === 'settings' && <Settings vaultId={vaultId} onBack={goHome} />}

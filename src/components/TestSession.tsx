@@ -3,13 +3,14 @@ import { Word, VaultId, LearningMode } from '../types';
 import { buildQuiz } from '../lib/session';
 import { recordReview } from '../lib/srs';
 import { db, getVaultWords } from '../lib/db';
-import { speak } from '../lib/speech';
+import { isSpeechAvailable, speak } from '../lib/speech';
 
 interface Props {
   vaultId: VaultId;
   words: Word[];
   mode: LearningMode;
   onFinish: () => void;
+  onQuit: () => void;
 }
 
 type Phase = 'question' | 'feedback' | 'summary';
@@ -22,7 +23,7 @@ interface QueueItem {
 
 const REQUIZ_GAP = 4; // re-quiz wrong words after ~4 other items (interleaving with spacing)
 
-export default function TestSession({ vaultId, words, mode, onFinish }: Props) {
+export default function TestSession({ vaultId, words, mode, onFinish, onQuit }: Props) {
   // Pool for distractor generation
   const [pool, setPool] = useState<Word[]>(words);
   useEffect(() => {
@@ -127,7 +128,9 @@ export default function TestSession({ vaultId, words, mode, onFinish }: Props) {
   return (
     <div className="space-y-5">
       <div className="flex items-center justify-between text-sm">
-        <span className="text-mute">{mode === 'test-only' ? '直接测试' : '测试'}</span>
+        <button onClick={onQuit} className="text-mute hover:text-ink transition-colors">
+          ← 返回
+        </button>
         <div className="font-mono text-mute flex items-center gap-2">
           {current.isReQuiz && (
             <span className="text-amber text-[11px] uppercase tracking-wider">复习</span>
@@ -207,9 +210,20 @@ export default function TestSession({ vaultId, words, mode, onFinish }: Props) {
           {current.word.example && (
             <div className="pt-2 border-t border-line">
               <div className="text-xs uppercase tracking-wider text-mute mb-1.5">例句</div>
-              <p className="font-display text-base leading-snug mb-1">
-                {current.word.example}
-              </p>
+              <div className="flex items-start gap-2 mb-1">
+                <p className="font-display text-base leading-snug flex-1">
+                  {current.word.example}
+                </p>
+                <button
+                  onClick={() => speak(current.word.example)}
+                  className="btn-ghost shrink-0 text-xs px-3 py-1.5"
+                  disabled={!isSpeechAvailable() || !current.word.example}
+                  aria-label="播放例句"
+                  title="播放例句"
+                >
+                  🔊 例句
+                </button>
+              </div>
               {current.word.exampleZh && (
                 <p className="text-sm text-mute">{current.word.exampleZh}</p>
               )}
