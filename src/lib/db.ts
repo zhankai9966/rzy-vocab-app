@@ -209,29 +209,36 @@ export function getLastBackupTime(vaultId: VaultId): number | null {
 /* ───────────── Default pack loading ───────────── */
 
 const DEFAULT_PACK_LOADED_KEY = 'rzy.defaultPackLoaded';
+const DEFAULT_PACK_VERSION = 2;
 
 export function isDefaultPackLoaded(vaultId: VaultId): boolean {
   const raw = localStorage.getItem(DEFAULT_PACK_LOADED_KEY);
   if (!raw) return false;
   try {
     const obj = JSON.parse(raw);
-    return obj[vaultId] === true;
+    return obj[vaultId] === DEFAULT_PACK_VERSION;
   } catch { return false; }
 }
 
 export function markDefaultPackLoaded(vaultId: VaultId) {
   const raw = localStorage.getItem(DEFAULT_PACK_LOADED_KEY);
-  let obj: Record<string, boolean> = {};
+  let obj: Record<string, number> = {};
   if (raw) { try { obj = JSON.parse(raw); } catch {} }
-  obj[vaultId] = true;
+  obj[vaultId] = DEFAULT_PACK_VERSION;
   localStorage.setItem(DEFAULT_PACK_LOADED_KEY, JSON.stringify(obj));
 }
 
-export async function loadDefaultPack(vaultId: VaultId): Promise<WordPackImportResult> {
+export async function loadDefaultPack(
+  vaultId: VaultId,
+  options: { replaceWords?: boolean } = {},
+): Promise<WordPackImportResult> {
   const url = `${import.meta.env.BASE_URL}wordpacks/default.json`;
   const resp = await fetch(url);
   if (!resp.ok) throw new Error('下载默认词包失败,请检查网络。');
   const json = await resp.json();
+  if (options.replaceWords) {
+    await clearVaultWords(vaultId);
+  }
   const result = await importWordPackData(vaultId, json);
   markDefaultPackLoaded(vaultId);
   return result;

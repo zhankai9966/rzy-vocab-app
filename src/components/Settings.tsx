@@ -68,7 +68,7 @@ export default function Settings({ vaultId, onBack }: Props) {
     }
     setBusy(true);
     try {
-      const r = await loadDefaultPack(vaultId);
+      const r = await loadDefaultPack(vaultId, { replaceWords: true });
       setImportResult(r);
       await refresh();
     } catch (e: any) {

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { VaultId, VAULT_LABELS, LearningMode } from '../types';
 import { getStats } from '../lib/srs';
 import {
@@ -15,27 +15,70 @@ export default function Home({ vaultId, onStart, onReviewDue }: Props) {
   const [stats, setStats] = useState({ learned: 0, due: 0, mastered: 0 });
   const [sessionCount, setSessionCount] = useState(0);
   const [wordCount, setWordCount] = useState(0);
+  const [wordCountReady, setWordCountReady] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [autoLoading, setAutoLoading] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
   const [showDueActions, setShowDueActions] = useState(false);
+  const autoLoadVaultRef = useRef<VaultId | null>(null);
 
   useEffect(() => {
+    let cancelled = false;
+    setWordCountReady(false);
     (async () => {
       const s = await getStats(vaultId);
+      if (cancelled) return;
       setStats(s);
       const sc = await db.sessions.where('vaultId').equals(vaultId).count();
+      if (cancelled) return;
       setSessionCount(sc);
       const wc = await getVaultWordCount(vaultId);
+      if (cancelled) return;
       setWordCount(wc);
+      setWordCountReady(true);
     })();
+    return () => {
+      cancelled = true;
+    };
   }, [vaultId, refreshKey]);
+
+  useEffect(() => {
+    const defaultLoaded = isDefaultPackLoaded(vaultId);
+    if (
+      vaultId !== 'longman3000'
+      || !wordCountReady
+      || defaultLoaded
+      || autoLoadVaultRef.current === vaultId
+      || loading
+    ) return;
+    let cancelled = false;
+    autoLoadVaultRef.current = vaultId;
+    (async () => {
+      setAutoLoading(true);
+      setLoadError(null);
+      try {
+        await loadDefaultPack(vaultId, { replaceWords: true });
+        if (!cancelled) setRefreshKey(k => k + 1);
+      } catch (e: any) {
+        if (!cancelled) {
+          autoLoadVaultRef.current = null;
+          setLoadError(e?.message ?? String(e));
+        }
+      } finally {
+        if (!cancelled) setAutoLoading(false);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [vaultId, wordCountReady, wordCount, loading]);
 
   async function handleLoadDefault() {
     setLoading(true);
     setLoadError(null);
     try {
-      const result = await loadDefaultPack(vaultId);
+      const result = await loadDefaultPack(vaultId, { replaceWords: true });
       alert(`默认词包已加载: 新增 ${result.added} 个词。`);
       setRefreshKey(k => k + 1);
     } catch (e: any) {
@@ -61,7 +104,8 @@ export default function Home({ vaultId, onStart, onReviewDue }: Props) {
             vaultId={vaultId}
             isLongman={isLongman}
             defaultLoaded={defaultLoaded}
-            loading={loading}
+            loading={loading || autoLoading}
+            autoLoading={autoLoading}
             onLoadDefault={handleLoadDefault}
             error={loadError}
           />
@@ -153,12 +197,13 @@ export default function Home({ vaultId, onStart, onReviewDue }: Props) {
 }
 
 function EmptyVaultPrompt({
-  vaultId, isLongman, defaultLoaded, loading, onLoadDefault, error,
+  vaultId, isLongman, defaultLoaded, loading, autoLoading, onLoadDefault, error,
 }: {
   vaultId: VaultId;
   isLongman: boolean;
   defaultLoaded: boolean;
   loading: boolean;
+  autoLoading: boolean;
   onLoadDefault: () => void;
   error: string | null;
 }) {
@@ -169,17 +214,23 @@ function EmptyVaultPrompt({
       </h1>
       <p className="text-sm text-mute leading-relaxed mb-5">
         {isLongman
-          ? '可以一键加载内置的「朗曼基础 401 词」开始,或在「设置」里导入自己的词包。'
+          ? '正在为新用户准备内置的朗曼 3000 完整词库。已有词库数据时不会自动覆盖。'
           : '可以在「设置」里导入你自己的词包(如 IT 专业词)。'}
       </p>
 
-      {isLongman && !defaultLoaded && (
+      {isLongman && autoLoading && (
+        <div className="chip bg-amber/10 text-amber">
+          正在加载内置词库...
+        </div>
+      )}
+
+      {isLongman && !defaultLoaded && !autoLoading && (
         <button
           onClick={onLoadDefault}
           disabled={loading}
           className="btn-accent text-sm px-6 py-3 disabled:opacity-50"
         >
-          {loading ? '加载中…' : '加载默认词包(401 词) →'}
+          {loading ? '加载中...' : '加载内置词库 →'}
         </button>
       )}
       {isLongman && defaultLoaded && (
