@@ -42,7 +42,8 @@ export async function getVaultWords(vaultId: VaultId): Promise<Word[]> {
   const rows = await db.words.where('vaultId').equals(vaultId).toArray();
   return rows.map(r => ({
     word: r.word, pos: r.pos, ipa: r.ipa,
-    meanings: r.meanings, example: r.example, exampleZh: r.exampleZh,
+    meanings: r.meanings, definition: r.definition ?? '',
+    example: r.example, exampleZh: r.exampleZh,
   }));
 }
 
@@ -86,6 +87,9 @@ function validateWord(raw: any): { ok: true; word: Word } | { ok: false; reason:
     pos: typeof raw.pos === 'string' && raw.pos.trim() ? raw.pos.trim() : '—',
     ipa: typeof raw.ipa === 'string' ? raw.ipa.trim() : '',
     meanings,
+    definition: typeof raw.definition === 'string' ? raw.definition.trim()
+                : (typeof raw.definitionEn === 'string' ? raw.definitionEn.trim()
+                : (typeof raw.englishDefinition === 'string' ? raw.englishDefinition.trim() : '')),
     example: typeof raw.example === 'string' ? raw.example.trim() : '',
     exampleZh: typeof raw.exampleZh === 'string' ? raw.exampleZh.trim()
               : (typeof raw.example_zh === 'string' ? raw.example_zh.trim() : ''),
@@ -209,7 +213,7 @@ export function getLastBackupTime(vaultId: VaultId): number | null {
 /* ───────────── Default pack loading ───────────── */
 
 const DEFAULT_PACK_LOADED_KEY = 'rzy.defaultPackLoaded';
-const DEFAULT_PACK_VERSION = 2;
+const DEFAULT_PACK_VERSION = 3;
 
 export function isDefaultPackLoaded(vaultId: VaultId): boolean {
   const raw = localStorage.getItem(DEFAULT_PACK_LOADED_KEY);

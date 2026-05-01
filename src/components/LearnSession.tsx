@@ -103,13 +103,22 @@ export default function LearnSession({ words, onFinish, onQuit }: Props) {
           </div>
         </div>
 
+        {current.definition && (
+          <div className="mb-7 rounded-2xl bg-cream/70 border border-line px-4 py-3">
+            <div className="text-xs uppercase tracking-wider text-mute mb-1.5">English definition</div>
+            <p className="font-display text-lg text-ink leading-relaxed">
+              {current.definition}
+            </p>
+          </div>
+        )}
+
         {/* Example */}
         <div className="pt-5 border-t border-line">
           <div className="text-xs uppercase tracking-wider text-mute mb-2">例句</div>
-          <p className="font-display text-lg leading-snug mb-2">
+          <p className="font-display text-xl md:text-2xl leading-snug mb-2">
             {highlightTarget(current.example, current.word)}
           </p>
-          <p className="font-zh text-sm text-mute leading-relaxed">{current.exampleZh}</p>
+          <p className="font-zh text-base md:text-lg text-mute leading-relaxed">{current.exampleZh}</p>
         </div>
       </div>
 

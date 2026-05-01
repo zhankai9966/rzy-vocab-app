@@ -211,7 +211,7 @@ export default function TestSession({ vaultId, words, mode, onFinish, onQuit }: 
             <div className="pt-2 border-t border-line">
               <div className="text-xs uppercase tracking-wider text-mute mb-1.5">例句</div>
               <div className="flex items-start gap-2 mb-1">
-                <p className="font-display text-base leading-snug flex-1">
+                <p className="font-display text-lg md:text-xl leading-snug flex-1">
                   {current.word.example}
                 </p>
                 <button
@@ -225,7 +225,7 @@ export default function TestSession({ vaultId, words, mode, onFinish, onQuit }: 
                 </button>
               </div>
               {current.word.exampleZh && (
-                <p className="text-sm text-mute">{current.word.exampleZh}</p>
+                <p className="font-zh text-base md:text-lg text-mute leading-relaxed">{current.word.exampleZh}</p>
               )}
             </div>
           )}

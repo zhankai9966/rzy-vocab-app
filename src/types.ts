@@ -3,6 +3,7 @@ export interface Word {
   pos: string;
   ipa: string;
   meanings: string[];
+  definition: string;
   example: string;
   exampleZh: string;
 }
