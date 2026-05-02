@@ -3,17 +3,40 @@ function escapeRegex(text: string) {
 }
 
 function buildAlternatives(target: string) {
-  const t = target.trim().toLowerCase();
+  const original = target.trim();
+  const t = original.toLowerCase();
   const alternatives = new Set<string>();
   if (!t) return alternatives;
 
+  alternatives.add(original);
   alternatives.add(t);
+  alternatives.add(t.replace(/-/g, ' '));
+  alternatives.add(t.replace(/\s+/g, '-'));
+
+  const irregulars: Record<string, string[]> = {
+    hide: ['hid', 'hidden'],
+    shoot: ['shot'],
+    undertake: ['undertook', 'undertaken'],
+    pad: ['notepad'],
+    site: ['website'],
+  };
+  irregulars[t]?.forEach(form => alternatives.add(form));
 
   if (/^[a-z]+$/.test(t)) {
     alternatives.add(t + 's');
     alternatives.add(t + 'es');
     alternatives.add(t + 'ed');
     alternatives.add(t + 'ing');
+
+    if (/[^aeiou][aeiou][^aeiouwxy]$/.test(t)) {
+      const doubled = t + t[t.length - 1];
+      alternatives.add(doubled + 'ed');
+      alternatives.add(doubled + 'ing');
+    }
+    if (t.endsWith('l')) {
+      alternatives.add(t + 'led');
+      alternatives.add(t + 'ling');
+    }
 
     if (t.endsWith('e')) {
       const stem = t.slice(0, -1);
@@ -60,7 +83,7 @@ export default function HighlightedExample({
     nodes.push(
       <span
         key={`hit-${wordStart}`}
-        className="rounded-md border-[4px] border-rose px-1 text-amber font-medium leading-normal box-decoration-clone [-webkit-box-decoration-break:clone]"
+        className="rounded-md bg-amber/10 px-1.5 text-amber font-semibold leading-normal box-decoration-clone [-webkit-box-decoration-break:clone]"
       >
         {word}
       </span>

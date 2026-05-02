@@ -1508,8 +1508,8 @@
       "pos": "n.",
       "ipa": "/ˈdɒkə/",
       "meanings": [
-        "Docker",
-        "容器化平台"
+        "容器化平台",
+        "Docker"
       ],
       "definition": "",
       "example": "Docker layers make rebuilds fast — only changed layers get repushed.",
@@ -2004,8 +2004,8 @@
       "pos": "n.",
       "ipa": "/ɡɪt/",
       "meanings": [
-        "Git",
-        "分布式版本控制"
+        "分布式版本控制",
+        "Git"
       ],
       "definition": "",
       "example": "Git blame shows who last touched the parser regex before it broke.",
@@ -2088,8 +2088,8 @@
       "pos": "n.",
       "ipa": "/ˈɡræfɪkəl/",
       "meanings": [
-        "GraphQL",
-        "图形查询语言"
+        "图形查询语言",
+        "GraphQL"
       ],
       "definition": "",
       "example": "GraphQL queries let clients fetch exactly the fields they need in one request.",
@@ -2100,8 +2100,8 @@
       "pos": "abbr.",
       "ipa": "/ˈɡʌrp siː/",
       "meanings": [
-        "gRPC",
-        "Google远程过程调用"
+        "Google远程过程调用",
+        "gRPC"
       ],
       "definition": "",
       "example": "gRPC cuts latency by half compared to REST for inter-service log shipping.",
@@ -2172,8 +2172,8 @@
       "pos": "n.",
       "ipa": "/helm/",
       "meanings": [
-        "Helm",
-        "Kubernetes包管理器"
+        "Kubernetes包管理器",
+        "Helm"
       ],
       "definition": "",
       "example": "Helm charts version every K8s deployment so rollbacks are one command away.",
@@ -2555,8 +2555,8 @@
       "pos": "n.",
       "ipa": "/ˈkɜːbərəs/",
       "meanings": [
-        "Kerberos",
-        "网络认证协议"
+        "网络认证协议",
+        "Kerberos"
       ],
       "definition": "",
       "example": "Kerberos logs show a Golden Ticket was forged for the domain admin account.",
@@ -2579,8 +2579,8 @@
       "pos": "n.",
       "ipa": "/ˌkuːbərˈnetiːz/",
       "meanings": [
-        "Kubernetes",
-        "K8s容器编排平台"
+        "K8s容器编排平台",
+        "Kubernetes"
       ],
       "definition": "",
       "example": "Kubernetes schedules our log collectors across five worker nodes right now.",
@@ -3507,8 +3507,8 @@
       "pos": "n.",
       "ipa": "/pɒd/",
       "meanings": [
-        "Pod",
-        "容器组"
+        "容器组",
+        "Pod"
       ],
       "definition": "",
       "example": "CrashLoopBackOff usually means the Pod cannot mount the log volume.",
@@ -3961,8 +3961,8 @@
       "pos": "n.",
       "ipa": "/ˈruːtkɪt/",
       "meanings": [
-        "Rootkit",
-        "根套件"
+        "根套件",
+        "Rootkit"
       ],
       "definition": "Malware designed to hide itself and maintain privileged access.",
       "example": "The rootkit hid malicious processes from normal monitoring tools.",
@@ -4397,8 +4397,8 @@
       "pos": "n.",
       "ipa": "/spɑːk/",
       "meanings": [
-        "Spark",
-        "大数据计算引擎"
+        "大数据计算引擎",
+        "Spark"
       ],
       "definition": "",
       "example": "Spark jobs process yesterday's batch logs for compliance reporting.",
@@ -4757,9 +4757,9 @@
       "pos": "n.",
       "ipa": "/trænsˈfɔːmə/",
       "meanings": [
-        "Transformer",
         "转换器",
-        "变压器"
+        "变压器",
+        "Transformer"
       ],
       "definition": "",
       "example": "The Transformer architecture powers most modern NLP threat intel parsers.",

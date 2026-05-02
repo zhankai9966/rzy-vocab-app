@@ -11,6 +11,14 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+function isChineseMeaning(meaning: string): boolean {
+  return /[\u4e00-\u9fff]/.test(meaning) && !/[?]{3,}/.test(meaning);
+}
+
+function getQuizMeaning(word: Word): string | null {
+  return word.meanings.map(m => m.trim()).find(isChineseMeaning) ?? null;
+}
+
 /**
  * Draw N words from a vault, prioritising:
  *   0. Due review words
@@ -58,14 +66,15 @@ export async function drawSession(vaultId: VaultId, n: number = 10): Promise<Wor
 
 /** Build a quiz question with 4 Chinese options, 1 correct */
 export function buildQuiz(target: Word, pool: Word[]): QuizQuestion {
-  const correct = target.meanings[0];
+  const correct = getQuizMeaning(target) ?? target.meanings[0];
   const sameType = pool.filter(w => w.word !== target.word && w.pos === target.pos);
   const others = pool.filter(w => w.word !== target.word && w.pos !== target.pos);
   const picks: string[] = [];
   const used = new Set([correct]);
   const candidates = shuffle(sameType.length >= 3 ? sameType : [...sameType, ...others]);
   for (const c of candidates) {
-    const m = c.meanings[0];
+    const m = getQuizMeaning(c);
+    if (!m) continue;
     if (!used.has(m)) {
       picks.push(m);
       used.add(m);
