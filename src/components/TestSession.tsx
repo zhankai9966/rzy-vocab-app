@@ -146,7 +146,7 @@ export default function TestSession({ vaultId, words, mode, onFinish, onQuit }: 
       </div>
 
       <div key={position} className="card p-7 animate-fade-up">
-        <div className="text-xs uppercase tracking-wider text-mute mb-2">
+        <div className="text-sm font-semibold text-mute mb-2">
           {current.isReQuiz ? '错过的词,再试一次' : '选择正确的中文释义'}
         </div>
         <div className="flex items-baseline gap-3 mb-1">
@@ -209,7 +209,7 @@ export default function TestSession({ vaultId, words, mode, onFinish, onQuit }: 
           )}
           {current.word.example && (
             <div className="pt-2 border-t border-line">
-              <div className="text-xs uppercase tracking-wider text-mute mb-1.5">例句</div>
+              <div className="text-sm font-semibold text-mute mb-1.5">【例句】</div>
               <div className="flex items-start gap-2 mb-1">
                 <p className="font-display text-lg md:text-xl leading-snug flex-1">
                   {current.word.example}

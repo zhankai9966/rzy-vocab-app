@@ -3,6 +3,7 @@ export interface Word {
   pos: string;
   ipa: string;
   meanings: string[];
+  fullForm?: string;
   definition: string;
   example: string;
   exampleZh: string;
@@ -11,7 +12,7 @@ export interface Word {
 export type VaultId = 'longman3000' | 'rzy';
 
 export const VAULT_LABELS: Record<VaultId, string> = {
-  longman3000: '朗曼 3000',
+  longman3000: '朗曼词库',
   rzy: 'rzy · IT',
 };
 

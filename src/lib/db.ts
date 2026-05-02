@@ -42,7 +42,8 @@ export async function getVaultWords(vaultId: VaultId): Promise<Word[]> {
   const rows = await db.words.where('vaultId').equals(vaultId).toArray();
   return rows.map(r => ({
     word: r.word, pos: r.pos, ipa: r.ipa,
-    meanings: r.meanings, definition: r.definition ?? '',
+    meanings: r.meanings, fullForm: r.fullForm ?? '',
+    definition: r.definition ?? '',
     example: r.example, exampleZh: r.exampleZh,
   }));
 }
@@ -83,10 +84,13 @@ function validateWord(raw: any): { ok: true; word: Word } | { ok: false; reason:
     return { ok: false, reason: '缺少 meanings(中文释义)' };
   }
   const w: Word = {
-    word: raw.word.trim().toLowerCase(),
+    word: raw.word.trim(),
     pos: typeof raw.pos === 'string' && raw.pos.trim() ? raw.pos.trim() : '—',
     ipa: typeof raw.ipa === 'string' ? raw.ipa.trim() : '',
     meanings,
+    fullForm: typeof raw.fullForm === 'string' ? raw.fullForm.trim()
+              : (typeof raw.full_form === 'string' ? raw.full_form.trim()
+              : (typeof raw.expansion === 'string' ? raw.expansion.trim() : '')),
     definition: typeof raw.definition === 'string' ? raw.definition.trim()
                 : (typeof raw.definitionEn === 'string' ? raw.definitionEn.trim()
                 : (typeof raw.englishDefinition === 'string' ? raw.englishDefinition.trim() : '')),
@@ -213,14 +217,21 @@ export function getLastBackupTime(vaultId: VaultId): number | null {
 /* ───────────── Default pack loading ───────────── */
 
 const DEFAULT_PACK_LOADED_KEY = 'rzy.defaultPackLoaded';
-const DEFAULT_PACK_VERSION = 3;
+const DEFAULT_PACK_VERSION: Record<VaultId, number> = {
+  longman3000: 3,
+  rzy: 1,
+};
+const DEFAULT_PACK_FILE: Record<VaultId, string> = {
+  longman3000: 'default.json',
+  rzy: 'rzy-it.json',
+};
 
 export function isDefaultPackLoaded(vaultId: VaultId): boolean {
   const raw = localStorage.getItem(DEFAULT_PACK_LOADED_KEY);
   if (!raw) return false;
   try {
     const obj = JSON.parse(raw);
-    return obj[vaultId] === DEFAULT_PACK_VERSION;
+    return obj[vaultId] === DEFAULT_PACK_VERSION[vaultId];
   } catch { return false; }
 }
 
@@ -228,7 +239,7 @@ export function markDefaultPackLoaded(vaultId: VaultId) {
   const raw = localStorage.getItem(DEFAULT_PACK_LOADED_KEY);
   let obj: Record<string, number> = {};
   if (raw) { try { obj = JSON.parse(raw); } catch {} }
-  obj[vaultId] = DEFAULT_PACK_VERSION;
+  obj[vaultId] = DEFAULT_PACK_VERSION[vaultId];
   localStorage.setItem(DEFAULT_PACK_LOADED_KEY, JSON.stringify(obj));
 }
 
@@ -236,7 +247,7 @@ export async function loadDefaultPack(
   vaultId: VaultId,
   options: { replaceWords?: boolean } = {},
 ): Promise<WordPackImportResult> {
-  const url = `${import.meta.env.BASE_URL}wordpacks/default.json`;
+  const url = `${import.meta.env.BASE_URL}wordpacks/${DEFAULT_PACK_FILE[vaultId]}`;
   const resp = await fetch(url);
   if (!resp.ok) throw new Error('下载默认词包失败,请检查网络。');
   const json = await resp.json();

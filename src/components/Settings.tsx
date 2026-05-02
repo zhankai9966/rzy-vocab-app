@@ -62,10 +62,6 @@ export default function Settings({ vaultId, onBack }: Props) {
   }
 
   async function handleLoadDefault() {
-    if (vaultId !== 'longman3000') {
-      alert('默认词包只对「朗曼 3000」词库可用。');
-      return;
-    }
     setBusy(true);
     try {
       const r = await loadDefaultPack(vaultId, { replaceWords: true });
@@ -125,13 +121,13 @@ export default function Settings({ vaultId, onBack }: Props) {
           >
             {busy ? '处理中…' : '选择词包文件 →'}
           </button>
-          {vaultId === 'longman3000' && !isDefaultPackLoaded(vaultId) && (
+          {!isDefaultPackLoaded(vaultId) && (
             <button
               onClick={handleLoadDefault}
               disabled={busy}
               className="btn-ghost text-sm"
             >
-              加载默认词包(401 词)
+              加载内置词库
             </button>
           )}
           {wordCount > 0 && (

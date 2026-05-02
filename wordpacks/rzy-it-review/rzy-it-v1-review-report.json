@@ -1,0 +1,516 @@
+{
+  "formalSourceFiles": [
+    "01-rzy-security-operations.json",
+    "02-rzy-log-analysis-siem.json",
+    "03-rzy-cloud-devops-ai.json",
+    "04-rzy-infra-ai-general.json",
+    "05-rzy-advanced-security-cloud.json"
+  ],
+  "inputRows": 449,
+  "outputWords": 419,
+  "duplicateWords": 30,
+  "abbreviationWords": 39,
+  "missingTargetInExampleApprox": 72,
+  "duplicateSample": [
+    {
+      "word": "reconnaissance",
+      "files": [
+        "01-rzy-security-operations.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "exfiltration",
+      "files": [
+        "01-rzy-security-operations.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "lateral",
+      "files": [
+        "01-rzy-security-operations.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "playbook",
+      "files": [
+        "01-rzy-security-operations.json",
+        "02-rzy-log-analysis-siem.json"
+      ]
+    },
+    {
+      "word": "compliance",
+      "files": [
+        "01-rzy-security-operations.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "governance",
+      "files": [
+        "01-rzy-security-operations.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "soc",
+      "files": [
+        "01-rzy-security-operations.json",
+        "02-rzy-log-analysis-siem.json"
+      ]
+    },
+    {
+      "word": "siem",
+      "files": [
+        "01-rzy-security-operations.json",
+        "02-rzy-log-analysis-siem.json"
+      ]
+    },
+    {
+      "word": "soar",
+      "files": [
+        "01-rzy-security-operations.json",
+        "02-rzy-log-analysis-siem.json"
+      ]
+    },
+    {
+      "word": "ueba",
+      "files": [
+        "01-rzy-security-operations.json",
+        "02-rzy-log-analysis-siem.json"
+      ]
+    },
+    {
+      "word": "edr",
+      "files": [
+        "01-rzy-security-operations.json",
+        "05-rzy-advanced-security-cloud.json"
+      ]
+    },
+    {
+      "word": "ndr",
+      "files": [
+        "01-rzy-security-operations.json",
+        "05-rzy-advanced-security-cloud.json"
+      ]
+    },
+    {
+      "word": "xdr",
+      "files": [
+        "01-rzy-security-operations.json",
+        "05-rzy-advanced-security-cloud.json"
+      ]
+    },
+    {
+      "word": "ips",
+      "files": [
+        "01-rzy-security-operations.json",
+        "05-rzy-advanced-security-cloud.json"
+      ]
+    },
+    {
+      "word": "ids",
+      "files": [
+        "01-rzy-security-operations.json",
+        "05-rzy-advanced-security-cloud.json"
+      ]
+    },
+    {
+      "word": "hardening",
+      "files": [
+        "01-rzy-security-operations.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "sandbox",
+      "files": [
+        "01-rzy-security-operations.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "ttp",
+      "files": [
+        "01-rzy-security-operations.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "indicator",
+      "files": [
+        "01-rzy-security-operations.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "escalation",
+      "files": [
+        "01-rzy-security-operations.json",
+        "02-rzy-log-analysis-siem.json"
+      ]
+    },
+    {
+      "word": "mfa",
+      "files": [
+        "01-rzy-security-operations.json",
+        "05-rzy-advanced-security-cloud.json"
+      ]
+    },
+    {
+      "word": "ztna",
+      "files": [
+        "01-rzy-security-operations.json",
+        "05-rzy-advanced-security-cloud.json"
+      ]
+    },
+    {
+      "word": "predictive",
+      "files": [
+        "01-rzy-security-operations.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "resilience",
+      "files": [
+        "01-rzy-security-operations.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "audit",
+      "files": [
+        "01-rzy-security-operations.json",
+        "02-rzy-log-analysis-siem.json"
+      ]
+    },
+    {
+      "word": "payload",
+      "files": [
+        "01-rzy-security-operations.json",
+        "02-rzy-log-analysis-siem.json"
+      ]
+    },
+    {
+      "word": "honeypot",
+      "files": [
+        "01-rzy-security-operations.json",
+        "05-rzy-advanced-security-cloud.json"
+      ]
+    },
+    {
+      "word": "runbook",
+      "files": [
+        "02-rzy-log-analysis-siem.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "repository",
+      "files": [
+        "02-rzy-log-analysis-siem.json",
+        "03-rzy-cloud-devops-ai.json"
+      ]
+    },
+    {
+      "word": "ci/cd",
+      "files": [
+        "03-rzy-cloud-devops-ai.json",
+        "04-rzy-infra-ai-general.json"
+      ]
+    }
+  ],
+  "missingTargetSample": [
+    {
+      "word": "adversary",
+      "example": "Our attack surface grew after the cloud migration. More exposure."
+    },
+    {
+      "word": "agent",
+      "example": "Being reactive is expensive. You only respond after damage is done."
+    },
+    {
+      "word": "APM",
+      "example": "Spark jobs process yesterday's batch logs for compliance reporting."
+    },
+    {
+      "word": "artifact",
+      "example": "Average breakout time is now 48 minutes. We need faster detection."
+    },
+    {
+      "word": "assessment",
+      "example": "The defense strategy focuses on early detection. Kill it fast."
+    },
+    {
+      "word": "attack surface",
+      "example": "Follow the kill chain step by step. Find where they first got in."
+    },
+    {
+      "word": "audit",
+      "example": "The attacker used a supply chain tactic. Compromised a trusted vendor."
+    },
+    {
+      "word": "authenticat",
+      "example": "Microsoft released a critical patch. Deploy it to all Windows hosts today."
+    },
+    {
+      "word": "authoriz",
+      "example": "Quarantine that laptop immediately. It has malware signatures detected."
+    },
+    {
+      "word": "backdoor",
+      "example": "The ZTNA gateway rejected the connection. Device posture check failed."
+    },
+    {
+      "word": "blacklist",
+      "example": "Their TTP matches what we saw last month. Same group, probably."
+    },
+    {
+      "word": "blast radius",
+      "example": "CVE-2026-2843 is actively exploited. CISA added it to the KEV catalog."
+    },
+    {
+      "word": "block",
+      "example": "Threat intel says this IP is linked to APT29. Let's dig deeper."
+    },
+    {
+      "word": "botnet",
+      "example": "Pull the triage report. I need to know how many critical alerts we have."
+    },
+    {
+      "word": "breakout time",
+      "example": "That vulnerability scores 9.1 on CVSS. Critical, needs immediate patching."
+    },
+    {
+      "word": "context",
+      "example": "RBAC is misconfigured here. interns shouldn't have write access."
+    },
+    {
+      "word": "CVE",
+      "example": "The attacker gained root privilege. Full control of the system."
+    },
+    {
+      "word": "CVSS",
+      "example": "Privilege escalation was detected. A normal user became admin somehow."
+    },
+    {
+      "word": "DDoS",
+      "example": "The NDR sensor flagged C2 beaconing. Regular callbacks to a foreign IP."
+    },
+    {
+      "word": "deduplication",
+      "example": "SSO makes life easier. One login, access to all internal apps."
+    },
+    {
+      "word": "digital",
+      "example": "Update the password policy. Minimum 16 characters, no dictionary words."
+    },
+    {
+      "word": "escalation",
+      "example": "Deduplication reduced our alert volume by 60%. Same events grouped."
+    },
+    {
+      "word": "exploitation",
+      "example": "Triage these 200 alerts first. Focus on critical and high severity."
+    },
+    {
+      "word": "false negative",
+      "example": "Server hardening is done. Unnecessary ports closed, patches applied."
+    },
+    {
+      "word": "false positive",
+      "example": "Authorize only the security team to access raw logs. Role-based access."
+    },
+    {
+      "word": "framework",
+      "example": "The payload delivered a Cobalt Strike beacon. Classic APT toolset."
+    },
+    {
+      "word": "hardening",
+      "example": "Let's run the suspicious file in a sandbox. See what it actually does."
+    },
+    {
+      "word": "honeypot",
+      "example": "This was a false positive, right? The user was just doing their job."
+    },
+    {
+      "word": "IDS",
+      "example": "This alert is a false positive. The user was just working late from home."
+    },
+    {
+      "word": "indicator",
+      "example": "The blast radius is limited to two subnets. Could have been much worse."
+    },
+    {
+      "word": "intelligence",
+      "example": "The adversary used a stolen API key. No brute force needed at all."
+    },
+    {
+      "word": "IOC",
+      "example": "This indicator points to a Cobalt Strike beacon. We need to find the C2."
+    },
+    {
+      "word": "IPS",
+      "example": "We outsourced threat detection to an MDR provider. They handle overnight shifts."
+    },
+    {
+      "word": "isolation",
+      "example": "The blacklist was updated with 500 new malicious domains. Pull the latest."
+    },
+    {
+      "word": "ITDR",
+      "example": "False negative is worse than false positive. You miss a real attack."
+    },
+    {
+      "word": "kill chain",
+      "example": "Active exploitation was confirmed. Someone's already using this in the wild."
+    },
+    {
+      "word": "managed",
+      "example": "Predictive analytics spotted the pattern early. We blocked it before impact."
+    },
+    {
+      "word": "maturity",
+      "example": "A rootkit was found on the server. It hid processes from normal tools."
+    },
+    {
+      "word": "MDR",
+      "example": "The system failed to authenticate the service account. Password expired."
+    },
+    {
+      "word": "MFA",
+      "example": "ZTNA replaces the old VPN. No more full network access for remote users."
+    },
+    {
+      "word": "MSSP",
+      "example": "Add shielding rules for the new web app. Protect against SQL injection."
+    },
+    {
+      "word": "NDR",
+      "example": "XDR gives us visibility across endpoint, network, and cloud. Unified view."
+    },
+    {
+      "word": "patch",
+      "example": "Network isolation is active. The infected VLAN can't reach anything else."
+    },
+    {
+      "word": "payload",
+      "example": "Set up a honeypot in the DMZ. Let's see who tries to poke at it."
+    },
+    {
+      "word": "policy",
+      "example": "The attack vector was a phishing email. User clicked the link."
+    },
+    {
+      "word": "posture",
+      "example": "Our SOC maturity is level 3. We need to reach level 4 by year-end."
+    },
+    {
+      "word": "predictive",
+      "example": "The risk assessment shows medium risk. Acceptable for now."
+    },
+    {
+      "word": "privilege",
+      "example": "Enable alert suppression for known maintenance windows. Cut the noise."
+    },
+    {
+      "word": "proactive",
+      "example": "Digital resilience is our top priority this year. Survive any disruption."
+    },
+    {
+      "word": "quarantine",
+      "example": "Block that IP range at the edge firewall. It's been scanning us for hours."
+    },
+    {
+      "word": "RAG",
+      "example": "APM traces showed the 3-second delay came from the auth service lookup."
+    },
+    {
+      "word": "RBAC",
+      "example": "Deploy the new agent to all endpoints. Push it through the management console."
+    },
+    {
+      "word": "reactive",
+      "example": "Our security posture improved after the audit. But we still have gaps."
+    },
+    {
+      "word": "resilience",
+      "example": "NIST framework guides our security program. We follow CSF guidelines."
+    },
+    {
+      "word": "rootkit",
+      "example": "Backdoor access was found on port 4444. Reverse shell from the attacker."
+    },
+    {
+      "word": "sandbox",
+      "example": "Add the known good IPs to the whitelist. Stop them from triggering alerts."
+    },
+    {
+      "word": "shielding",
+      "example": "Internal audit starts next Monday. Prepare all access logs and policies."
+    },
+    {
+      "word": "spark",
+      "example": "Serverless architecture offloads log preprocessing to Lambda functions."
+    },
+    {
+      "word": "SSO",
+      "example": "The VPN tunnel dropped three times today. Check the gateway logs."
+    },
+    {
+      "word": "strategy",
+      "example": "Trojan disguised as a PDF invoice. User opened it and got infected."
+    },
+    {
+      "word": "suppression",
+      "example": "MFA is enforced for all admin accounts. No exceptions, no excuses."
+    },
+    {
+      "word": "tactic",
+      "example": "DDoS hit our CDN edge. Traffic peaked at 500 Gbps. Mitigation kicked in."
+    },
+    {
+      "word": "training",
+      "example": "XAI explanations help auditors understand why the model flagged that login."
+    },
+    {
+      "word": "triage",
+      "example": "Without proper context, this alert is meaningless. We need more metadata."
+    },
+    {
+      "word": "trojan",
+      "example": "Deploy a new EDR agent on the laptop. The old one stopped reporting."
+    },
+    {
+      "word": "TTP",
+      "example": "Collect all forensic artifacts. Memory dump, disk image, and network logs."
+    },
+    {
+      "word": "vector",
+      "example": "The botnet has 10,000 infected devices. Mostly IoT cameras and routers."
+    },
+    {
+      "word": "VPN",
+      "example": "We need to be proactive, not reactive. Stop threats before they hit us."
+    },
+    {
+      "word": "whitelist",
+      "example": "The IOC list just updated. 20 new file hashes and 15 malicious IPs."
+    },
+    {
+      "word": "XAI",
+      "example": "RAG retrieves relevant runbook sections to answer the analyst's question."
+    },
+    {
+      "word": "XDR",
+      "example": "ITDR monitors identity infrastructure. It caught a brute-force on Azure AD."
+    },
+    {
+      "word": "ZTNA",
+      "example": "Managed services cut our workload in half. The MSSP handles overnight alerts."
+    }
+  ]
+}

@@ -13,9 +13,9 @@ export default defineConfig({
         navigateFallback: '/index.html',
       },
       manifest: {
-        name: 'rzy 词汇 · 双词库背单词',
-        short_name: 'rzy 词汇',
-        description: '本地化背单词应用 - 朗曼基础 + IT 专业词',
+        name: '远航英语学习',
+        short_name: '远航英语',
+        description: '本地化英语学习应用 - 朗曼词库 + rzy-IT 专业词库',
         theme_color: '#faf6f0',
         background_color: '#faf6f0',
         display: 'standalone',

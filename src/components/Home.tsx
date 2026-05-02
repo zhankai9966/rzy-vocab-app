@@ -46,8 +46,7 @@ export default function Home({ vaultId, onStart, onReviewDue }: Props) {
   useEffect(() => {
     const defaultLoaded = isDefaultPackLoaded(vaultId);
     if (
-      vaultId !== 'longman3000'
-      || !wordCountReady
+      !wordCountReady
       || defaultLoaded
       || autoLoadVaultRef.current === vaultId
       || loading
@@ -90,6 +89,8 @@ export default function Home({ vaultId, onStart, onReviewDue }: Props) {
 
   const isEmpty = wordCount === 0;
   const isLongman = vaultId === 'longman3000';
+  const isRzy = vaultId === 'rzy';
+  const hasBuiltInPack = isLongman || isRzy;
   const defaultLoaded = isDefaultPackLoaded(vaultId);
 
   return (
@@ -103,6 +104,8 @@ export default function Home({ vaultId, onStart, onReviewDue }: Props) {
           <EmptyVaultPrompt
             vaultId={vaultId}
             isLongman={isLongman}
+            isRzy={isRzy}
+            hasBuiltInPack={hasBuiltInPack}
             defaultLoaded={defaultLoaded}
             loading={loading || autoLoading}
             autoLoading={autoLoading}
@@ -197,10 +200,12 @@ export default function Home({ vaultId, onStart, onReviewDue }: Props) {
 }
 
 function EmptyVaultPrompt({
-  vaultId, isLongman, defaultLoaded, loading, autoLoading, onLoadDefault, error,
+  vaultId, isLongman, isRzy, hasBuiltInPack, defaultLoaded, loading, autoLoading, onLoadDefault, error,
 }: {
   vaultId: VaultId;
   isLongman: boolean;
+  isRzy: boolean;
+  hasBuiltInPack: boolean;
   defaultLoaded: boolean;
   loading: boolean;
   autoLoading: boolean;
@@ -214,17 +219,19 @@ function EmptyVaultPrompt({
       </h1>
       <p className="text-sm text-mute leading-relaxed mb-5">
         {isLongman
-          ? '正在为新用户准备内置的朗曼 3000 完整词库。已有词库数据时不会自动覆盖。'
-          : '可以在「设置」里导入你自己的词包(如 IT 专业词)。'}
+          ? '正在为你准备内置的朗曼基础词库。升级词库时会保留复习计划。'
+          : isRzy
+          ? '正在为你准备内置的 rzy-IT 专业词库。升级词库时会保留复习计划。'
+          : '可以在「设置」里导入你自己的词包。'}
       </p>
 
-      {isLongman && autoLoading && (
+      {hasBuiltInPack && autoLoading && (
         <div className="chip bg-amber/10 text-amber">
           正在加载内置词库...
         </div>
       )}
 
-      {isLongman && !defaultLoaded && !autoLoading && (
+      {hasBuiltInPack && !defaultLoaded && !autoLoading && (
         <button
           onClick={onLoadDefault}
           disabled={loading}
@@ -233,9 +240,9 @@ function EmptyVaultPrompt({
           {loading ? '加载中...' : '加载内置词库 →'}
         </button>
       )}
-      {isLongman && defaultLoaded && (
+      {hasBuiltInPack && defaultLoaded && (
         <p className="text-xs text-mute italic">
-          默认词包已加载过 — 如果需要重新加载,请到设置里清空词库后再试。
+          默认词包已加载过 - 如果需要重新加载,请到设置里清空词库后再试。
         </p>
       )}
       {error && (

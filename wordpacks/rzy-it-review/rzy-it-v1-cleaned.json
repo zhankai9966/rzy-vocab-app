@@ -1,0 +1,5032 @@
+{
+  "name": "rzy-IT Professional Vocabulary v1",
+  "version": 1,
+  "description": "Cleaned IT vocabulary pack for log analysis, SecOps, cloud, DevOps, AI, and solution-sales scenarios. Acronyms include fullForm where available.",
+  "source": "rzy-it-formal-packs",
+  "words": [
+    {
+      "word": "access",
+      "pos": "n./v.",
+      "ipa": "/ˈækses/",
+      "meanings": [
+        "访问",
+        "接入"
+      ],
+      "definition": "The ability or permission to connect to a system, data source, or application.",
+      "example": "Unauthorized access to the database was blocked. The rule worked.",
+      "exampleZh": "对数据库的未授权访问已被阻断。规则生效了。"
+    },
+    {
+      "word": "acquisition",
+      "pos": "n.",
+      "ipa": "/ˌækwɪˈzɪʃn/",
+      "meanings": [
+        "采集",
+        "获取",
+        "收购"
+      ],
+      "definition": "The process of collecting, obtaining, or bringing data into a system.",
+      "example": "Data acquisition from IoT sensors doubled after the factory upgrade.",
+      "exampleZh": "工厂升级后，从物联网传感器的数据采集量翻了一倍。"
+    },
+    {
+      "word": "actionable",
+      "pos": "adj.",
+      "ipa": "/ˈækʃənəbl/",
+      "meanings": [
+        "可操作的",
+        "可执行的"
+      ],
+      "definition": "Clear enough to support a concrete response, investigation, or business decision.",
+      "example": "Don't just send raw alerts — make them actionable with context and next steps.",
+      "exampleZh": "别只发原始告警——加上上下文和后续步骤，让它们可执行。"
+    },
+    {
+      "word": "adoption",
+      "pos": "n.",
+      "ipa": "/əˈdɒpʃn/",
+      "meanings": [
+        "采用",
+        "采纳",
+        "应用"
+      ],
+      "definition": "The process of starting to use a new technology, product, or operating model.",
+      "example": "Cloud adoption in our org jumped from 30% to 80% in just two years.",
+      "exampleZh": "我们组织的云采用率两年内从30%跳到了80%。"
+    },
+    {
+      "word": "adversary",
+      "pos": "n.",
+      "ipa": "/ˈædvəsəri/",
+      "meanings": [
+        "对手",
+        "攻击者"
+      ],
+      "definition": "A person, group, or organization that attempts to attack or compromise a system.",
+      "example": "The adversary used a stolen API key to access the cloud account.",
+      "exampleZh": "???????? API ?????????"
+    },
+    {
+      "word": "agent",
+      "pos": "n.",
+      "ipa": "/ˈeɪdʒənt/",
+      "meanings": [
+        "代理",
+        "探针"
+      ],
+      "definition": "",
+      "example": "Deploy the new agent to all endpoints through the management console.",
+      "exampleZh": "????????????????????"
+    },
+    {
+      "word": "agent-based",
+      "pos": "adj.",
+      "ipa": "/ˈeɪdʒənt beɪst/",
+      "meanings": [
+        "基于代理的"
+      ],
+      "definition": "",
+      "example": "Agent-based collection gives richer data but requires deployment on every host.",
+      "exampleZh": "基于代理的采集提供更丰富的数据，但需要在每个主机上部署。"
+    },
+    {
+      "word": "agentic",
+      "pos": "adj.",
+      "ipa": "/ˈeɪdʒəntɪk/",
+      "meanings": [
+        "代理的",
+        "自主代理的",
+        "智能体的"
+      ],
+      "definition": "",
+      "example": "Agentic AI systems can make decisions and take actions without human approval.",
+      "exampleZh": "自主代理式AI系统可以在没有人工审批的情况下做决策和执行操作。"
+    },
+    {
+      "word": "agentless",
+      "pos": "adj.",
+      "ipa": "/ˈeɪdʒəntləs/",
+      "meanings": [
+        "无代理的"
+      ],
+      "definition": "",
+      "example": "We went agentless for the network gear — just pull syslog over the wire.",
+      "exampleZh": "网络设备我们用无代理方式——直接通过网络拉取syslog。"
+    },
+    {
+      "word": "aggregate",
+      "pos": "v./adj.",
+      "ipa": "/ˈæɡrɪɡət/",
+      "meanings": [
+        "聚合",
+        "汇总",
+        "合计的"
+      ],
+      "definition": "",
+      "example": "We'll aggregate all the access logs by source IP to find the top talkers.",
+      "exampleZh": "我们会按源IP把所有访问日志聚合并找出流量最大的那几个。"
+    },
+    {
+      "word": "aggregation",
+      "pos": "n.",
+      "ipa": "/ˌæɡrɪˈɡeɪʃn/",
+      "meanings": [
+        "聚合",
+        "汇总"
+      ],
+      "definition": "",
+      "example": "Real-time aggregation gives us a 10,000-foot view of network traffic.",
+      "exampleZh": "实时聚合让我们能从宏观角度看清网络流量全貌。"
+    },
+    {
+      "word": "agile",
+      "pos": "adj.",
+      "ipa": "/ˈædʒaɪl/",
+      "meanings": [
+        "敏捷的"
+      ],
+      "definition": "",
+      "example": "We run agile two-week sprints, so new log sources get onboarded pretty fast.",
+      "exampleZh": "我们用敏捷的两周冲刺，所以新日志源接入得挺快的。"
+    },
+    {
+      "word": "agility",
+      "pos": "n.",
+      "ipa": "/əˈdʒɪlɪti/",
+      "meanings": [
+        "敏捷性",
+        "灵活性"
+      ],
+      "definition": "",
+      "example": "Organizational agility lets us pivot the product roadmap in a single sprint.",
+      "exampleZh": "组织敏捷性让我们能在一个冲刺内调整产品路线图。"
+    },
+    {
+      "word": "ai-amplified",
+      "pos": "adj.",
+      "ipa": "/ˌeɪ aɪ ˈæmplɪfaɪd/",
+      "meanings": [
+        "AI增强的"
+      ],
+      "definition": "",
+      "example": "Their ai-amplified threat detection caught the breach three hours faster than rules.",
+      "exampleZh": "他们的AI增强威胁检测比规则检测快了三个小时发现入侵。"
+    },
+    {
+      "word": "ai-driven",
+      "pos": "adj.",
+      "ipa": "/ˌeɪ aɪ ˈdrɪvn/",
+      "meanings": [
+        "AI驱动的"
+      ],
+      "definition": "",
+      "example": "The SOC moved to ai-driven triage — now only 5% of alerts need human eyes.",
+      "exampleZh": "SOC转向了AI驱动的分类——现在只有5%的告警需要人工查看。"
+    },
+    {
+      "word": "ai-powered",
+      "pos": "adj.",
+      "ipa": "/ˌeɪ aɪ ˈpaʊəd/",
+      "meanings": [
+        "AI赋能的",
+        "AI驱动的"
+      ],
+      "definition": "",
+      "example": "This ai-powered parser auto-detects log formats we have never seen before.",
+      "exampleZh": "这个AI赋能的解析器能自动检测我们从未见过的日志格式。"
+    },
+    {
+      "word": "AIOps",
+      "pos": "abbr.",
+      "ipa": "/ˈaɪ ɒps/",
+      "meanings": [
+        "智能运维",
+        "Artificial Intelligence for IT Operations"
+      ],
+      "definition": "",
+      "example": "AIOps cut our alert noise by 80% using ML to filter out false positives.",
+      "exampleZh": "AIOps用机器学习过滤误报，把我们的告警噪声减少了80%。"
+    },
+    {
+      "word": "air-gapped",
+      "pos": "adj.",
+      "ipa": "/ˈeə ɡæpt/",
+      "meanings": [
+        "气隙隔离的",
+        "物理隔离的"
+      ],
+      "definition": "",
+      "example": "The air-gapped network needs a physical data diode to export logs.",
+      "exampleZh": "气隙隔离的网络需要一个物理数据二极管来导出日志。"
+    },
+    {
+      "word": "alert",
+      "pos": "n./v.",
+      "ipa": "/əˈlɜːt/",
+      "meanings": [
+        "告警",
+        "警报",
+        "警告"
+      ],
+      "definition": "A notification generated when a rule, threshold, or detection logic finds something important.",
+      "example": "That alert fired like 200 times last night — the threshold is way too low.",
+      "exampleZh": "那个告警昨晚响了大概200次——阈值设得太低了。"
+    },
+    {
+      "word": "algorithms",
+      "pos": "n.",
+      "ipa": "/ˈælɡərɪðəmz/",
+      "meanings": [
+        "算法"
+      ],
+      "definition": "",
+      "example": "The clustering algorithms group similar failed login patterns automatically.",
+      "exampleZh": "聚类算法自动把相似的登录失败模式归在一起。"
+    },
+    {
+      "word": "allowlist",
+      "pos": "n./v.",
+      "ipa": "/ˈaʊlɪst/",
+      "meanings": [
+        "允许清单",
+        "白名单"
+      ],
+      "definition": "",
+      "example": "Allowlist only the three IPs that need RDP access to the jump server.",
+      "exampleZh": "只允许三个需要RDP访问跳板机的IP进入允许清单。"
+    },
+    {
+      "word": "analysis",
+      "pos": "n.",
+      "ipa": "/əˈnæləsɪs/",
+      "meanings": [
+        "分析"
+      ],
+      "definition": "",
+      "example": "Root cause analysis of the outage pointed to a misconfigured load balancer.",
+      "exampleZh": "对故障的根因分析指向了一个配置错误的负载均衡器。"
+    },
+    {
+      "word": "analytics",
+      "pos": "n.",
+      "ipa": "/ˌænəˈlɪtɪks/",
+      "meanings": [
+        "分析学",
+        "数据分析"
+      ],
+      "definition": "",
+      "example": "Security analytics turned our raw firewall logs into actionable intelligence.",
+      "exampleZh": "安全分析把我们的原始防火墙日志转化成了可操作的情报。"
+    },
+    {
+      "word": "annotate",
+      "pos": "v.",
+      "ipa": "/ˈænəteɪt/",
+      "meanings": [
+        "注释",
+        "标注"
+      ],
+      "definition": "",
+      "example": "Make sure to annotate any manual config changes in the log pipeline.",
+      "exampleZh": "日志管道里任何手动配置变更都记得标注一下。"
+    },
+    {
+      "word": "annotation",
+      "pos": "n.",
+      "ipa": "/ˌænəʊˈteɪʃn/",
+      "meanings": [
+        "注释",
+        "标注"
+      ],
+      "definition": "",
+      "example": "Add an annotation to the chart marking when the deployment happened.",
+      "exampleZh": "在图表上加个标注，标记一下发版的时间点。"
+    },
+    {
+      "word": "anomaly",
+      "pos": "n.",
+      "ipa": "/əˈnɒməli/",
+      "meanings": [
+        "异常",
+        "反常"
+      ],
+      "definition": "A behavior or event that is different from the expected baseline.",
+      "example": "The model caught an anomaly — a single IP generating 10x normal traffic at 2 AM.",
+      "exampleZh": "模型发现了一个异常——凌晨2点一个IP产生了10倍于正常水平的流量。"
+    },
+    {
+      "word": "API",
+      "pos": "abbr.",
+      "ipa": "/ˌeɪ piː ˈaɪ/",
+      "meanings": [
+        "应用程序接口",
+        "Application Programming Interface"
+      ],
+      "fullForm": "Application Programming Interface",
+      "definition": "A defined way for software systems to communicate with each other.",
+      "example": "The REST API returns parsed log fields as JSON — super easy to integrate.",
+      "exampleZh": "REST API把解析后的日志字段以JSON返回——集成起来非常容易。"
+    },
+    {
+      "word": "APM",
+      "pos": "abbr.",
+      "ipa": "/ˌeɪ piː ˈem/",
+      "meanings": [
+        "应用性能监控",
+        "Application Performance Monitoring"
+      ],
+      "fullForm": "Application Performance Monitoring",
+      "definition": "Tools and practices used to monitor application performance and user experience.",
+      "example": "APM traces showed the delay came from the authentication service.",
+      "exampleZh": "APM ?????????????"
+    },
+    {
+      "word": "APT",
+      "pos": "abbr.",
+      "ipa": "/ˌeɪ piː ˈtiː/",
+      "meanings": [
+        "高级持续性威胁",
+        "Advanced Persistent Threat"
+      ],
+      "fullForm": "Advanced Persistent Threat",
+      "definition": "",
+      "example": "The APT group stayed dormant for 60 days before activating the payload.",
+      "exampleZh": "那个高级持续性威胁组织休眠了60天才激活载荷。"
+    },
+    {
+      "word": "architecture",
+      "pos": "n.",
+      "ipa": "/ˈɑːkɪtektʃə/",
+      "meanings": [
+        "架构",
+        "体系结构"
+      ],
+      "definition": "",
+      "example": "The monolithic architecture made it hard to trace requests across modules.",
+      "exampleZh": "单体架构让跨模块追踪请求变得很困难。"
+    },
+    {
+      "word": "archival",
+      "pos": "adj.",
+      "ipa": "/ɑːˈkaɪvl/",
+      "meanings": [
+        "归档的",
+        "存档的"
+      ],
+      "definition": "",
+      "example": "The archival process runs every night at 2 AM to move old logs to S3.",
+      "exampleZh": "归档流程每天凌晨两点运行，把旧日志转到S3上去。"
+    },
+    {
+      "word": "archive",
+      "pos": "n./v.",
+      "ipa": "/ˈɑːkaɪv/",
+      "meanings": [
+        "归档",
+        "存档",
+        "档案"
+      ],
+      "definition": "",
+      "example": "Anything older than 90 days gets archived automatically to Glacier.",
+      "exampleZh": "超过90天的数据会自动归档到Glacier。"
+    },
+    {
+      "word": "artifact",
+      "pos": "n.",
+      "ipa": "/ˈɑːtɪfækt/",
+      "meanings": [
+        "产物",
+        "取证产物"
+      ],
+      "definition": "Evidence or output collected during an investigation, build, or security process.",
+      "example": "Collect every artifact from the host before rebuilding the server.",
+      "exampleZh": "?????????????????????"
+    },
+    {
+      "word": "ASM",
+      "pos": "abbr.",
+      "ipa": "/ˌeɪ es ˈem/",
+      "meanings": [
+        "攻击面管理",
+        "Attack Surface Management"
+      ],
+      "definition": "",
+      "example": "ASM discovered a forgotten subdomain still pointing to an old EC2 instance.",
+      "exampleZh": "攻击面管理发现了一个被遗忘的子域名仍指向旧EC2实例。"
+    },
+    {
+      "word": "assessment",
+      "pos": "n.",
+      "ipa": "/əˈsesmənt/",
+      "meanings": [
+        "评估",
+        "评定"
+      ],
+      "definition": "",
+      "example": "The risk assessment rated the exposed database as high priority.",
+      "exampleZh": "??????????????????"
+    },
+    {
+      "word": "attack",
+      "pos": "n./v.",
+      "ipa": "/əˈtæk/",
+      "meanings": [
+        "攻击",
+        "袭击"
+      ],
+      "definition": "An attempt to damage, disrupt, access, or compromise a system.",
+      "example": "The attack came from three different IPs at once. That's a coordinated strike.",
+      "exampleZh": "攻击同时来自三个不同的IP。这是有组织的协同打击。"
+    },
+    {
+      "word": "attack surface",
+      "pos": "n.",
+      "ipa": "/əˈtæk sɜːfɪs/",
+      "meanings": [
+        "攻击面"
+      ],
+      "definition": "All exposed systems, services, identities, and paths that an attacker could target.",
+      "example": "The attack surface grew after we exposed more APIs to partners.",
+      "exampleZh": "????????? API ?????????"
+    },
+    {
+      "word": "audit",
+      "pos": "n./v.",
+      "ipa": "/ˈɔːdɪt/",
+      "meanings": [
+        "审计",
+        "审核"
+      ],
+      "definition": "A formal review of systems, logs, controls, or processes for compliance and risk.",
+      "example": "The audit found that several admin accounts had no MFA enabled.",
+      "exampleZh": "??????????????? MFA?"
+    },
+    {
+      "word": "authenticat",
+      "pos": "v.",
+      "ipa": "/ɔːˈθentɪkeɪt/",
+      "meanings": [
+        "认证",
+        "验证身份"
+      ],
+      "definition": "",
+      "example": "The service failed to authenticat the expired service account.",
+      "exampleZh": "???????????????"
+    },
+    {
+      "word": "authoriz",
+      "pos": "v.",
+      "ipa": "/ˈɔːθəraɪz/",
+      "meanings": [
+        "授权",
+        "批准"
+      ],
+      "definition": "",
+      "example": "Authoriz only the security team to access raw investigation logs.",
+      "exampleZh": "????????????????"
+    },
+    {
+      "word": "auto-schematization",
+      "pos": "n.",
+      "ipa": "/ˌɔːtəʊ ˌskiːmətaɪˈzeɪʃn/",
+      "meanings": [
+        "自动模式化",
+        "自动结构生成"
+      ],
+      "definition": "",
+      "example": "Auto-schematization saves us weeks of manual field mapping for new sources.",
+      "exampleZh": "自动模式化帮我们省了数周的新源手动字段映射工作。"
+    },
+    {
+      "word": "automate",
+      "pos": "v.",
+      "ipa": "/ˈɔːtəmeɪt/",
+      "meanings": [
+        "自动化",
+        "使自动"
+      ],
+      "definition": "",
+      "example": "Let's automate the IoC blocklist push so it updates every hour without human touch.",
+      "exampleZh": "咱们把IoC黑名单推送自动化吧，这样每小时自动更新，不用人干预。"
+    },
+    {
+      "word": "automated",
+      "pos": "adj.",
+      "ipa": "/ˈɔːtəmeɪtɪd/",
+      "meanings": [
+        "自动化的"
+      ],
+      "definition": "",
+      "example": "Automated response means the firewall blocks the IP before the analyst even sees it.",
+      "exampleZh": "自动响应意味着防火墙在分析员看到之前就阻断了那个IP。"
+    },
+    {
+      "word": "automation",
+      "pos": "n.",
+      "ipa": "/ˌɔːtəˈmeɪʃn/",
+      "meanings": [
+        "自动化"
+      ],
+      "definition": "",
+      "example": "Automation cut our mean response time from 45 minutes down to under 5.",
+      "exampleZh": "自动化把我们的平均响应时间从45分钟降到了5分钟以内。"
+    },
+    {
+      "word": "automl",
+      "pos": "abbr.",
+      "ipa": "/ˌɔːtəʊ em el/",
+      "meanings": [
+        "自动机器学习",
+        "Automated Machine Learning"
+      ],
+      "definition": "",
+      "example": "We use AutoML to find the best anomaly model without hand-tuning parameters.",
+      "exampleZh": "我们用自动机器学习来找最佳异常模型，不用手动调参。"
+    },
+    {
+      "word": "autonomous",
+      "pos": "adj.",
+      "ipa": "/ɔːˈtɒnəməs/",
+      "meanings": [
+        "自主的",
+        "自治的"
+      ],
+      "definition": "",
+      "example": "Autonomous response loops are risky — we keep a human in the loop for now.",
+      "exampleZh": "自主响应循环有风险——目前我们保留人工介入环节。"
+    },
+    {
+      "word": "backdoor",
+      "pos": "n.",
+      "ipa": "/ˈbækdɔː(r)/",
+      "meanings": [
+        "后门"
+      ],
+      "definition": "A hidden method that allows unauthorized access to a system.",
+      "example": "The backdoor allowed the attacker to reconnect after reboot.",
+      "exampleZh": "???????????????????"
+    },
+    {
+      "word": "backlog",
+      "pos": "n.",
+      "ipa": "/ˈbæklɒɡ/",
+      "meanings": [
+        "待办清单",
+        "积压需求"
+      ],
+      "definition": "",
+      "example": "The vulnerability backlog has 200 open items — we are way behind on patching.",
+      "exampleZh": "漏洞积压清单有200个未处理项——我们补丁打得严重滞后。"
+    },
+    {
+      "word": "BAS",
+      "pos": "abbr.",
+      "ipa": "/ˌbiː eɪ ˈes/",
+      "meanings": [
+        "入侵与攻击模拟",
+        "Breach and Attack Simulation"
+      ],
+      "definition": "",
+      "example": "BAS ran 2,000 MITRE ATT&CK scenarios — 15% of our controls failed.",
+      "exampleZh": "入侵与攻击模拟跑了2000个MITRE ATT&CK场景——15%的防护控制失败了。"
+    },
+    {
+      "word": "baseline",
+      "pos": "n.",
+      "ipa": "/ˈbeɪslaɪn/",
+      "meanings": [
+        "基线",
+        "基准"
+      ],
+      "definition": "",
+      "example": "Establish a baseline first — without it, you can't tell what's actually abnormal.",
+      "exampleZh": "先建立基线——没有基线，你没法判断什么才是真正异常的。"
+    },
+    {
+      "word": "batch",
+      "pos": "n./adj.",
+      "ipa": "/bætʃ/",
+      "meanings": [
+        "批量",
+        "批次"
+      ],
+      "definition": "",
+      "example": "Batch processing runs every hour for compliance reports that don't need realtime.",
+      "exampleZh": "批量处理每小时跑一次，用于那些不需要实时的合规报告。"
+    },
+    {
+      "word": "benchmark",
+      "pos": "n./v.",
+      "ipa": "/ˈbentʃmɑːk/",
+      "meanings": [
+        "基准",
+        "基准测试"
+      ],
+      "definition": "",
+      "example": "Run a benchmark before and after optimization so we can prove the improvement.",
+      "exampleZh": "优化前后都跑个基准测试，这样我们就能证明改进效果。"
+    },
+    {
+      "word": "bias",
+      "pos": "n.",
+      "ipa": "/ˈbaɪəs/",
+      "meanings": [
+        "偏差",
+        "偏见",
+        "偏置"
+      ],
+      "definition": "",
+      "example": "Training data bias made the model flag Asian IPs disproportionately.",
+      "exampleZh": "训练数据偏差导致模型不成比例地标记亚洲IP。"
+    },
+    {
+      "word": "blacklist",
+      "pos": "n./v.",
+      "ipa": "/ˈblæklɪst/",
+      "meanings": [
+        "黑名单",
+        "列入黑名单"
+      ],
+      "definition": "A list of blocked or known-bad items such as IPs, domains, or file hashes.",
+      "example": "The blacklist was updated with 500 new malicious domains.",
+      "exampleZh": "?????? 500 ??????"
+    },
+    {
+      "word": "blast radius",
+      "pos": "n.",
+      "ipa": "/blɑːst ˈreɪdiəs/",
+      "meanings": [
+        "爆炸半径",
+        "影响范围"
+      ],
+      "definition": "The total scope of damage or impact caused by an incident or failure.",
+      "example": "The blast radius was limited to two subnets after segmentation.",
+      "exampleZh": "?????????????????"
+    },
+    {
+      "word": "blast-radius",
+      "pos": "n.",
+      "ipa": "/ˈblɑːst ˌreɪdiəs/",
+      "meanings": [
+        "爆炸半径",
+        "影响范围"
+      ],
+      "definition": "",
+      "example": "Isolate the subnet to limit the blast-radius before the worm spreads further.",
+      "exampleZh": "在蠕虫扩散之前隔离子网以限制爆炸半径。"
+    },
+    {
+      "word": "block",
+      "pos": "v./n.",
+      "ipa": "/blɒk/",
+      "meanings": [
+        "阻断",
+        "封锁",
+        "块"
+      ],
+      "definition": "To prevent traffic, access, or execution based on policy or detection.",
+      "example": "Block that IP range at the edge firewall immediately.",
+      "exampleZh": "????????????? IP ??"
+    },
+    {
+      "word": "blocklist",
+      "pos": "n./v.",
+      "ipa": "/ˈblɒklɪst/",
+      "meanings": [
+        "阻断清单",
+        "黑名单"
+      ],
+      "definition": "",
+      "example": "Blocklist the hash at the proxy — it is a known Lazarus Group implant.",
+      "exampleZh": "在代理上阻断这个哈希——这是已知Lazarus组织的植入程序。"
+    },
+    {
+      "word": "botnet",
+      "pos": "n.",
+      "ipa": "/ˈbɒtnet/",
+      "meanings": [
+        "僵尸网络"
+      ],
+      "definition": "A network of compromised devices controlled by an attacker.",
+      "example": "The botnet generated traffic from thousands of infected devices.",
+      "exampleZh": "????????????????????"
+    },
+    {
+      "word": "branch",
+      "pos": "n./v.",
+      "ipa": "/brɑːntʃ/",
+      "meanings": [
+        "分支",
+        "分支版本"
+      ],
+      "definition": "",
+      "example": "Create a feature branch for the new parser — do not commit directly to main.",
+      "exampleZh": "为新解析器创建一个功能分支——别直接往主干提交。"
+    },
+    {
+      "word": "breach",
+      "pos": "n./v.",
+      "ipa": "/briːtʃ/",
+      "meanings": [
+        "泄露",
+        "突破"
+      ],
+      "definition": "",
+      "example": "The data breach was caused by a misconfigured S3 bucket. Classic mistake.",
+      "exampleZh": "数据泄露是由一个配置错误的S3存储桶引起的。典型的错误。"
+    },
+    {
+      "word": "breakout time",
+      "pos": "n.",
+      "ipa": "/ˈbreɪkaʊt taɪm/",
+      "meanings": [
+        "突破时间"
+      ],
+      "definition": "The time it takes an attacker to move from initial compromise to broader access.",
+      "example": "Breakout time dropped to 48 minutes in the latest threat report.",
+      "exampleZh": "????????????????? 48 ???"
+    },
+    {
+      "word": "broker",
+      "pos": "n.",
+      "ipa": "/ˈbrəʊkə/",
+      "meanings": [
+        "代理",
+        "中间件",
+        "消息代理"
+      ],
+      "definition": "",
+      "example": "Kafka acts as the message broker between our log shippers and the SIEM.",
+      "exampleZh": "Kafka在我们的日志发送器和SIEM之间充当消息代理。"
+    },
+    {
+      "word": "bucket",
+      "pos": "n.",
+      "ipa": "/ˈbʌkɪt/",
+      "meanings": [
+        "桶",
+        "存储桶"
+      ],
+      "definition": "",
+      "example": "Hot data sits in the fast bucket; anything older gets pushed to the archive bucket.",
+      "exampleZh": "热数据放在高速桶里；超过期限的都被推到归档桶。"
+    },
+    {
+      "word": "build",
+      "pos": "n./v.",
+      "ipa": "/bɪld/",
+      "meanings": [
+        "构建",
+        "编译",
+        "版本"
+      ],
+      "definition": "",
+      "example": "The latest build broke the log exporter — we are rolling back to v2.4.1.",
+      "exampleZh": "最新构建版本把日志导出器搞坏了——我们回滚到v2.4.1。"
+    },
+    {
+      "word": "cache",
+      "pos": "n./v.",
+      "ipa": "/kæʃ/",
+      "meanings": [
+        "缓存",
+        "高速缓存"
+      ],
+      "definition": "",
+      "example": "Clear the cache if the dashboard shows stale data from yesterday.",
+      "exampleZh": "如果仪表盘显示的是昨天的旧数据，清理一下缓存。"
+    },
+    {
+      "word": "carbon",
+      "pos": "n.",
+      "ipa": "/ˈkɑːbən/",
+      "meanings": [
+        "碳",
+        "碳排放"
+      ],
+      "definition": "",
+      "example": "Carbon emissions from our datacenter dropped 15% after switching to liquid cooling.",
+      "exampleZh": "换成液冷后，我们数据中心的碳排放下降了15%。"
+    },
+    {
+      "word": "CASB",
+      "pos": "abbr.",
+      "ipa": "/ˈkæzb/",
+      "meanings": [
+        "云访问安全代理",
+        "Cloud Access Security Broker"
+      ],
+      "fullForm": "Cloud Access Security Broker",
+      "definition": "",
+      "example": "CASB enforces DLP policies on SaaS apps like Slack and Google Drive.",
+      "exampleZh": "CASB在Slack和Google Drive等SaaS应用上强制执行数据防泄漏策略。"
+    },
+    {
+      "word": "catalog",
+      "pos": "n./v.",
+      "ipa": "/ˈkætəlɒɡ/",
+      "meanings": [
+        "目录",
+        "编目",
+        "数据目录"
+      ],
+      "definition": "",
+      "example": "Check the data catalog if you're not sure what fields are available in the firewall logs.",
+      "exampleZh": "如果你不确定防火墙日志里有哪些字段，查一下数据目录。"
+    },
+    {
+      "word": "CDR",
+      "pos": "abbr.",
+      "ipa": "/ˌsiː diː ˈɑː/",
+      "meanings": [
+        "云检测与响应",
+        "Cloud Detection and Response"
+      ],
+      "definition": "",
+      "example": "CDR auto-remediated the compromised cloud VM by isolating it within 90 seconds.",
+      "exampleZh": "CDR在90秒内通过隔离自动修复了被攻陷的云虚拟机。"
+    },
+    {
+      "word": "chart",
+      "pos": "n./v.",
+      "ipa": "/tʃɑːt/",
+      "meanings": [
+        "图表",
+        "制图"
+      ],
+      "definition": "",
+      "example": "Chart the error rate over the last 24 hours — I need it for the status meeting.",
+      "exampleZh": "把过去24小时的错误率画成图表——我需要在状态会议上用。"
+    },
+    {
+      "word": "CI/CD",
+      "pos": "abbr.",
+      "ipa": "/ˌsiː aɪ siː ˈdiː/",
+      "meanings": [
+        "持续集成/持续部署",
+        "Continuous Integration/Continuous Deployment"
+      ],
+      "fullForm": "Continuous Integration and Continuous Delivery",
+      "definition": "A software delivery practice that automates integration, testing, and deployment.",
+      "example": "Our CI/CD pipeline builds, tests, and deploys the parser in under ten minutes.",
+      "exampleZh": "我们的CI/CD流水线在十分钟内完成解析器的构建、测试和部署。"
+    },
+    {
+      "word": "CIEM",
+      "pos": "abbr.",
+      "ipa": "/ˈsiːem/",
+      "meanings": [
+        "云基础设施权限管理",
+        "Cloud Infrastructure Entitlements Management"
+      ],
+      "definition": "",
+      "example": "CIEM revealed 47 unused IAM roles with excessive permissions.",
+      "exampleZh": "CIEM发现了47个权限过大的闲置IAM角色。"
+    },
+    {
+      "word": "CISA",
+      "pos": "abbr.",
+      "ipa": "/ˈsiːsə/",
+      "meanings": [
+        "美国网络安全与基础设施安全局",
+        "Cybersecurity and Infrastructure Security Agency"
+      ],
+      "fullForm": "Cybersecurity and Infrastructure Security Agency",
+      "definition": "",
+      "example": "CISA released a new advisory — check if our exposed services match their IoC list.",
+      "exampleZh": "CISA发布了新通告——检查一下我们暴露的服务是否匹配他们的IoC清单。"
+    },
+    {
+      "word": "classification",
+      "pos": "n.",
+      "ipa": "/ˌklæsɪfɪˈkeɪʃn/",
+      "meanings": [
+        "分类",
+        "分级",
+        "归类"
+      ],
+      "definition": "",
+      "example": "Log classification helps route security events to the right team automatically.",
+      "exampleZh": "日志分类帮助自动把安全事件路由到正确的团队。"
+    },
+    {
+      "word": "cloud-native",
+      "pos": "adj.",
+      "ipa": "/ˈklaʊd ˈneɪtɪv/",
+      "meanings": [
+        "云原生的"
+      ],
+      "definition": "",
+      "example": "We're building everything cloud-native now — containers, microservices, the whole thing.",
+      "exampleZh": "我们现在所有东西都按云原生方式搭建——容器、微服务，全套。"
+    },
+    {
+      "word": "cluster",
+      "pos": "n./v.",
+      "ipa": "/ˈklʌstə/",
+      "meanings": [
+        "集群",
+        "簇"
+      ],
+      "definition": "",
+      "example": "The Elasticsearch cluster rebalanced shards after we added two data nodes.",
+      "exampleZh": "加了两台数据节点后Elasticsearch集群重新平衡了分片。"
+    },
+    {
+      "word": "clustering",
+      "pos": "n.",
+      "ipa": "/ˈklʌstərɪŋ/",
+      "meanings": [
+        "聚类",
+        "分群"
+      ],
+      "definition": "",
+      "example": "Clustering groups similar log events so analysts don't review them one by one.",
+      "exampleZh": "聚类把相似的日志事件归在一起，分析员不用逐条查看了。"
+    },
+    {
+      "word": "CNAPP",
+      "pos": "abbr.",
+      "ipa": "/ˈsiːnæp/",
+      "meanings": [
+        "云原生应用保护平台",
+        "Cloud-Native Application Protection Platform"
+      ],
+      "fullForm": "Cloud-Native Application Protection Platform",
+      "definition": "",
+      "example": "CNAPP unified CSPM and CWPP so we do not need two separate dashboards.",
+      "exampleZh": "CNAPP把CSPM和CWPP统一了，我们不再需要两个独立仪表盘。"
+    },
+    {
+      "word": "co-engineered",
+      "pos": "adj.",
+      "ipa": "/ˌkəʊ ˌendʒɪˈnɪəd/",
+      "meanings": [
+        "联合开发的",
+        "共同设计的"
+      ],
+      "definition": "",
+      "example": "This co-engineered solution came from six months of joint dev with the vendor.",
+      "exampleZh": "这个联合开发的方案来自我们与厂商六个月的协作开发。"
+    },
+    {
+      "word": "collector",
+      "pos": "n.",
+      "ipa": "/kəˈlektə/",
+      "meanings": [
+        "采集器",
+        "收集器"
+      ],
+      "definition": "",
+      "example": "The log collector is getting overwhelmed — CPU is pinned at 100%.",
+      "exampleZh": "日志采集器扛不住了——CPU一直100%。"
+    },
+    {
+      "word": "commit",
+      "pos": "n./v.",
+      "ipa": "/kəˈmɪt/",
+      "meanings": [
+        "提交",
+        "代码提交"
+      ],
+      "definition": "",
+      "example": "Every commit to the parser repo triggers automated regression tests.",
+      "exampleZh": "每次对解析器仓库的提交都会触发自动回归测试。"
+    },
+    {
+      "word": "compliance",
+      "pos": "n.",
+      "ipa": "/kəmˈplaɪəns/",
+      "meanings": [
+        "合规",
+        "合规性"
+      ],
+      "definition": "",
+      "example": "Compliance check failed. We don't have audit logs for the past 90 days.",
+      "exampleZh": "合规检查失败了。过去90天的审计日志我们没有。"
+    },
+    {
+      "word": "compress",
+      "pos": "v.",
+      "ipa": "/kəmˈpres/",
+      "meanings": [
+        "压缩"
+      ],
+      "definition": "",
+      "example": "We compress logs older than 30 days using gzip to cut down disk usage.",
+      "exampleZh": "我们对超过30天的日志用gzip压缩来减少磁盘占用。"
+    },
+    {
+      "word": "compression",
+      "pos": "n.",
+      "ipa": "/kəmˈpreʃn/",
+      "meanings": [
+        "压缩"
+      ],
+      "definition": "",
+      "example": "Compression saves us about 60% on storage, but it adds some CPU overhead.",
+      "exampleZh": "压缩帮我们省了大概60%的存储空间，但会增加一些CPU开销。"
+    },
+    {
+      "word": "compromise",
+      "pos": "n./v.",
+      "ipa": "/ˈkɒmprəmaɪz/",
+      "meanings": [
+        "失陷",
+        "妥协",
+        "危及"
+      ],
+      "definition": "",
+      "example": "Two workstations are compromised. We need to isolate them before it spreads.",
+      "exampleZh": "两台工作站已经失陷了。我们得在扩散之前隔离它们。"
+    },
+    {
+      "word": "consensus",
+      "pos": "n.",
+      "ipa": "/kənˈsensəs/",
+      "meanings": [
+        "共识",
+        "一致性"
+      ],
+      "definition": "",
+      "example": "Raft consensus ensures the log cluster stays consistent even if one node fails.",
+      "exampleZh": "Raft共识确保日志集群即使一个节点故障也能保持一致。"
+    },
+    {
+      "word": "consistency",
+      "pos": "n.",
+      "ipa": "/kənˈsɪstənsi/",
+      "meanings": [
+        "一致性",
+        "连贯性"
+      ],
+      "definition": "",
+      "example": "Eventual consistency means replicas might lag by a few seconds during peaks.",
+      "exampleZh": "最终一致性意味着高峰期副本可能滞后几秒钟。"
+    },
+    {
+      "word": "container",
+      "pos": "n.",
+      "ipa": "/kənˈteɪnə/",
+      "meanings": [
+        "容器",
+        "集装箱"
+      ],
+      "definition": "",
+      "example": "Container image scanning caught a critical CVE in the latest Nginx build.",
+      "exampleZh": "容器镜像扫描在最新Nginx构建中发现了严重CVE。"
+    },
+    {
+      "word": "containerization",
+      "pos": "n.",
+      "ipa": "/kənˌteɪnəraɪˈzeɪʃn/",
+      "meanings": [
+        "容器化"
+      ],
+      "definition": "",
+      "example": "Containerization makes it dead simple to deploy the same agent on any environment.",
+      "exampleZh": "容器化让在任何环境上部署同样的agent变得极其简单。"
+    },
+    {
+      "word": "context",
+      "pos": "n.",
+      "ipa": "/ˈkɒntekst/",
+      "meanings": [
+        "上下文",
+        "语境"
+      ],
+      "definition": "Additional information that helps analysts understand the meaning and risk of an event.",
+      "example": "Without context, this alert is hard to prioritize.",
+      "exampleZh": "??????????????????"
+    },
+    {
+      "word": "contextual",
+      "pos": "adj.",
+      "ipa": "/kənˈtekstʃuəl/",
+      "meanings": [
+        "上下文的",
+        "语境的"
+      ],
+      "definition": "",
+      "example": "Contextual threat intelligence tells us not just what happened, but why it matters.",
+      "exampleZh": "上下文化的威胁情报不仅告诉我们发生了什么，还告诉我们为什么重要。"
+    },
+    {
+      "word": "cooling",
+      "pos": "n.",
+      "ipa": "/ˈkuːlɪŋ/",
+      "meanings": [
+        "冷却",
+        "散热"
+      ],
+      "definition": "",
+      "example": "Cooling failure in Hall B raised the ambient temperature — disks started throttling.",
+      "exampleZh": "B厅制冷故障导致环境温度升高——磁盘开始降频。"
+    },
+    {
+      "word": "correlate",
+      "pos": "v.",
+      "ipa": "/ˈkɒrəleɪt/",
+      "meanings": [
+        "关联",
+        "使相互关联"
+      ],
+      "definition": "",
+      "example": "Can you correlate the failed logins with the VPN connections from yesterday?",
+      "exampleZh": "你能把昨天的登录失败和VPN连接关联起来看看吗？"
+    },
+    {
+      "word": "correlation",
+      "pos": "n.",
+      "ipa": "/ˌkɒrəˈleɪʃn/",
+      "meanings": [
+        "关联",
+        "相关性分析"
+      ],
+      "definition": "",
+      "example": "Cross-device correlation helped us spot the lateral movement pattern.",
+      "exampleZh": "跨设备关联分析帮我们发现了横向移动的模式。"
+    },
+    {
+      "word": "credential",
+      "pos": "n.",
+      "ipa": "/krəˈdenʃl/",
+      "meanings": [
+        "凭证",
+        "证书"
+      ],
+      "definition": "",
+      "example": "The attacker stole admin credentials. They logged in using a legit account.",
+      "exampleZh": "攻击者窃取了管理员凭证。他们用合法账户登录的。"
+    },
+    {
+      "word": "credential-spray",
+      "pos": "n.",
+      "ipa": "/krəˈdenʃl spreɪ/",
+      "meanings": [
+        "凭证喷洒",
+        "密码喷洒攻击"
+      ],
+      "definition": "",
+      "example": "Credential-spray against the VPN gateway hit 400 accounts in two hours.",
+      "exampleZh": "针对VPN网关的凭证喷洒攻击两小时内命中了400个账号。"
+    },
+    {
+      "word": "cryptomining",
+      "pos": "n.",
+      "ipa": "/ˈkrɪptəʊˌmaɪnɪŋ/",
+      "meanings": [
+        "挖矿劫持",
+        "非法加密货币挖矿"
+      ],
+      "definition": "",
+      "example": "Cryptomining spiked CPU to 100% — the pod was mining Monero in the background.",
+      "exampleZh": "挖矿劫持把CPU拉到100%——那个Pod在后台挖门罗币。"
+    },
+    {
+      "word": "CSPM",
+      "pos": "abbr.",
+      "ipa": "/ˌsiː es piː ˈem/",
+      "meanings": [
+        "云安全态势管理",
+        "Cloud Security Posture Management"
+      ],
+      "fullForm": "Cloud Security Posture Management",
+      "definition": "",
+      "example": "CSPM found three publicly exposed S3 buckets in the dev account.",
+      "exampleZh": "CSPM在开发账号里发现了三个公开暴露的S3存储桶。"
+    },
+    {
+      "word": "CTEM",
+      "pos": "abbr.",
+      "ipa": "/ˈsiːtem/",
+      "meanings": [
+        "持续威胁暴露管理",
+        "Continuous Threat Exposure Management"
+      ],
+      "definition": "",
+      "example": "CTEM says patch the top 10 exposed vulnerabilities first — not all 500.",
+      "exampleZh": "持续威胁暴露管理说先修补前10个暴露漏洞——不是全部500个。"
+    },
+    {
+      "word": "CTI",
+      "pos": "abbr.",
+      "ipa": "/ˌsiː tiː ˈaɪ/",
+      "meanings": [
+        "网络威胁情报",
+        "Cyber Threat Intelligence"
+      ],
+      "definition": "",
+      "example": "CTI from FS-ISAC warned us about the new banking trojan before it hit.",
+      "exampleZh": "金融服务信息共享与分析中心的威胁情报在新银行木马到来前就预警了。"
+    },
+    {
+      "word": "CVE",
+      "pos": "abbr.",
+      "ipa": "/siː viː iː/",
+      "meanings": [
+        "通用漏洞披露"
+      ],
+      "fullForm": "Common Vulnerabilities and Exposures",
+      "definition": "A public identifier for a known cybersecurity vulnerability.",
+      "example": "CVE-2026-2843 is actively exploited and needs an emergency patch.",
+      "exampleZh": "CVE-2026-2843 ???????????????"
+    },
+    {
+      "word": "CVSS",
+      "pos": "abbr.",
+      "ipa": "/siː viː es es/",
+      "meanings": [
+        "通用漏洞评分系统"
+      ],
+      "fullForm": "Common Vulnerability Scoring System",
+      "definition": "A scoring system used to rate the severity of security vulnerabilities.",
+      "example": "The vulnerability has a CVSS score of 9.8.",
+      "exampleZh": "????? CVSS ??? 9.8?"
+    },
+    {
+      "word": "CWPP",
+      "pos": "abbr.",
+      "ipa": "/ˌsiː dʌbljuː piː ˈpiː/",
+      "meanings": [
+        "云工作负载保护平台",
+        "Cloud Workload Protection Platform"
+      ],
+      "fullForm": "Cloud Workload Protection Platform",
+      "definition": "",
+      "example": "CWPP monitors runtime behavior of every container — not just the image scan.",
+      "exampleZh": "CWPP监控每个容器的运行时行为——不只是镜像扫描。"
+    },
+    {
+      "word": "cybersecurity",
+      "pos": "n.",
+      "ipa": "/ˌsaɪbəsɪˈkjʊərəti/",
+      "meanings": [
+        "网络安全",
+        "信息安全"
+      ],
+      "definition": "",
+      "example": "Cybersecurity insurance now requires MFA on all admin endpoints — no exceptions.",
+      "exampleZh": "网络安全保险现在要求所有管理端点必须开MFA——没有例外。"
+    },
+    {
+      "word": "dashboard",
+      "pos": "n.",
+      "ipa": "/ˈdæʃbɔːd/",
+      "meanings": [
+        "仪表盘",
+        "仪表板"
+      ],
+      "definition": "",
+      "example": "I built a dashboard showing failed login trends by department and hour.",
+      "exampleZh": "我搭了一个仪表盘，按部门和时间展示登录失败的趋势。"
+    },
+    {
+      "word": "data lake",
+      "pos": "n.",
+      "ipa": "/ˈdeɪtə leɪk/",
+      "meanings": [
+        "数据湖"
+      ],
+      "definition": "",
+      "example": "Raw logs go to the data lake first; only curated data moves to the warehouse.",
+      "exampleZh": "原始日志先进入数据湖；只有经过整理的数据才会进入仓库。"
+    },
+    {
+      "word": "data warehouse",
+      "pos": "n.",
+      "ipa": "/ˈdeɪtə ˈweəhaʊs/",
+      "meanings": [
+        "数据仓库"
+      ],
+      "definition": "",
+      "example": "The data warehouse holds aggregated metrics optimized for fast querying.",
+      "exampleZh": "数据仓库存放着为快速查询优化的聚合指标。"
+    },
+    {
+      "word": "datacenter",
+      "pos": "n.",
+      "ipa": "/ˈdeɪtəˌsentə/",
+      "meanings": [
+        "数据中心"
+      ],
+      "definition": "",
+      "example": "Our primary datacenter runs hot-standby so failover takes under 30 seconds.",
+      "exampleZh": "我们的主数据中心运行热备，故障转移不到30秒。"
+    },
+    {
+      "word": "dataset",
+      "pos": "n.",
+      "ipa": "/ˈdeɪtəset/",
+      "meanings": [
+        "数据集"
+      ],
+      "definition": "",
+      "example": "The training dataset for anomaly detection spans 90 days of normal traffic.",
+      "exampleZh": "异常检测的训练数据集覆盖90天的正常流量。"
+    },
+    {
+      "word": "dbms",
+      "pos": "abbr.",
+      "ipa": "/ˌdiː biː em ˈes/",
+      "meanings": [
+        "数据库管理系统",
+        "Database Management System"
+      ],
+      "definition": "",
+      "example": "The DBMS audit log captures every SELECT and UPDATE for compliance review.",
+      "exampleZh": "数据库管理系统的审计日志记录每次查询和更新以供合规审查。"
+    },
+    {
+      "word": "DDoS",
+      "pos": "abbr.",
+      "ipa": "/diː diː əʊ es/",
+      "meanings": [
+        "分布式拒绝服务攻击"
+      ],
+      "fullForm": "Distributed Denial of Service",
+      "definition": "An attack that overwhelms a service with traffic from many sources.",
+      "example": "DDoS traffic hit the CDN edge at 500 Gbps.",
+      "exampleZh": "DDoS ??? 500Gbps ??? CDN ???"
+    },
+    {
+      "word": "deception",
+      "pos": "n.",
+      "ipa": "/dɪˈsepʃn/",
+      "meanings": [
+        "欺骗防御",
+        "诱捕技术"
+      ],
+      "definition": "",
+      "example": "Deception technology planted fake credentials — the APT took the bait.",
+      "exampleZh": "欺骗防御技术投放了假凭证——高级威胁上钩了。"
+    },
+    {
+      "word": "decoupled",
+      "pos": "adj.",
+      "ipa": "/dɪˈkʌpld/",
+      "meanings": [
+        "解耦的",
+        "松耦合的"
+      ],
+      "definition": "",
+      "example": "Keep the collectors decoupled from the indexers — they shouldn't depend on each other.",
+      "exampleZh": "让采集器和索引器保持解耦——它们不应该互相依赖。"
+    },
+    {
+      "word": "deduplication",
+      "pos": "n.",
+      "ipa": "/diːˌdjuːplɪˈkeɪʃn/",
+      "meanings": [
+        "去重",
+        "重复数据删除"
+      ],
+      "definition": "The process of grouping duplicate events or alerts to reduce noise.",
+      "example": "Deduplication reduced our alert volume by 60 percent.",
+      "exampleZh": "???????????? 60%?"
+    },
+    {
+      "word": "delimiter",
+      "pos": "n.",
+      "ipa": "/dɪˈlɪmɪtə/",
+      "meanings": [
+        "分隔符",
+        "定界符"
+      ],
+      "definition": "",
+      "example": "These logs use pipe as the delimiter, not comma — the parser needs to know that.",
+      "exampleZh": "这些日志用竖线做分隔符，不是逗号——解析器得知道这一点。"
+    },
+    {
+      "word": "denylist",
+      "pos": "n./v.",
+      "ipa": "/ˈdenilaɪst/",
+      "meanings": [
+        "拒绝清单"
+      ],
+      "definition": "",
+      "example": "Denylist expired API keys automatically — no manual cleanup needed.",
+      "exampleZh": "自动把过期的API密钥加入拒绝清单——无需手动清理。"
+    },
+    {
+      "word": "deployment",
+      "pos": "n.",
+      "ipa": "/dɪˈplɔɪmənt/",
+      "meanings": [
+        "部署",
+        "发布"
+      ],
+      "definition": "",
+      "example": "The deployment went sideways — we had to roll back within ten minutes.",
+      "exampleZh": "部署出问题了——我们十分钟内就得回滚。"
+    },
+    {
+      "word": "DevOps",
+      "pos": "abbr.",
+      "ipa": "/devˈɒps/",
+      "meanings": [
+        "开发运维一体化",
+        "DevOps"
+      ],
+      "fullForm": "Development and Operations",
+      "definition": "",
+      "example": "DevOps is not a team — it is a culture where dev and ops share on-call.",
+      "exampleZh": "DevOps不是一个团队——它是一种开发和运维共担值班的文化。"
+    },
+    {
+      "word": "devsecops",
+      "pos": "n.",
+      "ipa": "/devˈsekɒps/",
+      "meanings": [
+        "安全 DevOps",
+        "开发安全运维一体化"
+      ],
+      "definition": "",
+      "example": "DevSecOps bakes security scanning into CI so issues are caught pre-deployment.",
+      "exampleZh": "DevSecOps把安全扫描嵌入CI，这样问题在部署前就能发现。"
+    },
+    {
+      "word": "DFIR",
+      "pos": "abbr.",
+      "ipa": "/ˈdfaɪər/",
+      "meanings": [
+        "数字取证与事件响应",
+        "Digital Forensics and Incident Response"
+      ],
+      "definition": "",
+      "example": "DFIR collected memory dumps and network captures before the evidence was lost.",
+      "exampleZh": "数字取证与事件响应在证据丢失前收集了内存转储和网络抓包。"
+    },
+    {
+      "word": "dictionary",
+      "pos": "n.",
+      "ipa": "/ˈdɪkʃəneri/",
+      "meanings": [
+        "字典",
+        "数据字典"
+      ],
+      "definition": "",
+      "example": "Update the data dictionary whenever you add new fields to the log schema.",
+      "exampleZh": "日志模式里加新字段的时候记得更新数据字典。"
+    },
+    {
+      "word": "digital",
+      "pos": "adj.",
+      "ipa": "/ˈdɪdʒɪtl/",
+      "meanings": [
+        "数字的"
+      ],
+      "definition": "Related to computer-based systems, data, services, or channels.",
+      "example": "Digital resilience is a board-level priority this year.",
+      "exampleZh": "??????????????????"
+    },
+    {
+      "word": "disk",
+      "pos": "n.",
+      "ipa": "/dɪsk/",
+      "meanings": [
+        "磁盘",
+        "硬盘"
+      ],
+      "definition": "",
+      "example": "Disk I/O shot through the roof — the indexer is writing too many small files.",
+      "exampleZh": "磁盘IO飙上天了——索引器写了太多小文件。"
+    },
+    {
+      "word": "distributed",
+      "pos": "adj.",
+      "ipa": "/dɪˈstrɪbjuːtɪd/",
+      "meanings": [
+        "分布式的"
+      ],
+      "definition": "",
+      "example": "The distributed architecture means no single point of failure for log ingestion.",
+      "exampleZh": "分布式架构意味着日志采集没有单点故障。"
+    },
+    {
+      "word": "docker",
+      "pos": "n.",
+      "ipa": "/ˈdɒkə/",
+      "meanings": [
+        "Docker",
+        "容器化平台"
+      ],
+      "definition": "",
+      "example": "Docker layers make rebuilds fast — only changed layers get repushed.",
+      "exampleZh": "Docker分层让重建很快——只有变更的层会被重新推送。"
+    },
+    {
+      "word": "DORA",
+      "pos": "abbr.",
+      "ipa": "/ˈdɔːrə/",
+      "meanings": [
+        "数字运营韧性法",
+        "Digital Operational Resilience Act"
+      ],
+      "definition": "",
+      "example": "DORA requires EU banks to report major incidents within 4 hours.",
+      "exampleZh": "数字运营韧性法要求欧盟银行在4小时内报告重大事件。"
+    },
+    {
+      "word": "drill",
+      "pos": "n./v.",
+      "ipa": "/drɪl/",
+      "meanings": [
+        "下钻",
+        "深入分析",
+        "钻取"
+      ],
+      "definition": "",
+      "example": "Drill from the monthly summary down to individual events with one click.",
+      "exampleZh": "从月度汇总一键下钻到单条事件。"
+    },
+    {
+      "word": "drilldown",
+      "pos": "n.",
+      "ipa": "/ˈdrɪldaʊn/",
+      "meanings": [
+        "下钻",
+        "深入查看"
+      ],
+      "definition": "",
+      "example": "Click any bar to drilldown into the raw events behind that aggregation.",
+      "exampleZh": "点击任意柱状条可以下钻到那个聚合背后的原始事件。"
+    },
+    {
+      "word": "dwell-time",
+      "pos": "n.",
+      "ipa": "/ˈdwel taɪm/",
+      "meanings": [
+        "驻留时间",
+        "攻击者潜伏时长"
+      ],
+      "definition": "",
+      "example": "Median dwell-time for ransomware attacks is still 9 days — way too long.",
+      "exampleZh": "勒索软件攻击的中位驻留时间仍然是9天——太长了。"
+    },
+    {
+      "word": "EDR",
+      "pos": "abbr.",
+      "ipa": "/iː diː ɑː(r)/",
+      "meanings": [
+        "端点检测与响应"
+      ],
+      "fullForm": "Endpoint Detection and Response",
+      "definition": "A security tool that detects and responds to threats on endpoints.",
+      "example": "EDR caught suspicious PowerShell execution on the finance laptop.",
+      "exampleZh": "EDR在财务笔记本上捕捉到可疑的PowerShell执行。"
+    },
+    {
+      "word": "elastic",
+      "pos": "adj.",
+      "ipa": "/ɪˈlæstɪk/",
+      "meanings": [
+        "弹性的",
+        "灵活的"
+      ],
+      "definition": "",
+      "example": "Elastic resource pools let us burst to 10x capacity during Black Friday.",
+      "exampleZh": "弹性资源池让我们在黑色星期五能爆发到10倍容量。"
+    },
+    {
+      "word": "elasticity",
+      "pos": "n.",
+      "ipa": "/ˌiːlæˈstɪsɪti/",
+      "meanings": [
+        "弹性",
+        "弹性伸缩"
+      ],
+      "definition": "",
+      "example": "The elasticity of auto-scaling means we only pay for what we actually use.",
+      "exampleZh": "弹性伸缩意味着我们只用多少付多少。"
+    },
+    {
+      "word": "embedding",
+      "pos": "n.",
+      "ipa": "/ɪmˈbedɪŋ/",
+      "meanings": [
+        "嵌入",
+        "向量嵌入"
+      ],
+      "definition": "",
+      "example": "We convert each log entry into an embedding for semantic similarity search.",
+      "exampleZh": "我们把每条日志转换成向量嵌入，用于语义相似度搜索。"
+    },
+    {
+      "word": "encrypt",
+      "pos": "v.",
+      "ipa": "/ɪnˈkrɪpt/",
+      "meanings": [
+        "加密"
+      ],
+      "definition": "",
+      "example": "Make sure to encrypt logs in transit and at rest — compliance requires both.",
+      "exampleZh": "确保传输中和静态的日志都要加密——合规要求两者都必须做。"
+    },
+    {
+      "word": "encryption",
+      "pos": "n.",
+      "ipa": "/ɪnˈkrɪpʃn/",
+      "meanings": [
+        "加密"
+      ],
+      "definition": "",
+      "example": "Encryption key rotation is handled by the KMS every 90 days automatically.",
+      "exampleZh": "加密密钥轮换由KMS每90天自动处理。"
+    },
+    {
+      "word": "endpoint",
+      "pos": "n.",
+      "ipa": "/ˈendpɔɪnt/",
+      "meanings": [
+        "端点",
+        "接入点",
+        "终端"
+      ],
+      "definition": "",
+      "example": "Each endpoint — laptops, servers, cloud VMs — reports logs to the central hub.",
+      "exampleZh": "每个端点——笔记本、服务器、云虚拟机——都向中央枢纽上报日志。"
+    },
+    {
+      "word": "enrich",
+      "pos": "v.",
+      "ipa": "/ɪnˈrɪtʃ/",
+      "meanings": [
+        "富化",
+        "增强",
+        "补全信息"
+      ],
+      "definition": "",
+      "example": "Let's enrich these logs with user identity info from Active Directory.",
+      "exampleZh": "咱们把这些日志用Active Directory里的用户身份信息富化一下。"
+    },
+    {
+      "word": "enrichment",
+      "pos": "n.",
+      "ipa": "/ɪnˈrɪtʃmənt/",
+      "meanings": [
+        "富化",
+        "增强",
+        "信息补全"
+      ],
+      "definition": "",
+      "example": "Geo-IP enrichment is adding location data to every incoming event.",
+      "exampleZh": "Geo-IP富化正在为每个进来的事件添加地理位置数据。"
+    },
+    {
+      "word": "epic",
+      "pos": "n./adj.",
+      "ipa": "/ˈepɪk/",
+      "meanings": [
+        "史诗需求",
+        "宏大的",
+        "大型用户故事"
+      ],
+      "definition": "",
+      "example": "That epic covers SSO, MFA, and session management — three sprints minimum.",
+      "exampleZh": "那个史诗需求涵盖SSO、MFA和会话管理——至少三个冲刺。"
+    },
+    {
+      "word": "escalate",
+      "pos": "v.",
+      "ipa": "/ˈeskəleɪt/",
+      "meanings": [
+        "升级",
+        "上报",
+        "使升级"
+      ],
+      "definition": "",
+      "example": "If the critical alert isn't acknowledged in 10 minutes, escalate it to the on-call lead.",
+      "exampleZh": "如果严重告警10分钟内没被认领，就升级到值班负责人。"
+    },
+    {
+      "word": "escalation",
+      "pos": "n.",
+      "ipa": "/ˌeskəˈleɪʃn/",
+      "meanings": [
+        "升级",
+        "权限提升"
+      ],
+      "definition": "The process of raising an issue to a higher support, operations, or management level.",
+      "example": "Escalation sends critical incidents to the on-call lead.",
+      "exampleZh": "??????????????????"
+    },
+    {
+      "word": "ETL",
+      "pos": "abbr.",
+      "ipa": "/ˌiː tiː ˈel/",
+      "meanings": [
+        "抽取转换加载",
+        "Extract, Transform, Load"
+      ],
+      "definition": "",
+      "example": "The ETL job runs every night to transform raw syslog into structured tables.",
+      "exampleZh": "ETL任务每晚运行，把原始syslog转换成结构化表。"
+    },
+    {
+      "word": "event",
+      "pos": "n.",
+      "ipa": "/ɪˈvent/",
+      "meanings": [
+        "事件",
+        "活动"
+      ],
+      "definition": "",
+      "example": "Each failed login generates a security event with the IP, user, and timestamp.",
+      "exampleZh": "每次登录失败都会产生一个安全事件，包含IP、用户和时间戳。"
+    },
+    {
+      "word": "exfiltration",
+      "pos": "n.",
+      "ipa": "/ˌeksfɪlˈtreɪʃn/",
+      "meanings": [
+        "数据渗出",
+        "外泄"
+      ],
+      "definition": "",
+      "example": "Data exfiltration was detected on port 443. About 2GB went to an unknown host.",
+      "exampleZh": "在443端口检测到数据渗出。大约2GB流向了一个未知主机。"
+    },
+    {
+      "word": "expanded",
+      "pos": "adj.",
+      "ipa": "/ɪkˈspændɪd/",
+      "meanings": [
+        "扩展的",
+        "扩大的"
+      ],
+      "definition": "",
+      "example": "Expanded storage capacity bought us another six months before the next scale-up.",
+      "exampleZh": "扩展的存储容量让我们下次扩容前多撑了六个月。"
+    },
+    {
+      "word": "exploit",
+      "pos": "n./v.",
+      "ipa": "/ɪkˈsplɔɪt/",
+      "meanings": [
+        "漏洞利用",
+        "利用"
+      ],
+      "definition": "",
+      "example": "Someone's already exploiting CVE-2026-1234 in the wild. We need to act fast.",
+      "exampleZh": "已经有人在野外利用CVE-2026-1234了。我们得快点行动。"
+    },
+    {
+      "word": "exploitation",
+      "pos": "n.",
+      "ipa": "/ˌeksplɔɪˈteɪʃn/",
+      "meanings": [
+        "漏洞利用",
+        "开发"
+      ],
+      "definition": "The act of using a vulnerability to gain unauthorized access or impact.",
+      "example": "Active exploitation was confirmed in the customer environment.",
+      "exampleZh": "???????????????"
+    },
+    {
+      "word": "extensibility",
+      "pos": "n.",
+      "ipa": "/ɪkˌstensəˈbɪlɪti/",
+      "meanings": [
+        "可扩展性",
+        "可延伸性"
+      ],
+      "definition": "",
+      "example": "The platform's extensibility lets us write custom plugins for proprietary log formats.",
+      "exampleZh": "平台的可扩展性让我们能为专有日志格式编写自定义插件。"
+    },
+    {
+      "word": "extraction",
+      "pos": "n.",
+      "ipa": "/ɪkˈstrækʃn/",
+      "meanings": [
+        "提取",
+        "抽取"
+      ],
+      "definition": "",
+      "example": "Field extraction by regex is brittle — ML-based extraction handles variations better.",
+      "exampleZh": "基于正则的字段提取很脆弱——基于ML的提取对变化处理得更好。"
+    },
+    {
+      "word": "extractor",
+      "pos": "n.",
+      "ipa": "/ɪkˈstræktə/",
+      "meanings": [
+        "提取器",
+        "抽取工具"
+      ],
+      "definition": "",
+      "example": "Build a field extractor for the transaction ID — we need it for correlation.",
+      "exampleZh": "给事务ID建一个字段提取器——关联分析的时候需要它。"
+    },
+    {
+      "word": "false negative",
+      "pos": "n.",
+      "ipa": "/fɔːls ˈneɡətɪv/",
+      "meanings": [
+        "漏报",
+        "假阴性"
+      ],
+      "definition": "A missed detection where a real problem is not flagged.",
+      "example": "A false negative is dangerous because the real attack is missed.",
+      "exampleZh": "???????????????????"
+    },
+    {
+      "word": "false positive",
+      "pos": "n.",
+      "ipa": "/fɔːls ˈpɒzətɪv/",
+      "meanings": [
+        "误报",
+        "假阳性"
+      ],
+      "definition": "An alert that looks suspicious but is not a real problem.",
+      "example": "This alert is a false positive caused by maintenance activity.",
+      "exampleZh": "???????????????"
+    },
+    {
+      "word": "federated",
+      "pos": "adj.",
+      "ipa": "/ˈfedəreɪtɪd/",
+      "meanings": [
+        "联邦的",
+        "联合的"
+      ],
+      "definition": "",
+      "example": "We use a federated search across three regional data centers from one console.",
+      "exampleZh": "我们通过一个控制台对三个区域数据中心进行联合搜索。"
+    },
+    {
+      "word": "federation",
+      "pos": "n.",
+      "ipa": "/ˌfedəˈreɪʃn/",
+      "meanings": [
+        "联邦",
+        "联盟",
+        "联合"
+      ],
+      "definition": "",
+      "example": "Federation lets different SOC teams share threat intel without centralizing everything.",
+      "exampleZh": "联邦模式让不同的SOC团队共享威胁情报而不用把所有东西集中化。"
+    },
+    {
+      "word": "field",
+      "pos": "n.",
+      "ipa": "/fiːld/",
+      "meanings": [
+        "字段",
+        "域"
+      ],
+      "definition": "",
+      "example": "Extract the src_ip field from each log line and map it to source_address.",
+      "exampleZh": "从每行日志里提取src_ip字段，然后映射到source_address。"
+    },
+    {
+      "word": "filter",
+      "pos": "n./v.",
+      "ipa": "/ˈfɪltə/",
+      "meanings": [
+        "过滤器",
+        "过滤",
+        "筛选"
+      ],
+      "definition": "",
+      "example": "Filter out all the informational events — I only want to see warnings and above.",
+      "exampleZh": "把所有信息级别的事件过滤掉——我只想看警告及以上的。"
+    },
+    {
+      "word": "filtering",
+      "pos": "n.",
+      "ipa": "/ˈfɪltərɪŋ/",
+      "meanings": [
+        "过滤",
+        "筛选"
+      ],
+      "definition": "",
+      "example": "Noise filtering reduced our event volume by like 70% overnight.",
+      "exampleZh": "噪声过滤一夜之间就把我们的事件量减少了大概70%。"
+    },
+    {
+      "word": "fine-tuning",
+      "pos": "n.",
+      "ipa": "/ˌfaɪn ˈtjuːnɪŋ/",
+      "meanings": [
+        "微调",
+        "精调"
+      ],
+      "definition": "",
+      "example": "Fine-tuning the model on security-specific data improved detection accuracy a lot.",
+      "exampleZh": "在安全特定数据上微调模型后，检测准确率提升了很多。"
+    },
+    {
+      "word": "firewall",
+      "pos": "n.",
+      "ipa": "/ˈfaɪəwɔːl/",
+      "meanings": [
+        "防火墙"
+      ],
+      "definition": "",
+      "example": "The firewall stopped 10,000 connection attempts from that IP. Good job.",
+      "exampleZh": "防火墙阻止了来自那个IP的一万次连接尝试。干得漂亮。"
+    },
+    {
+      "word": "forensic",
+      "pos": "adj.",
+      "ipa": "/fəˈrensɪk/",
+      "meanings": [
+        "取证的",
+        "法庭科学的"
+      ],
+      "definition": "",
+      "example": "Forensic analysis of the logs confirmed the attacker accessed the DB at 2:14 AM.",
+      "exampleZh": "日志的取证分析确认攻击者在凌晨2:14访问了数据库。"
+    },
+    {
+      "word": "formatter",
+      "pos": "n.",
+      "ipa": "/ˈfɔːmætə/",
+      "meanings": [
+        "格式化器",
+        "格式化工具"
+      ],
+      "definition": "",
+      "example": "The JSON formatter turns those ugly key-value pairs into clean nested objects.",
+      "exampleZh": "JSON格式化器把那些难看的键值对变成了干净的嵌套对象。"
+    },
+    {
+      "word": "forwarder",
+      "pos": "n.",
+      "ipa": "/ˈfɔːwədə/",
+      "meanings": [
+        "转发器",
+        "转发代理"
+      ],
+      "definition": "",
+      "example": "The universal forwarder on that Windows box stopped sending logs again.",
+      "exampleZh": "那台Windows机器上的通用转发器又不发日志了。"
+    },
+    {
+      "word": "framework",
+      "pos": "n.",
+      "ipa": "/ˈfreɪmwɜːk/",
+      "meanings": [
+        "框架"
+      ],
+      "definition": "A structured model or set of guidance used to design and manage work.",
+      "example": "The NIST framework guides our security program.",
+      "exampleZh": "NIST ????????????"
+    },
+    {
+      "word": "gaap",
+      "pos": "abbr.",
+      "ipa": "/ɡæp/",
+      "meanings": [
+        "公认会计准则",
+        "Generally Accepted Accounting Principles"
+      ],
+      "definition": "",
+      "example": "GAAP revenue recognition rules differ from how SaaS companies book ARR.",
+      "exampleZh": "公认会计准则的收入确认规则跟SaaS公司记账ARR的方式不同。"
+    },
+    {
+      "word": "GenAI",
+      "pos": "abbr.",
+      "ipa": "/ˈdʒen aɪ/",
+      "meanings": [
+        "生成式AI",
+        "Generative AI"
+      ],
+      "definition": "",
+      "example": "GenAI helps junior analysts summarize long incident reports in seconds.",
+      "exampleZh": "生成式AI帮初级分析员在几秒内总结长篇事件报告。"
+    },
+    {
+      "word": "git",
+      "pos": "n.",
+      "ipa": "/ɡɪt/",
+      "meanings": [
+        "Git",
+        "分布式版本控制"
+      ],
+      "definition": "",
+      "example": "Git blame shows who last touched the parser regex before it broke.",
+      "exampleZh": "Git blame显示解析器正则崩溃前最后是谁改的。"
+    },
+    {
+      "word": "GitOps",
+      "pos": "n.",
+      "ipa": "/ˈɡɪtɒps/",
+      "meanings": [
+        "Git运维",
+        "基于Git的运维模式"
+      ],
+      "definition": "",
+      "example": "We practice GitOps — every config change goes through a pull request and review.",
+      "exampleZh": "我们用GitOps——每个配置变更都要走PR和评审。"
+    },
+    {
+      "word": "golden-ticket",
+      "pos": "n.",
+      "ipa": "/ˌɡəʊldən ˈtɪkɪt/",
+      "meanings": [
+        "黄金票据",
+        "Kerberos黄金票据攻击"
+      ],
+      "definition": "",
+      "example": "Golden Ticket attacks forge a TGT for any user — domain-wide compromise.",
+      "exampleZh": "黄金票据攻击能为任意用户伪造TGT——整个域都沦陷了。"
+    },
+    {
+      "word": "governance",
+      "pos": "n.",
+      "ipa": "/ˈɡʌvənəns/",
+      "meanings": [
+        "治理",
+        "管理"
+      ],
+      "definition": "",
+      "example": "Our data governance policy requires encryption for all sensitive log fields.",
+      "exampleZh": "我们的数据治理策略要求所有敏感日志字段必须加密。"
+    },
+    {
+      "word": "granular",
+      "pos": "adj.",
+      "ipa": "/ˈɡrænjələ/",
+      "meanings": [
+        "细粒度的",
+        "精细的"
+      ],
+      "definition": "",
+      "example": "We need granular RBAC — not just admin versus user, but role-based per data source.",
+      "exampleZh": "我们需要细粒度的RBAC——不只是管理员和普通用户，而是按数据源的基于角色的控制。"
+    },
+    {
+      "word": "granularity",
+      "pos": "n.",
+      "ipa": "/ˌɡrænjuˈlærɪti/",
+      "meanings": [
+        "粒度",
+        "精细度"
+      ],
+      "definition": "",
+      "example": "Increase the granularity to per-second metrics if you need to catch spikes.",
+      "exampleZh": "如果你需要捕捉峰值，把粒度提高到每秒指标。"
+    },
+    {
+      "word": "graph",
+      "pos": "n.",
+      "ipa": "/ɡrɑːf/",
+      "meanings": [
+        "图形",
+        "图表"
+      ],
+      "definition": "",
+      "example": "The dependency graph shows which services are sending logs to which collectors.",
+      "exampleZh": "依赖关系图展示了哪些服务向哪些采集器发送日志。"
+    },
+    {
+      "word": "graphql",
+      "pos": "n.",
+      "ipa": "/ˈɡræfɪkəl/",
+      "meanings": [
+        "GraphQL",
+        "图形查询语言"
+      ],
+      "definition": "",
+      "example": "GraphQL queries let clients fetch exactly the fields they need in one request.",
+      "exampleZh": "GraphQL查询让客户能在一个请求里精确拉取需要的字段。"
+    },
+    {
+      "word": "grpc",
+      "pos": "abbr.",
+      "ipa": "/ˈɡʌrp siː/",
+      "meanings": [
+        "gRPC",
+        "Google远程过程调用"
+      ],
+      "definition": "",
+      "example": "gRPC cuts latency by half compared to REST for inter-service log shipping.",
+      "exampleZh": "对于服务间日志传输，gRPC比REST减少了一半延迟。"
+    },
+    {
+      "word": "handover",
+      "pos": "n.",
+      "ipa": "/ˈhændəʊvə/",
+      "meanings": [
+        "交接",
+        "移交"
+      ],
+      "definition": "",
+      "example": "The handover doc includes active incidents, ongoing hunts, and queue status.",
+      "exampleZh": "交接文档包括活跃事件、正在进行的狩猎和队列状态。"
+    },
+    {
+      "word": "hardening",
+      "pos": "n.",
+      "ipa": "/ˈhɑːdənɪŋ/",
+      "meanings": [
+        "加固",
+        "安全加固"
+      ],
+      "definition": "The process of reducing security risk by removing weaknesses and tightening configuration.",
+      "example": "Server hardening closed unnecessary ports and disabled weak ciphers.",
+      "exampleZh": "???????????????????????"
+    },
+    {
+      "word": "header",
+      "pos": "n.",
+      "ipa": "/ˈhedə/",
+      "meanings": [
+        "头部",
+        "消息头",
+        "报头"
+      ],
+      "definition": "",
+      "example": "Check the X-Forwarded-For header — that's where the real client IP is.",
+      "exampleZh": "看看X-Forwarded-For头部——真正的客户端IP在那里。"
+    },
+    {
+      "word": "healthcheck",
+      "pos": "n.",
+      "ipa": "/ˈhelθtʃek/",
+      "meanings": [
+        "健康检查"
+      ],
+      "definition": "",
+      "example": "The load balancer runs a healthcheck every 5 seconds on each log collector.",
+      "exampleZh": "负载均衡器每5秒对每个日志采集器做一次健康检查。"
+    },
+    {
+      "word": "heatmap",
+      "pos": "n.",
+      "ipa": "/ˈhiːtmæp/",
+      "meanings": [
+        "热力图",
+        "热图"
+      ],
+      "definition": "",
+      "example": "The heatmap makes it obvious — all the brute-force attempts come from two ASNs.",
+      "exampleZh": "热力图上一目了然——所有暴力破解尝试都来自两个ASN。"
+    },
+    {
+      "word": "helm",
+      "pos": "n.",
+      "ipa": "/helm/",
+      "meanings": [
+        "Helm",
+        "Kubernetes包管理器"
+      ],
+      "definition": "",
+      "example": "Helm charts version every K8s deployment so rollbacks are one command away.",
+      "exampleZh": "Helm chart给每个K8s部署打版本号，所以回滚只需一条命令。"
+    },
+    {
+      "word": "heuristic",
+      "pos": "adj./n.",
+      "ipa": "/hjʊˈrɪstɪk/",
+      "meanings": [
+        "启发式的",
+        "启发法"
+      ],
+      "definition": "",
+      "example": "The heuristic engine flagged the behavior as suspicious even without a known signature.",
+      "exampleZh": "启发式引擎标记了这个行为为可疑，即使没有已知特征。"
+    },
+    {
+      "word": "honeypot",
+      "pos": "n.",
+      "ipa": "/ˈhʌnipɒt/",
+      "meanings": [
+        "蜜罐"
+      ],
+      "definition": "A decoy system designed to attract attackers and observe their behavior.",
+      "example": "The honeypot captured the attacker scanning fake admin services.",
+      "exampleZh": "????????????????????"
+    },
+    {
+      "word": "hunt",
+      "pos": "v./n.",
+      "ipa": "/hʌnt/",
+      "meanings": [
+        "猎杀",
+        "威胁狩猎"
+      ],
+      "definition": "",
+      "example": "Let's hunt for PowerShell executions with encoded commands across all endpoints.",
+      "exampleZh": "咱们在所有端点上搜寻一下有编码命令的PowerShell执行。"
+    },
+    {
+      "word": "hunting",
+      "pos": "n.",
+      "ipa": "/ˈhʌntɪŋ/",
+      "meanings": [
+        "狩猎",
+        "威胁狩猎"
+      ],
+      "definition": "",
+      "example": "I'm hunting for persistence mechanisms. The attacker probably left a backdoor.",
+      "exampleZh": "我在搜寻持久化机制。攻击者可能留了后门。"
+    },
+    {
+      "word": "hybrid",
+      "pos": "adj./n.",
+      "ipa": "/ˈhaɪbrɪd/",
+      "meanings": [
+        "混合的",
+        "混合体",
+        "混合云"
+      ],
+      "definition": "",
+      "example": "We're hybrid cloud — logs from on-prem data centers and AWS flow into one SIEM.",
+      "exampleZh": "我们是混合云——本地数据中心和AWS的日志都流入同一个SIEM。"
+    },
+    {
+      "word": "hype",
+      "pos": "n./v.",
+      "ipa": "/haɪp/",
+      "meanings": [
+        "炒作",
+        "热潮",
+        "宣传"
+      ],
+      "definition": "",
+      "example": "The Gartner Hype Cycle helps us decide which AI tech is actually ready.",
+      "exampleZh": "Gartner技术成熟度曲线帮我们判断哪些AI技术真正成熟了。"
+    },
+    {
+      "word": "identity",
+      "pos": "n.",
+      "ipa": "/aɪˈdentəti/",
+      "meanings": [
+        "身份"
+      ],
+      "definition": "",
+      "example": "Identity verification failed for three users. Their passwords might be leaked.",
+      "exampleZh": "三个用户的身份验证失败了。他们的密码可能泄露了。"
+    },
+    {
+      "word": "IDS",
+      "pos": "abbr.",
+      "ipa": "/aɪ diː es/",
+      "meanings": [
+        "入侵检测系统"
+      ],
+      "fullForm": "Intrusion Detection System",
+      "definition": "A system that detects suspicious or malicious activity and generates alerts.",
+      "example": "The IDS flagged a suspicious scan but did not block it.",
+      "exampleZh": "IDS ???????????????"
+    },
+    {
+      "word": "in-memory",
+      "pos": "adj.",
+      "ipa": "/ˌɪn ˈmeməri/",
+      "meanings": [
+        "内存中的",
+        "内存计算"
+      ],
+      "definition": "",
+      "example": "In-memory analytics queries hot data without touching slow disk storage.",
+      "exampleZh": "内存分析查询热数据而不用碰慢速磁盘存储。"
+    },
+    {
+      "word": "incident",
+      "pos": "n.",
+      "ipa": "/ˈɪnsɪdənt/",
+      "meanings": [
+        "事件",
+        "安全事件"
+      ],
+      "definition": "",
+      "example": "We had a major incident last night. The on-call team is still investigating.",
+      "exampleZh": "昨晚出了一个重大事件。值班团队还在调查中。"
+    },
+    {
+      "word": "indexer",
+      "pos": "n.",
+      "ipa": "/ˈɪndeksə/",
+      "meanings": [
+        "索引器",
+        "索引程序"
+      ],
+      "definition": "",
+      "example": "The indexer is choking on that massive firewall dump — it's over 50GB.",
+      "exampleZh": "索引器被那个超大的防火墙日志 dump 卡住了——超过50GB。"
+    },
+    {
+      "word": "indexing",
+      "pos": "n.",
+      "ipa": "/ˈɪndeksɪŋ/",
+      "meanings": [
+        "索引",
+        "建立索引"
+      ],
+      "definition": "",
+      "example": "Real-time indexing means we can search events within seconds of ingestion.",
+      "exampleZh": "实时索引意味着采集进来之后几秒之内就能搜到事件。"
+    },
+    {
+      "word": "indicator",
+      "pos": "n.",
+      "ipa": "/ˈɪndɪkeɪtə(r)/",
+      "meanings": [
+        "指标",
+        "指示器"
+      ],
+      "definition": "A data point that may show compromise, attack activity, or suspicious behavior.",
+      "example": "This indicator points to a possible Cobalt Strike beacon.",
+      "exampleZh": "????????? Cobalt Strike ???"
+    },
+    {
+      "word": "inference",
+      "pos": "n.",
+      "ipa": "/ˈɪnfərəns/",
+      "meanings": [
+        "推理",
+        "推断",
+        "模型推理"
+      ],
+      "definition": "",
+      "example": "Inference latency jumped after the model grew from 2B to 7B parameters.",
+      "exampleZh": "模型从20亿参数涨到70亿后，推理延迟飙升了。"
+    },
+    {
+      "word": "ingest",
+      "pos": "v.",
+      "ipa": "/ɪnˈdʒest/",
+      "meanings": [
+        "采集",
+        "摄取",
+        "接入"
+      ],
+      "definition": "",
+      "example": "How much data can the platform ingest per second without dropping events?",
+      "exampleZh": "这个平台每秒能采集多少数据而不会丢事件？"
+    },
+    {
+      "word": "ingestion",
+      "pos": "n.",
+      "ipa": "/ɪnˈdʒestʃən/",
+      "meanings": [
+        "采集",
+        "摄取",
+        "数据接入"
+      ],
+      "definition": "",
+      "example": "Log ingestion has been lagging since we added those new data sources.",
+      "exampleZh": "自从增加了那些新数据源之后，日志采集一直有延迟。"
+    },
+    {
+      "word": "insider",
+      "pos": "n./adj.",
+      "ipa": "/ˈɪnsaɪdə/",
+      "meanings": [
+        "内部人员",
+        "内部威胁"
+      ],
+      "definition": "",
+      "example": "Insider threat is the hardest to catch — they already have legitimate access.",
+      "exampleZh": "内部威胁最难抓——他们本来就有合法权限。"
+    },
+    {
+      "word": "instance",
+      "pos": "n.",
+      "ipa": "/ˈɪnstəns/",
+      "meanings": [
+        "实例"
+      ],
+      "definition": "",
+      "example": "That instance ran out of disk space because log rotation wasn't configured.",
+      "exampleZh": "那个实例磁盘满了，因为日志轮转没配置。"
+    },
+    {
+      "word": "instrumentation",
+      "pos": "n.",
+      "ipa": "/ˌɪnstrəmenˈteɪʃn/",
+      "meanings": [
+        "埋点",
+        "插桩",
+        "instrumentation"
+      ],
+      "definition": "",
+      "example": "Instrumentation added 5% overhead but gave us full visibility into request paths.",
+      "exampleZh": "插桩增加了5%的开销，但让我们对请求路径有了完全的可见性。"
+    },
+    {
+      "word": "integration",
+      "pos": "n.",
+      "ipa": "/ˌɪntɪˈɡreɪʃn/",
+      "meanings": [
+        "集成",
+        "整合"
+      ],
+      "definition": "",
+      "example": "The SOAR integration auto-blocks IPs in the firewall when the SIEM fires a critical alert.",
+      "exampleZh": "SOAR集成在SIEM触发严重告警时自动在防火墙阻断IP。"
+    },
+    {
+      "word": "intel",
+      "pos": "n.",
+      "ipa": "/ˈɪntel/",
+      "meanings": [
+        "情报"
+      ],
+      "definition": "",
+      "example": "Threat intel from Mandiant showed this domain is tied to a ransomware group.",
+      "exampleZh": "Mandiant的威胁情报显示这个域名跟一个勒索软件组织有关。"
+    },
+    {
+      "word": "intelligence",
+      "pos": "n.",
+      "ipa": "/ɪnˈtelɪdʒəns/",
+      "meanings": [
+        "情报",
+        "威胁情报"
+      ],
+      "definition": "Processed information that helps teams understand threats, risks, or decisions.",
+      "example": "Threat intelligence linked the IP address to an active campaign.",
+      "exampleZh": "?????? IP ??????????????"
+    },
+    {
+      "word": "interoperability",
+      "pos": "n.",
+      "ipa": "/ˈɪntərɒpərəˈbɪlɪti/",
+      "meanings": [
+        "互操作性"
+      ],
+      "definition": "",
+      "example": "Interoperability between vendors is still a pain — STIX/TAXII helps but isn't perfect.",
+      "exampleZh": "厂商之间的互操作性仍然是个头疼事——STIX/TAXII有帮助，但还不完美。"
+    },
+    {
+      "word": "interpretability",
+      "pos": "n.",
+      "ipa": "/ɪnˌtɜːprɪtəˈbɪlɪti/",
+      "meanings": [
+        "可解释性"
+      ],
+      "definition": "",
+      "example": "Model interpretability matters — black-box predictions do not pass audit.",
+      "exampleZh": "模型可解释性很重要——黑箱预测过不了审计。"
+    },
+    {
+      "word": "intrusion",
+      "pos": "n.",
+      "ipa": "/ɪnˈtruːʒn/",
+      "meanings": [
+        "入侵",
+        "闯入"
+      ],
+      "definition": "",
+      "example": "The intrusion started at 2 AM. Our NDR caught the lateral movement early.",
+      "exampleZh": "入侵始于凌晨2点。我们的NDR早期就捕捉到了横向移动。"
+    },
+    {
+      "word": "IOA",
+      "pos": "abbr.",
+      "ipa": "/ˌaɪ əʊ ˈeɪ/",
+      "meanings": [
+        "攻击指标",
+        "Indicators of Attack"
+      ],
+      "definition": "",
+      "example": "IOAs focus on the attack behavior itself, not just known bad file hashes.",
+      "exampleZh": "攻击指标关注的是攻击行为本身，不只是已知的恶意文件哈希。"
+    },
+    {
+      "word": "IOC",
+      "pos": "abbr.",
+      "ipa": "/aɪ əʊ siː/",
+      "meanings": [
+        "失陷指标"
+      ],
+      "fullForm": "Indicator of Compromise",
+      "definition": "A sign such as an IP, domain, hash, or behavior that may indicate compromise.",
+      "example": "The IOC list includes file hashes, domains, and suspicious IPs.",
+      "exampleZh": "IOC ?????????????? IP?"
+    },
+    {
+      "word": "IPS",
+      "pos": "abbr.",
+      "ipa": "/aɪ piː es/",
+      "meanings": [
+        "入侵防御系统"
+      ],
+      "fullForm": "Intrusion Prevention System",
+      "definition": "A system that detects and blocks malicious activity inline.",
+      "example": "The IPS dropped the malicious connection inline.",
+      "exampleZh": "IPS ??????????"
+    },
+    {
+      "word": "ISAC",
+      "pos": "abbr.",
+      "ipa": "/ˈaɪsæk/",
+      "meanings": [
+        "信息共享与分析中心",
+        "Information Sharing and Analysis Center"
+      ],
+      "definition": "",
+      "example": "ISAC membership gives us sector-specific IOCs the commercial feeds miss.",
+      "exampleZh": "信息共享与分析中心会员身份给了我们商业情报源遗漏的行业特定攻击指标。"
+    },
+    {
+      "word": "isolation",
+      "pos": "n.",
+      "ipa": "/ˌaɪsəˈleɪʃn/",
+      "meanings": [
+        "隔离"
+      ],
+      "definition": "The act of separating a host, network, or workload to limit risk or spread.",
+      "example": "Network isolation stopped the infected VLAN from reaching production.",
+      "exampleZh": "????????? VLAN ???????"
+    },
+    {
+      "word": "ITDR",
+      "pos": "abbr.",
+      "ipa": "/aɪ tiː diː ɑː(r)/",
+      "meanings": [
+        "身份威胁检测与响应"
+      ],
+      "fullForm": "Identity Threat Detection and Response",
+      "definition": "Security capabilities focused on detecting and responding to identity-based threats.",
+      "example": "ITDR detected a suspicious privilege change in Azure AD.",
+      "exampleZh": "ITDR ??? Azure AD ?????????"
+    },
+    {
+      "word": "Kerberos",
+      "pos": "n.",
+      "ipa": "/ˈkɜːbərəs/",
+      "meanings": [
+        "Kerberos",
+        "网络认证协议"
+      ],
+      "definition": "",
+      "example": "Kerberos logs show a Golden Ticket was forged for the domain admin account.",
+      "exampleZh": "Kerberos日志显示域管理员账号被伪造了黄金票据。"
+    },
+    {
+      "word": "kill chain",
+      "pos": "n.",
+      "ipa": "/kɪl tʃeɪn/",
+      "meanings": [
+        "杀伤链",
+        "攻击链"
+      ],
+      "definition": "A model describing the stages of an attack from reconnaissance to impact.",
+      "example": "Follow the kill chain to find where the attacker first entered.",
+      "exampleZh": "??????????????????"
+    },
+    {
+      "word": "Kubernetes",
+      "pos": "n.",
+      "ipa": "/ˌkuːbərˈnetiːz/",
+      "meanings": [
+        "Kubernetes",
+        "K8s容器编排平台"
+      ],
+      "definition": "",
+      "example": "Kubernetes schedules our log collectors across five worker nodes right now.",
+      "exampleZh": "Kubernetes目前正在五个工作节点上调度我们的日志采集器。"
+    },
+    {
+      "word": "label",
+      "pos": "n./v.",
+      "ipa": "/ˈleɪbl/",
+      "meanings": [
+        "标签",
+        "标注"
+      ],
+      "definition": "",
+      "example": "Label each alert with severity and owner so tickets route automatically.",
+      "exampleZh": "给每个告警标上严重程度和负责人，这样工单能自动路由。"
+    },
+    {
+      "word": "latency",
+      "pos": "n.",
+      "ipa": "/ˈleɪtnsi/",
+      "meanings": [
+        "延迟",
+        "时延"
+      ],
+      "definition": "",
+      "example": "Query latency shot up to 30 seconds — the indexer is probably overloaded.",
+      "exampleZh": "查询延迟飙到了30秒——索引器可能过载了。"
+    },
+    {
+      "word": "lateral",
+      "pos": "adj.",
+      "ipa": "/ˈlætərəl/",
+      "meanings": [
+        "横向的",
+        "侧面的"
+      ],
+      "definition": "",
+      "example": "After initial access, they moved lateral to the domain controller in 15 minutes.",
+      "exampleZh": "获得初始访问后，他们在15分钟内横向移动到了域控制器。"
+    },
+    {
+      "word": "LDAP",
+      "pos": "abbr.",
+      "ipa": "/ˈeldæp/",
+      "meanings": [
+        "轻量级目录访问协议",
+        "Lightweight Directory Access Protocol"
+      ],
+      "definition": "",
+      "example": "LDAP sync failed so new hires could not log into the SIEM console.",
+      "exampleZh": "LDAP同步失败导致新员工无法登录SIEM控制台。"
+    },
+    {
+      "word": "library",
+      "pos": "n.",
+      "ipa": "/ˈlaɪbrəri/",
+      "meanings": [
+        "库",
+        "程序库"
+      ],
+      "definition": "",
+      "example": "The Python library for parsing syslog handles edge cases we missed.",
+      "exampleZh": "那个解析syslog的Python库处理了我们漏掉的边界情况。"
+    },
+    {
+      "word": "lineage",
+      "pos": "n.",
+      "ipa": "/ˈlɪniɪdʒ/",
+      "meanings": [
+        "血缘",
+        "数据血缘"
+      ],
+      "definition": "",
+      "example": "Data lineage shows exactly which upstream source each dashboard metric came from.",
+      "exampleZh": "数据血缘精确展示了每个仪表盘指标来自哪个上游数据源。"
+    },
+    {
+      "word": "listener",
+      "pos": "n.",
+      "ipa": "/ˈlɪsənə/",
+      "meanings": [
+        "监听器",
+        "监听程序"
+      ],
+      "definition": "",
+      "example": "The TCP listener on port 514 is accepting syslog from the entire network segment.",
+      "exampleZh": "514端口的TCP监听器正在接收整个网段的syslog。"
+    },
+    {
+      "word": "living-off-the-land",
+      "pos": "n./adj.",
+      "ipa": "/ˈlɪvɪŋ ɒf ðə lænd/",
+      "meanings": [
+        "就地取材",
+        "利用系统原生工具攻击"
+      ],
+      "definition": "",
+      "example": "Living-off-the-land attacks use PowerShell and WMI — nothing to blacklist.",
+      "exampleZh": "就地取材攻击用PowerShell和WMI——没什么可拉黑的。"
+    },
+    {
+      "word": "LLM",
+      "pos": "abbr.",
+      "ipa": "/ˌel el ˈem/",
+      "meanings": [
+        "大语言模型",
+        "Large Language Model"
+      ],
+      "fullForm": "Large Language Model",
+      "definition": "",
+      "example": "We fine-tuned an LLM on our internal runbooks so it can answer ops questions.",
+      "exampleZh": "我们用内部运维手册微调了一个大语言模型，这样它能回答运维问题。"
+    },
+    {
+      "word": "log",
+      "pos": "n./v.",
+      "ipa": "/lɒɡ/",
+      "meanings": [
+        "日志",
+        "记录"
+      ],
+      "definition": "",
+      "example": "The firewall log shows a ton of denied connections from that IP.",
+      "exampleZh": "防火墙日志显示那个IP有大量的连接被拒绝记录。"
+    },
+    {
+      "word": "logging",
+      "pos": "n.",
+      "ipa": "/ˈlɒɡɪŋ/",
+      "meanings": [
+        "日志记录",
+        "日志采集"
+      ],
+      "definition": "",
+      "example": "We need to turn on debug logging to figure out what's going wrong.",
+      "exampleZh": "我们需要开启调试日志记录来排查问题出在哪里。"
+    },
+    {
+      "word": "loosely-coupled",
+      "pos": "adj.",
+      "ipa": "/ˈluːsli ˈkʌpld/",
+      "meanings": [
+        "松耦合的"
+      ],
+      "definition": "",
+      "example": "A loosely-coupled design lets us swap out the message queue without touching the parsers.",
+      "exampleZh": "松耦合的设计让我们能换掉消息队列而不用动解析器。"
+    },
+    {
+      "word": "malware",
+      "pos": "n.",
+      "ipa": "/ˈmælweə(r)/",
+      "meanings": [
+        "恶意软件"
+      ],
+      "definition": "",
+      "example": "The endpoint detected malware trying to encrypt files. I quarantined it.",
+      "exampleZh": "终端检测到恶意软件试图加密文件。我把它隔离了。"
+    },
+    {
+      "word": "managed",
+      "pos": "adj.",
+      "ipa": "/ˈmænɪdʒd/",
+      "meanings": [
+        "托管的",
+        "受管理的"
+      ],
+      "definition": "Operated or provided by an external service provider or centralized team.",
+      "example": "Managed services cover overnight monitoring for the SOC.",
+      "exampleZh": "?????? SOC ??????"
+    },
+    {
+      "word": "mapping",
+      "pos": "n.",
+      "ipa": "/ˈmæpɪŋ/",
+      "meanings": [
+        "映射",
+        "对应关系"
+      ],
+      "definition": "",
+      "example": "Field mapping between Cisco and Palo Alto logs took two days to normalize.",
+      "exampleZh": "Cisco和Palo Alto日志之间的字段映射花了两天才规范化好。"
+    },
+    {
+      "word": "maturity",
+      "pos": "n.",
+      "ipa": "/məˈtʃʊərəti/",
+      "meanings": [
+        "成熟度"
+      ],
+      "definition": "The level of capability, consistency, and effectiveness in a process or program.",
+      "example": "Our SOC maturity must improve before the next audit.",
+      "exampleZh": "????????? SOC ????????"
+    },
+    {
+      "word": "MDR",
+      "pos": "abbr.",
+      "ipa": "/em diː ɑː(r)/",
+      "meanings": [
+        "托管检测与响应"
+      ],
+      "fullForm": "Managed Detection and Response",
+      "definition": "A managed service that provides threat detection, investigation, and response.",
+      "example": "The MDR provider handles threat detection during night shifts.",
+      "exampleZh": "MDR ???????????????"
+    },
+    {
+      "word": "memory-forensics",
+      "pos": "n.",
+      "ipa": "/ˈmeməri fəˈrensɪks/",
+      "meanings": [
+        "内存取证"
+      ],
+      "definition": "",
+      "example": "Memory-forensics recovered the malware payload that disk scans missed.",
+      "exampleZh": "内存取证恢复了磁盘扫描漏掉的恶意软件载荷。"
+    },
+    {
+      "word": "merge",
+      "pos": "n./v.",
+      "ipa": "/mɜːdʒ/",
+      "meanings": [
+        "合并",
+        "融合"
+      ],
+      "definition": "",
+      "example": "Merge the hotfix branch into main after the staging tests pass.",
+      "exampleZh": "预发布测试通过后把热修分支合并到主干。"
+    },
+    {
+      "word": "mesh",
+      "pos": "n.",
+      "ipa": "/meʃ/",
+      "meanings": [
+        "网格",
+        "服务网格"
+      ],
+      "definition": "",
+      "example": "Service mesh encrypts all east-west traffic without touching app code.",
+      "exampleZh": "服务网格加密所有东西向流量而不用改应用代码。"
+    },
+    {
+      "word": "metadata",
+      "pos": "n.",
+      "ipa": "/ˈmetədeɪtə/",
+      "meanings": [
+        "元数据"
+      ],
+      "definition": "",
+      "example": "Metadata like source IP and ingest time is critical for audit trails.",
+      "exampleZh": "元数据比如源IP和采集时间对审计追踪至关重要。"
+    },
+    {
+      "word": "metric",
+      "pos": "n./adj.",
+      "ipa": "/ˈmetrɪk/",
+      "meanings": [
+        "指标",
+        "度量的"
+      ],
+      "definition": "",
+      "example": "EPS is the key metric we track to make sure ingestion keeps up.",
+      "exampleZh": "EPS是我们追踪的关键指标，用来确保采集跟得上。"
+    },
+    {
+      "word": "metrics",
+      "pos": "n.",
+      "ipa": "/ˈmetrɪks/",
+      "meanings": [
+        "指标",
+        "度量"
+      ],
+      "definition": "",
+      "example": "These metrics show indexing lag spiking every night around backup time.",
+      "exampleZh": "这些指标显示索引延迟每晚备份时间都会飙升。"
+    },
+    {
+      "word": "MFA",
+      "pos": "abbr.",
+      "ipa": "/em ef eɪ/",
+      "meanings": [
+        "多因素认证"
+      ],
+      "fullForm": "Multi-Factor Authentication",
+      "definition": "An authentication method that requires two or more verification factors.",
+      "example": "MFA is required for every administrator account.",
+      "exampleZh": "???????????? MFA?"
+    },
+    {
+      "word": "microservice",
+      "pos": "n.",
+      "ipa": "/ˈmaɪkrəʊˌsɜːvɪs/",
+      "meanings": [
+        "微服务"
+      ],
+      "definition": "",
+      "example": "Each microservice owns its own logs — no more dumping everything into one bucket.",
+      "exampleZh": "每个微服务管自己的日志——再也不用把所有东西倒在一个桶里了。"
+    },
+    {
+      "word": "middleware",
+      "pos": "n.",
+      "ipa": "/ˈmɪdlweə/",
+      "meanings": [
+        "中间件"
+      ],
+      "definition": "",
+      "example": "We added middleware to transform syslog into JSON before it hits the parser.",
+      "exampleZh": "我们在syslog进入解析器之前加了中间件来转成JSON格式。"
+    },
+    {
+      "word": "mitigation",
+      "pos": "n.",
+      "ipa": "/ˌmɪtɪˈɡeɪʃn/",
+      "meanings": [
+        "缓解",
+        "减轻"
+      ],
+      "definition": "",
+      "example": "The best mitigation right now is to block that IP range at the firewall.",
+      "exampleZh": "目前最好的缓解措施是在防火墙阻断那个IP段。"
+    },
+    {
+      "word": "modular",
+      "pos": "adj.",
+      "ipa": "/ˈmɒdjələ/",
+      "meanings": [
+        "模块化的"
+      ],
+      "definition": "",
+      "example": "The modular design means you can replace just the parser without touching the pipeline.",
+      "exampleZh": "模块化设计意味着你可以只替换解析器而不用动整个管道。"
+    },
+    {
+      "word": "monitoring",
+      "pos": "n.",
+      "ipa": "/ˈmɒnɪtərɪŋ/",
+      "meanings": [
+        "监控",
+        "监测"
+      ],
+      "definition": "",
+      "example": "Infrastructure monitoring caught the memory leak before it crashed the host.",
+      "exampleZh": "基础设施监控在内存泄漏搞崩主机之前就发现了。"
+    },
+    {
+      "word": "monolithic",
+      "pos": "adj.",
+      "ipa": "/ˌmɒnəˈlɪθɪk/",
+      "meanings": [
+        "单体的",
+        "单体架构的"
+      ],
+      "definition": "",
+      "example": "Moving from a monolithic app to microservices made log correlation more complex.",
+      "exampleZh": "从单体应用迁到微服务后，日志关联变得更复杂了。"
+    },
+    {
+      "word": "MSSP",
+      "pos": "abbr.",
+      "ipa": "/em es es piː/",
+      "meanings": [
+        "托管安全服务提供商"
+      ],
+      "fullForm": "Managed Security Service Provider",
+      "definition": "A provider that delivers outsourced security monitoring or security operations services.",
+      "example": "The MSSP monitors alerts when the internal team is offline.",
+      "exampleZh": "????????MSSP ???????"
+    },
+    {
+      "word": "multi-tenant",
+      "pos": "adj.",
+      "ipa": "/ˌmʌlti ˈtenənt/",
+      "meanings": [
+        "多租户的"
+      ],
+      "definition": "",
+      "example": "The platform is multi-tenant, so each customer sees only their own data.",
+      "exampleZh": "平台是多租户的，所以每个客户只能看到自己的数据。"
+    },
+    {
+      "word": "multicloud",
+      "pos": "adj./n.",
+      "ipa": "/ˌmʌltiˈklaʊd/",
+      "meanings": [
+        "多云的",
+        "多云环境"
+      ],
+      "definition": "",
+      "example": "Multicloud logging is messy — each provider exports in a different format.",
+      "exampleZh": "多云日志很乱——每个云厂商导出格式都不一样。"
+    },
+    {
+      "word": "NDR",
+      "pos": "abbr.",
+      "ipa": "/en diː ɑː(r)/",
+      "meanings": [
+        "网络检测与响应"
+      ],
+      "fullForm": "Network Detection and Response",
+      "definition": "A security tool that detects and responds to threats using network telemetry.",
+      "example": "NDR detected lateral movement that firewall logs missed.",
+      "exampleZh": "NDR ?????????????????"
+    },
+    {
+      "word": "network-forensics",
+      "pos": "n.",
+      "ipa": "/ˈnetwɜːk fəˈrensɪks/",
+      "meanings": [
+        "网络取证"
+      ],
+      "definition": "",
+      "example": "Network-forensics reconstructed the full exfiltration session from packet captures.",
+      "exampleZh": "网络取证从数据包抓包中重建了完整的数据外泄会话。"
+    },
+    {
+      "word": "neural",
+      "pos": "adj.",
+      "ipa": "/ˈnjʊərəl/",
+      "meanings": [
+        "神经的",
+        "神经网络的"
+      ],
+      "definition": "",
+      "example": "Neural network logs show layer-by-layer activation during training runs.",
+      "exampleZh": "神经网络日志显示训练运行时逐层的激活情况。"
+    },
+    {
+      "word": "nlp",
+      "pos": "abbr.",
+      "ipa": "/ˌen el ˈpiː/",
+      "meanings": [
+        "自然语言处理",
+        "Natural Language Processing"
+      ],
+      "definition": "",
+      "example": "NLP parses unstructured incident descriptions into structured severity tags.",
+      "exampleZh": "自然语言处理把非结构化的事件描述解析成结构化的严重级别标签。"
+    },
+    {
+      "word": "node",
+      "pos": "n.",
+      "ipa": "/nəʊd/",
+      "meanings": [
+        "节点",
+        "集群节点"
+      ],
+      "definition": "",
+      "example": "Node-7 dropped out of the cluster — its disk failed during the night.",
+      "exampleZh": "节点7退出了集群——它的磁盘夜间故障了。"
+    },
+    {
+      "word": "non-gaap",
+      "pos": "adj.",
+      "ipa": "/ˌnɒn ɡæp/",
+      "meanings": [
+        "非公认会计准则",
+        "Non-GAAP"
+      ],
+      "definition": "",
+      "example": "Non-GAAP margins exclude stock-based comp — read the footnotes carefully.",
+      "exampleZh": "非公认会计准则利润率排除了股权激励——仔细阅读脚注。"
+    },
+    {
+      "word": "normalization",
+      "pos": "n.",
+      "ipa": "/ˌnɔːməlaɪˈzeɪʃn/",
+      "meanings": [
+        "规范化",
+        "标准化"
+      ],
+      "definition": "",
+      "example": "Normalization is the hardest part — every vendor formats logs differently.",
+      "exampleZh": "规范化是最难的部分——每个厂商的日志格式都不一样。"
+    },
+    {
+      "word": "normalize",
+      "pos": "v.",
+      "ipa": "/ˈnɔːməlaɪz/",
+      "meanings": [
+        "规范化",
+        "标准化"
+      ],
+      "definition": "",
+      "example": "We need to normalize all these formats into a common schema first.",
+      "exampleZh": "我们得先把所有这些格式规范成一个统一的模式。"
+    },
+    {
+      "word": "notification",
+      "pos": "n.",
+      "ipa": "/ˌnəʊtɪfɪˈkeɪʃn/",
+      "meanings": [
+        "通知",
+        "提醒"
+      ],
+      "definition": "",
+      "example": "The notification hit Slack, email, and SMS — the on-call guy got woken up for sure.",
+      "exampleZh": "通知同时发了Slack、邮件和短信——值班的人肯定被吵醒了。"
+    },
+    {
+      "word": "notify",
+      "pos": "v.",
+      "ipa": "/ˈnəʊtɪfaɪ/",
+      "meanings": [
+        "通知",
+        "告知"
+      ],
+      "definition": "",
+      "example": "The system will notify the security team whenever a high-severity event fires.",
+      "exampleZh": "系统每次触发高危事件都会通知安全团队。"
+    },
+    {
+      "word": "NTA",
+      "pos": "abbr.",
+      "ipa": "/ˌen tiː ˈeɪ/",
+      "meanings": [
+        "网络流量分析",
+        "Network Traffic Analysis"
+      ],
+      "fullForm": "Network Traffic Analysis",
+      "definition": "",
+      "example": "NTA baselines every flow so east-west anomalies stand out immediately.",
+      "exampleZh": "NTA给每个流量流打了基线，东西向异常一目了然。"
+    },
+    {
+      "word": "OAuth",
+      "pos": "abbr.",
+      "ipa": "/ˈəʊɔːθ/",
+      "meanings": [
+        "开放授权协议",
+        "Open Authorization"
+      ],
+      "definition": "",
+      "example": "OAuth tokens were leaked in a public repo — we revoked them immediately.",
+      "exampleZh": "开放授权令牌泄露到了公开仓库——我们立即撤销了。"
+    },
+    {
+      "word": "obfuscation",
+      "pos": "n.",
+      "ipa": "/ˌɒbfʌˈskeɪʃn/",
+      "meanings": [
+        "混淆",
+        "模糊化"
+      ],
+      "definition": "",
+      "example": "PII obfuscation masks user emails and phone numbers before logs hit the SIEM.",
+      "exampleZh": "PII混淆在日志进入SIEM之前就把用户邮箱和手机号打码了。"
+    },
+    {
+      "word": "observability",
+      "pos": "n.",
+      "ipa": "/əbˌzɜːvəˈbɪlɪti/",
+      "meanings": [
+        "可观测性"
+      ],
+      "definition": "",
+      "example": "Observability isn't just logs — it's logs, metrics, and traces working together.",
+      "exampleZh": "可观测性不只是日志——是日志、指标和追踪三者协同。"
+    },
+    {
+      "word": "obstacles",
+      "pos": "n.",
+      "ipa": "/ˈɒbstəklz/",
+      "meanings": [
+        "障碍",
+        "阻碍"
+      ],
+      "definition": "",
+      "example": "Budget obstacles delayed the SIEM upgrade until next quarter.",
+      "exampleZh": "预算障碍把SIEM升级推迟到了下个季度。"
+    },
+    {
+      "word": "offboarding",
+      "pos": "n.",
+      "ipa": "/ˈɒfˌbɔːdɪŋ/",
+      "meanings": [
+        "下线",
+        "离职处理"
+      ],
+      "definition": "",
+      "example": "Offboarding a tenant means wiping their data and revoking all API keys.",
+      "exampleZh": "租户下线意味着清除他们的数据并撤销所有API密钥。"
+    },
+    {
+      "word": "on-premises",
+      "pos": "adj./adv.",
+      "ipa": "/ˌɒn ˈpremɪsɪz/",
+      "meanings": [
+        "本地的",
+        "本地部署"
+      ],
+      "definition": "",
+      "example": "The legacy app is still on-premises, so we installed a local log collector.",
+      "exampleZh": "那个遗留应用还在本地部署，所以我们在那装了本地日志采集器。"
+    },
+    {
+      "word": "onboarding",
+      "pos": "n.",
+      "ipa": "/ˈɒnbɔːdɪŋ/",
+      "meanings": [
+        "接入",
+        "上线",
+        "新用户引导"
+      ],
+      "definition": "",
+      "example": "New log source onboarding takes about 30 minutes — parse, test, then go live.",
+      "exampleZh": "新日志源接入大概需要30分钟——解析、测试，然后上线。"
+    },
+    {
+      "word": "OpenTelemetry",
+      "pos": "n.",
+      "ipa": "/ˌəʊpənˈtɪlemɪtri/",
+      "meanings": [
+        "开放遥测",
+        "CNCF可观测性标准"
+      ],
+      "definition": "",
+      "example": "OpenTelemetry auto-instruments our Go services — no code changes needed.",
+      "exampleZh": "开放遥测自动插桩我们的Go服务——无需修改代码。"
+    },
+    {
+      "word": "optimization",
+      "pos": "n.",
+      "ipa": "/ˌɒptɪmaɪˈzeɪʃn/",
+      "meanings": [
+        "优化"
+      ],
+      "definition": "",
+      "example": "Query optimization shaved 40% off the average search response time.",
+      "exampleZh": "查询优化把平均搜索响应时间削掉了40%。"
+    },
+    {
+      "word": "orchestrate",
+      "pos": "v.",
+      "ipa": "/ˈɔːkɪstreɪt/",
+      "meanings": [
+        "编排",
+        "策划",
+        "协调"
+      ],
+      "definition": "",
+      "example": "We orchestrate the whole response through Ansible playbooks triggered by alerts.",
+      "exampleZh": "我们通过Ansible playbook来编排整个响应流程，由告警触发。"
+    },
+    {
+      "word": "orchestration",
+      "pos": "n.",
+      "ipa": "/ˌɔːkɪˈstreɪʃn/",
+      "meanings": [
+        "编排",
+        "协同编排"
+      ],
+      "definition": "",
+      "example": "Orchestration ties together detection, enrichment, and response into one flow.",
+      "exampleZh": "编排把检测、富化和响应串联成一个流程。"
+    },
+    {
+      "word": "orchestrator",
+      "pos": "n.",
+      "ipa": "/ˈɔːkɪstreɪtə/",
+      "meanings": [
+        "编排器",
+        "编排工具"
+      ],
+      "definition": "",
+      "example": "The orchestrator handles pod placement, scaling, and failover automatically.",
+      "exampleZh": "编排器自动处理pod的放置、扩缩容和故障转移。"
+    },
+    {
+      "word": "out-of-the-box",
+      "pos": "adj./adv.",
+      "ipa": "/ˌaʊt əv ðə ˈbɒks/",
+      "meanings": [
+        "开箱即用的"
+      ],
+      "definition": "",
+      "example": "The SIEM comes with out-of-the-box parsers for AWS, Azure, and GCP logs.",
+      "exampleZh": "这个SIEM自带AWS、Azure和GCP日志的开箱即用解析器。"
+    },
+    {
+      "word": "outlier",
+      "pos": "n.",
+      "ipa": "/ˈaʊtlaɪə/",
+      "meanings": [
+        "离群值",
+        "异常值",
+        "异常点"
+      ],
+      "definition": "",
+      "example": "That outlier in CPU usage turned out to be a crypto miner.",
+      "exampleZh": "CPU使用率的那个离群值原来是个挖矿程序。"
+    },
+    {
+      "word": "overfitting",
+      "pos": "n.",
+      "ipa": "/ˌəʊvəˈfɪtɪŋ/",
+      "meanings": [
+        "过拟合"
+      ],
+      "definition": "",
+      "example": "Overfitting is why the model fails on logs from new app versions.",
+      "exampleZh": "过拟合就是模型在新型号应用日志上失效的原因。"
+    },
+    {
+      "word": "PAM",
+      "pos": "abbr.",
+      "ipa": "/ˌpiː eɪ ˈem/",
+      "meanings": [
+        "特权访问管理",
+        "Privileged Access Management"
+      ],
+      "fullForm": "Privileged Access Management",
+      "definition": "",
+      "example": "PAM vaults all root passwords and rotates them every 4 hours.",
+      "exampleZh": "特权访问管理保险库存储所有root密码，每4小时轮换一次。"
+    },
+    {
+      "word": "parse",
+      "pos": "v.",
+      "ipa": "/pɑːz/",
+      "meanings": [
+        "解析",
+        "分析"
+      ],
+      "definition": "",
+      "example": "Can this tool parse unstructured application logs into fields?",
+      "exampleZh": "这个工具能把非结构化的应用日志解析成字段吗？"
+    },
+    {
+      "word": "parser",
+      "pos": "n.",
+      "ipa": "/ˈpɑːsə/",
+      "meanings": [
+        "解析器",
+        "解析程序"
+      ],
+      "definition": "",
+      "example": "Our custom parser broke after they changed the log format last week.",
+      "exampleZh": "上周他们改了日志格式之后，我们的自定义解析器就坏了。"
+    },
+    {
+      "word": "parsing",
+      "pos": "n.",
+      "ipa": "/ˈpɑːzɪŋ/",
+      "meanings": [
+        "解析",
+        "语法分析"
+      ],
+      "definition": "",
+      "example": "Parsing fails when the vendor changes delimiters without notice.",
+      "exampleZh": "厂商不通知就改分隔符时，解析就会失败。"
+    },
+    {
+      "word": "partition",
+      "pos": "n./v.",
+      "ipa": "/pɑːˈtɪʃn/",
+      "meanings": [
+        "分区",
+        "分割"
+      ],
+      "definition": "",
+      "example": "We partition the index by date so queries only hit relevant daily shards.",
+      "exampleZh": "我们按日期对索引做分区，这样查询只命中相关的每日分片。"
+    },
+    {
+      "word": "pass-the-hash",
+      "pos": "n.",
+      "ipa": "/ˌpɑːs ðə hæʃ/",
+      "meanings": [
+        "哈希传递",
+        "Pass-the-Hash"
+      ],
+      "definition": "",
+      "example": "Pass-the-hash lets attackers move laterally without ever cracking the password.",
+      "exampleZh": "哈希传递让攻击者无需破解密码就能横向移动。"
+    },
+    {
+      "word": "pass-the-ticket",
+      "pos": "n.",
+      "ipa": "/ˌpɑːs ðə ˈtɪkɪt/",
+      "meanings": [
+        "票据传递",
+        "Pass-the-Ticket"
+      ],
+      "definition": "",
+      "example": "Pass-the-ticket requires a stolen TGT — monitor Kerberos authentication logs.",
+      "exampleZh": "票据传递需要窃取TGT——要监控Kerberos认证日志。"
+    },
+    {
+      "word": "patch",
+      "pos": "n./v.",
+      "ipa": "/pætʃ/",
+      "meanings": [
+        "补丁",
+        "打补丁"
+      ],
+      "definition": "An update that fixes a bug, vulnerability, or system weakness.",
+      "example": "Patch the vulnerable server before exploitation starts.",
+      "exampleZh": "????????????????????"
+    },
+    {
+      "word": "payload",
+      "pos": "n.",
+      "ipa": "/ˈpeɪləʊd/",
+      "meanings": [
+        "载荷",
+        "有效负载"
+      ],
+      "definition": "The part of malware or an exploit that performs the intended malicious action.",
+      "example": "The payload encrypted files after the user opened the attachment.",
+      "exampleZh": "????????????????"
+    },
+    {
+      "word": "penetration",
+      "pos": "n.",
+      "ipa": "/ˌpenɪˈtreɪʃn/",
+      "meanings": [
+        "渗透",
+        "穿透"
+      ],
+      "definition": "",
+      "example": "We're running a penetration test next week. Don't panic if you see odd traffic.",
+      "exampleZh": "下周我们要做渗透测试。如果你看到奇怪的流量，别慌。"
+    },
+    {
+      "word": "pentest",
+      "pos": "n./v.",
+      "ipa": "/ˈpenteɪst/",
+      "meanings": [
+        "渗透测试",
+        "Penetration Test"
+      ],
+      "definition": "",
+      "example": "The pentest found SQL injection in the legacy reporting module.",
+      "exampleZh": "渗透测试在遗留报表模块中发现了SQL注入。"
+    },
+    {
+      "word": "perimeter",
+      "pos": "n.",
+      "ipa": "/pəˈrɪmɪtə/",
+      "meanings": [
+        "边界",
+        "外围"
+      ],
+      "definition": "",
+      "example": "Perimeter defense isn't enough anymore — assume breach and monitor inside.",
+      "exampleZh": "边界防御已经不够了——假设已被攻破，重点监控内部。"
+    },
+    {
+      "word": "persistence",
+      "pos": "n.",
+      "ipa": "/pəˈsɪstəns/",
+      "meanings": [
+        "持久化"
+      ],
+      "definition": "",
+      "example": "The malware achieved persistence by creating a scheduled task.",
+      "exampleZh": "恶意软件通过创建计划任务实现了持久化。"
+    },
+    {
+      "word": "phishing",
+      "pos": "n.",
+      "ipa": "/ˈfɪʃɪŋ/",
+      "meanings": [
+        "钓鱼攻击",
+        "网络钓鱼"
+      ],
+      "definition": "",
+      "example": "I got a phishing email this morning. The sender looked exactly like our CEO.",
+      "exampleZh": "今早我收到一封钓鱼邮件。发件人看起来和我们CEO一模一样。"
+    },
+    {
+      "word": "pipeline",
+      "pos": "n.",
+      "ipa": "/ˈpaɪplaɪn/",
+      "meanings": [
+        "管道",
+        "流水线",
+        "数据处理流"
+      ],
+      "definition": "",
+      "example": "The log pipeline goes: collect, parse, enrich, index, then alert if needed.",
+      "exampleZh": "日志管道流程是：采集、解析、富化、索引，有必要的话再告警。"
+    },
+    {
+      "word": "pivot",
+      "pos": "n./v.",
+      "ipa": "/ˈpɪvət/",
+      "meanings": [
+        "透视",
+        "旋转",
+        "枢纽"
+      ],
+      "definition": "",
+      "example": "Let's pivot on user_id to see all actions that account took in the past hour.",
+      "exampleZh": "咱们按user_id做个透视，看看那个账号过去一小时做了哪些操作。"
+    },
+    {
+      "word": "playbook",
+      "pos": "n.",
+      "ipa": "/ˈpleɪbʊk/",
+      "meanings": [
+        "剧本",
+        "操作手册"
+      ],
+      "definition": "",
+      "example": "Follow the incident response playbook. Step one: identify the blast radius.",
+      "exampleZh": "按照事件响应剧本执行。第一步：确定影响范围。"
+    },
+    {
+      "word": "plugin",
+      "pos": "n.",
+      "ipa": "/ˈplʌɡɪn/",
+      "meanings": [
+        "插件"
+      ],
+      "definition": "",
+      "example": "Write a custom plugin if the built-in parser doesn't support your log format.",
+      "exampleZh": "如果内置解析器不支持你的日志格式，就写一个自定义插件。"
+    },
+    {
+      "word": "pod",
+      "pos": "n.",
+      "ipa": "/pɒd/",
+      "meanings": [
+        "Pod",
+        "容器组"
+      ],
+      "definition": "",
+      "example": "CrashLoopBackOff usually means the Pod cannot mount the log volume.",
+      "exampleZh": "CrashLoopBackOff通常意味着Pod挂载不了日志卷。"
+    },
+    {
+      "word": "policy",
+      "pos": "n.",
+      "ipa": "/ˈpɒləsi/",
+      "meanings": [
+        "策略",
+        "政策"
+      ],
+      "definition": "A rule or standard that defines acceptable behavior, configuration, or access.",
+      "example": "The access policy blocks log exports to personal accounts.",
+      "exampleZh": "?????????????????"
+    },
+    {
+      "word": "post-quantum",
+      "pos": "adj.",
+      "ipa": "/ˌpəʊst ˈkwɒntəm/",
+      "meanings": [
+        "后量子的",
+        "抗量子的"
+      ],
+      "definition": "",
+      "example": "Post-quantum encryption is on the roadmap but not implemented yet.",
+      "exampleZh": "后量子加密在路线图上但还没实施。"
+    },
+    {
+      "word": "posture",
+      "pos": "n.",
+      "ipa": "/ˈpɒstʃə(r)/",
+      "meanings": [
+        "态势",
+        "姿势"
+      ],
+      "definition": "The overall security condition or readiness of an environment.",
+      "example": "Our security posture improved after closing public storage buckets.",
+      "exampleZh": "????????????????????"
+    },
+    {
+      "word": "prediction",
+      "pos": "n.",
+      "ipa": "/prɪˈdɪkʃn/",
+      "meanings": [
+        "预测",
+        "预判"
+      ],
+      "definition": "",
+      "example": "The prediction accuracy for disk failures hit 92% after retraining.",
+      "exampleZh": "重新训练后磁盘故障预测准确率达到了92%。"
+    },
+    {
+      "word": "predictive",
+      "pos": "adj.",
+      "ipa": "/prɪˈdɪktɪv/",
+      "meanings": [
+        "预测性的"
+      ],
+      "definition": "Using data or models to estimate future risk, behavior, or outcomes.",
+      "example": "Predictive analytics spotted the risky pattern before impact.",
+      "exampleZh": "??????????????????"
+    },
+    {
+      "word": "predicts",
+      "pos": "v.",
+      "ipa": "/prɪˈdɪkts/",
+      "meanings": [
+        "预测",
+        "预示"
+      ],
+      "definition": "",
+      "example": "The model predicts alert volume will spike during the holiday freeze.",
+      "exampleZh": "模型预测告警量在假期冻结期会飙升。"
+    },
+    {
+      "word": "privatize",
+      "pos": "v.",
+      "ipa": "/ˈpraɪvətaɪz/",
+      "meanings": [
+        "私有化"
+      ],
+      "definition": "",
+      "example": "Do not privatize the registry — keep it internal for supply-chain safety.",
+      "exampleZh": "别把镜像仓库私有化外放——为了供应链安全保持内部使用。"
+    },
+    {
+      "word": "privilege",
+      "pos": "n.",
+      "ipa": "/ˈprɪvəlɪdʒ/",
+      "meanings": [
+        "特权",
+        "权限"
+      ],
+      "definition": "A level of access or permission granted to a user, account, or process.",
+      "example": "The attacker gained privilege through a misconfigured role.",
+      "exampleZh": "??????????????????"
+    },
+    {
+      "word": "privilege-escalation",
+      "pos": "n.",
+      "ipa": "/ˌprɪvɪlɪdʒ ˌeskəˈleɪʃn/",
+      "meanings": [
+        "权限提升",
+        "提权"
+      ],
+      "definition": "",
+      "example": "Privilege escalation from local admin to SYSTEM took under two minutes.",
+      "exampleZh": "从本地管理员到SYSTEM的权限提升花了不到两分钟。"
+    },
+    {
+      "word": "proactive",
+      "pos": "adj.",
+      "ipa": "/prəˈæktɪv/",
+      "meanings": [
+        "主动的",
+        "预防性的"
+      ],
+      "definition": "Acting before an incident or problem happens.",
+      "example": "A proactive control blocks risky behavior before an incident happens.",
+      "exampleZh": "??????????????????"
+    },
+    {
+      "word": "profiling",
+      "pos": "n.",
+      "ipa": "/ˈprəʊfaɪlɪŋ/",
+      "meanings": [
+        "分析",
+        "画像",
+        "性能分析"
+      ],
+      "definition": "",
+      "example": "Memory profiling found the leak in the log collector daemon.",
+      "exampleZh": "内存性能分析发现了日志采集器守护进程的泄漏点。"
+    },
+    {
+      "word": "prompt",
+      "pos": "n./v.",
+      "ipa": "/prɒmpt/",
+      "meanings": [
+        "提示词",
+        "提示"
+      ],
+      "definition": "",
+      "example": "Engineer the prompt carefully — garbage in, garbage out, even with the best model.",
+      "exampleZh": "提示词要精心设计——垃圾进垃圾出，再好的模型也一样。"
+    },
+    {
+      "word": "provenance",
+      "pos": "n.",
+      "ipa": "/ˈprɒvənəns/",
+      "meanings": [
+        "溯源",
+        "来源"
+      ],
+      "definition": "",
+      "example": "Log provenance tells us the original host, file path, and collection time.",
+      "exampleZh": "日志溯源告诉我们原始主机、文件路径和采集时间。"
+    },
+    {
+      "word": "provisioning",
+      "pos": "n.",
+      "ipa": "/prəˈvɪʒənɪŋ/",
+      "meanings": [
+        "配置",
+        "资源分配"
+      ],
+      "definition": "",
+      "example": "Provisioning new log collectors is fully automated through Terraform now.",
+      "exampleZh": "现在通过Terraform配置新的日志采集器完全自动化了。"
+    },
+    {
+      "word": "quarantine",
+      "pos": "n./v.",
+      "ipa": "/ˈkwɒrəntiːn/",
+      "meanings": [
+        "隔离",
+        "检疫"
+      ],
+      "definition": "To isolate a suspicious file, host, or process so it cannot cause harm.",
+      "example": "Quarantine the laptop before malware spreads to file shares.",
+      "exampleZh": "?????????????????????"
+    },
+    {
+      "word": "query",
+      "pos": "n./v.",
+      "ipa": "/ˈkwɪəri/",
+      "meanings": [
+        "查询",
+        "检索"
+      ],
+      "definition": "",
+      "example": "Write a query to pull all DNS requests to suspicious domains in the last hour.",
+      "exampleZh": "写个查询把最近一小时里所有访问可疑域名的DNS请求拉出来。"
+    },
+    {
+      "word": "quorum",
+      "pos": "n.",
+      "ipa": "/ˈkwɔːrəm/",
+      "meanings": [
+        "法定人数",
+        "最小一致节点数"
+      ],
+      "definition": "",
+      "example": "We need quorum of three nodes for the distributed log consensus.",
+      "exampleZh": "分布式日志共识我们需要三个节点达到法定人数。"
+    },
+    {
+      "word": "RAG",
+      "pos": "abbr.",
+      "ipa": "/ræɡ/",
+      "meanings": [
+        "检索增强生成",
+        "Retrieval-Augmented Generation"
+      ],
+      "fullForm": "Retrieval-Augmented Generation",
+      "definition": "An AI pattern that retrieves relevant knowledge before generating an answer.",
+      "example": "RAG retrieves relevant runbook sections for the analyst.",
+      "exampleZh": "RAG ?????????????????"
+    },
+    {
+      "word": "ransomware",
+      "pos": "n.",
+      "ipa": "/ˈrænsəmweə(r)/",
+      "meanings": [
+        "勒索软件"
+      ],
+      "definition": "",
+      "example": "Ransomware hit their file server. All documents are locked with .locked extension.",
+      "exampleZh": "勒索软件击中了他们的文件服务器。所有文档都被.lock扩展名锁定了。"
+    },
+    {
+      "word": "RBAC",
+      "pos": "abbr.",
+      "ipa": "/ɑː(r) biː eɪ siː/",
+      "meanings": [
+        "基于角色的访问控制"
+      ],
+      "fullForm": "Role-Based Access Control",
+      "definition": "An access control model that grants permissions based on roles.",
+      "example": "RBAC prevents interns from getting write access to production logs.",
+      "exampleZh": "RBAC ????????????????"
+    },
+    {
+      "word": "reactive",
+      "pos": "adj.",
+      "ipa": "/riˈæktɪv/",
+      "meanings": [
+        "被动的",
+        "反应式的"
+      ],
+      "definition": "Responding after an event, incident, or problem has already happened.",
+      "example": "A reactive process starts only after the alert fires.",
+      "exampleZh": "????????????????"
+    },
+    {
+      "word": "real-time",
+      "pos": "adj./adv.",
+      "ipa": "/ˈriːəl taɪm/",
+      "meanings": [
+        "实时的"
+      ],
+      "definition": "",
+      "example": "Real-time alerting is useless if ingestion itself lags by five minutes.",
+      "exampleZh": "如果采集本身就延迟五分钟，实时告警就没意义了。"
+    },
+    {
+      "word": "reconnaissance",
+      "pos": "n.",
+      "ipa": "/rɪˈkɒnɪsəns/",
+      "meanings": [
+        "侦察",
+        "踩点"
+      ],
+      "definition": "",
+      "example": "Reconnaissance traffic spiked yesterday. Someone's scanning our public IPs.",
+      "exampleZh": "昨天侦察流量激增。有人在扫描我们的公网IP。"
+    },
+    {
+      "word": "regex",
+      "pos": "n.",
+      "ipa": "/ˈreɡeks/",
+      "meanings": [
+        "正则表达式",
+        "规则表达式"
+      ],
+      "definition": "",
+      "example": "That regex is too greedy — it's matching stuff it shouldn't. Tighten it up.",
+      "exampleZh": "那个正则表达式太贪婪了——匹配到了不该匹配的东西。收紧一点。"
+    },
+    {
+      "word": "registry",
+      "pos": "n.",
+      "ipa": "/ˈredʒɪstri/",
+      "meanings": [
+        "注册表",
+        "仓库",
+        "镜像仓库"
+      ],
+      "definition": "",
+      "example": "Push the image to the private registry before the deploy job starts.",
+      "exampleZh": "在部署任务开始前把镜像推送到私有仓库。"
+    },
+    {
+      "word": "regulatory",
+      "pos": "adj.",
+      "ipa": "/ˈreɡjələtəri/",
+      "meanings": [
+        "监管的",
+        "法规的"
+      ],
+      "definition": "",
+      "example": "Regulatory requirements mandate six-year retention for finance logs.",
+      "exampleZh": "法规要求财务日志必须保留六年。"
+    },
+    {
+      "word": "reliability",
+      "pos": "n.",
+      "ipa": "/rɪˌlaɪəˈbɪlɪti/",
+      "meanings": [
+        "可靠性"
+      ],
+      "definition": "",
+      "example": "System reliability improved once we added redundant index nodes.",
+      "exampleZh": "加了冗余索引节点后系统可靠性提升了。"
+    },
+    {
+      "word": "remediation",
+      "pos": "n.",
+      "ipa": "/rɪˌmiːdiˈeɪʃn/",
+      "meanings": [
+        "修复",
+        "补救"
+      ],
+      "definition": "",
+      "example": "Remediation is complete. All affected systems have been patched and rebooted.",
+      "exampleZh": "修复已完成。所有受影响的系统都已打补丁并重启。"
+    },
+    {
+      "word": "replica",
+      "pos": "n.",
+      "ipa": "/ˈreplɪkə/",
+      "meanings": [
+        "副本",
+        "复制品"
+      ],
+      "definition": "",
+      "example": "The replica count dropped to zero on node-3 — that's why search is slow.",
+      "exampleZh": "node-3上的副本数降到零了——这就是搜索变慢的原因。"
+    },
+    {
+      "word": "repository",
+      "pos": "n.",
+      "ipa": "/rɪˈpɒzɪtri/",
+      "meanings": [
+        "仓库",
+        "存储库"
+      ],
+      "definition": "",
+      "example": "All parsed logs land in the central repository before any processing happens.",
+      "exampleZh": "所有解析后的日志都会先进入中央仓库，然后再进行处理。"
+    },
+    {
+      "word": "resilience",
+      "pos": "n.",
+      "ipa": "/rɪˈzɪliəns/",
+      "meanings": [
+        "韧性",
+        "弹性"
+      ],
+      "definition": "The ability of a system or organization to continue operating and recover from disruption.",
+      "example": "Resilience helps the service recover after a regional outage.",
+      "exampleZh": "???????????????"
+    },
+    {
+      "word": "retain",
+      "pos": "v.",
+      "ipa": "/rɪˈteɪn/",
+      "meanings": [
+        "保留",
+        "保持"
+      ],
+      "definition": "",
+      "example": "We have to retain audit logs for at least seven years per compliance.",
+      "exampleZh": "按照合规要求，审计日志我们至少得保留七年。"
+    },
+    {
+      "word": "retention",
+      "pos": "n.",
+      "ipa": "/rɪˈtenʃn/",
+      "meanings": [
+        "保留",
+        "留存期"
+      ],
+      "definition": "",
+      "example": "Our retention policy keeps hot data for 30 days, then moves to cold storage.",
+      "exampleZh": "我们的留存策略是热数据保留30天，然后转到冷存储。"
+    },
+    {
+      "word": "risk",
+      "pos": "n.",
+      "ipa": "/rɪsk/",
+      "meanings": [
+        "风险"
+      ],
+      "definition": "",
+      "example": "What's the risk level if we leave this port open? High or medium?",
+      "exampleZh": "如果我们保持这个端口开放，风险等级是什么？高还是中？"
+    },
+    {
+      "word": "roadmap",
+      "pos": "n.",
+      "ipa": "/ˈrəʊdmæp/",
+      "meanings": [
+        "路线图",
+        "规划"
+      ],
+      "definition": "",
+      "example": "The product roadmap has agentless collection slated for Q3 this year.",
+      "exampleZh": "产品路线图里无代理采集排在今年Q3。"
+    },
+    {
+      "word": "rollback",
+      "pos": "n./v.",
+      "ipa": "/ˈrəʊlbæk/",
+      "meanings": [
+        "回滚",
+        "回退"
+      ],
+      "definition": "",
+      "example": "Hit the rollback button if the new parser starts dropping events after deploy.",
+      "exampleZh": "如果新解析器部署后开始丢事件，就点回滚按钮。"
+    },
+    {
+      "word": "rollover",
+      "pos": "n./v.",
+      "ipa": "/ˈrəʊləʊvə/",
+      "meanings": [
+        "翻转",
+        "滚动更新",
+        "日志切换"
+      ],
+      "definition": "",
+      "example": "The index rollover happens automatically at midnight UTC every day.",
+      "exampleZh": "索引翻转每天UTC午夜自动进行。"
+    },
+    {
+      "word": "rootkit",
+      "pos": "n.",
+      "ipa": "/ˈruːtkɪt/",
+      "meanings": [
+        "Rootkit",
+        "根套件"
+      ],
+      "definition": "Malware designed to hide itself and maintain privileged access.",
+      "example": "The rootkit hid malicious processes from normal monitoring tools.",
+      "exampleZh": "rootkit ???????????????"
+    },
+    {
+      "word": "rotation",
+      "pos": "n.",
+      "ipa": "/rəʊˈteɪʃn/",
+      "meanings": [
+        "轮转",
+        "轮换",
+        "日志轮转"
+      ],
+      "definition": "",
+      "example": "Log rotation kicks in when files hit 100MB, and we keep the last 20 copies.",
+      "exampleZh": "日志轮转在文件达到100MB时触发，我们保留最近20个副本。"
+    },
+    {
+      "word": "runbook",
+      "pos": "n.",
+      "ipa": "/ˈrʌnbʊk/",
+      "meanings": [
+        "运行手册",
+        "标准操作程序"
+      ],
+      "definition": "",
+      "example": "Follow the runbook — restart the indexer, verify queues, then check dashboards.",
+      "exampleZh": "按运行手册来——重启索引器、检查队列、然后看仪表盘。"
+    },
+    {
+      "word": "runtime",
+      "pos": "n.",
+      "ipa": "/ˈrʌntaɪm/",
+      "meanings": [
+        "运行时",
+        "运行环境"
+      ],
+      "definition": "",
+      "example": "Runtime errors in the parser spiked after the schema change on Tuesday.",
+      "exampleZh": "周二模式变更后解析器的运行时错误飙升了。"
+    },
+    {
+      "word": "sampling",
+      "pos": "n.",
+      "ipa": "/ˈsɑːmplɪŋ/",
+      "meanings": [
+        "采样"
+      ],
+      "definition": "",
+      "example": "We use 1% sampling for high-volume debug logs to keep storage costs down.",
+      "exampleZh": "高容量的调试日志我们用1%采样来控制存储成本。"
+    },
+    {
+      "word": "sandbox",
+      "pos": "n.",
+      "ipa": "/ˈsændbɒks/",
+      "meanings": [
+        "沙箱",
+        "沙盒"
+      ],
+      "definition": "An isolated environment used to safely run and analyze code or files.",
+      "example": "Run the suspicious file in a sandbox before opening it on a workstation.",
+      "exampleZh": "??????????????????????"
+    },
+    {
+      "word": "SASE",
+      "pos": "abbr.",
+      "ipa": "/ˈsæseɪ/",
+      "meanings": [
+        "安全访问服务边缘",
+        "Secure Access Service Edge"
+      ],
+      "fullForm": "Secure Access Service Edge",
+      "definition": "",
+      "example": "SASE replaced our VPN and SWG with one cloud-delivered stack.",
+      "exampleZh": "SASE用一套云交付栈替代了我们的VPN和安全Web网关。"
+    },
+    {
+      "word": "saturation",
+      "pos": "n.",
+      "ipa": "/ˌsætʃəˈreɪʃn/",
+      "meanings": [
+        "饱和度"
+      ],
+      "definition": "",
+      "example": "Disk saturation hit 95% — old logs need to be archived immediately.",
+      "exampleZh": "磁盘饱和度达到95%——旧日志得马上归档。"
+    },
+    {
+      "word": "SBOM",
+      "pos": "abbr.",
+      "ipa": "/ˈesbɒm/",
+      "meanings": [
+        "软件物料清单",
+        "Software Bill of Materials"
+      ],
+      "definition": "",
+      "example": "SBOM shows log4j 2.14 is buried three layers deep in our dependency tree.",
+      "exampleZh": "软件物料清单显示log4j 2.14埋在我们的依赖树第三层深处。"
+    },
+    {
+      "word": "scalability",
+      "pos": "n.",
+      "ipa": "/ˌskeɪləˈbɪlɪti/",
+      "meanings": [
+        "可扩展性",
+        "伸缩性"
+      ],
+      "definition": "",
+      "example": "Scalability was the main reason we moved from monolith to microservices.",
+      "exampleZh": "可扩展性是我们从单体架构迁到微服务的主要原因。"
+    },
+    {
+      "word": "scaling",
+      "pos": "n.",
+      "ipa": "/ˈskeɪlɪŋ/",
+      "meanings": [
+        "扩展",
+        "伸缩",
+        "缩放"
+      ],
+      "definition": "",
+      "example": "Auto-scaling handles the traffic burst — no manual scaling needed.",
+      "exampleZh": "自动扩缩容处理流量突发——不需要手动扩缩容。"
+    },
+    {
+      "word": "schema",
+      "pos": "n.",
+      "ipa": "/ˈskiːmə/",
+      "meanings": [
+        "模式",
+        "结构定义"
+      ],
+      "definition": "",
+      "example": "We defined a common schema so all teams send logs in the same format.",
+      "exampleZh": "我们定义了一个通用模式，这样所有团队都用同样的格式发日志。"
+    },
+    {
+      "word": "schema-on-read",
+      "pos": "n.",
+      "ipa": "/ˈskiːmə ɒn riːd/",
+      "meanings": [
+        "读时模式"
+      ],
+      "definition": "",
+      "example": "We use schema-on-read for the data lake — store now, structure later when querying.",
+      "exampleZh": "数据湖我们用读时模式——先存，查询的时候再定义结构。"
+    },
+    {
+      "word": "scrum",
+      "pos": "n.",
+      "ipa": "/skrʌm/",
+      "meanings": [
+        "敏捷开发框架",
+        "Scrum"
+      ],
+      "definition": "",
+      "example": "Daily scrum takes fifteen minutes — everyone shares blockers and progress.",
+      "exampleZh": "每日站会15分钟——每个人分享阻塞项和进展。"
+    },
+    {
+      "word": "search",
+      "pos": "n./v.",
+      "ipa": "/sɜːtʃ/",
+      "meanings": [
+        "搜索",
+        "查找"
+      ],
+      "definition": "",
+      "example": "Just search for error code 0x80070005 across all Windows event logs.",
+      "exampleZh": "直接在所有Windows事件日志里搜索错误代码0x80070005。"
+    },
+    {
+      "word": "security",
+      "pos": "n.",
+      "ipa": "/sɪˈkjʊərəti/",
+      "meanings": [
+        "安全",
+        "安全性"
+      ],
+      "definition": "",
+      "example": "Have you checked the perimeter logs? A new security scan just showed up.",
+      "exampleZh": "你检查边界日志了吗？刚刚出现了一次新的安全扫描。"
+    },
+    {
+      "word": "security-as-code",
+      "pos": "n.",
+      "ipa": "/sɪˈkjʊərəti æz kəʊd/",
+      "meanings": [
+        "安全即代码",
+        "策略即代码"
+      ],
+      "definition": "",
+      "example": "Security-as-code lets us version firewall rules in Git like any app.",
+      "exampleZh": "安全即代码让我们像管理应用一样在Git里管理防火墙规则版本。"
+    },
+    {
+      "word": "segment",
+      "pos": "n./v.",
+      "ipa": "/ˈseɡmənt/",
+      "meanings": [
+        "段",
+        "分区",
+        "分段"
+      ],
+      "definition": "",
+      "example": "Segment the DMZ from internal networks — no direct traffic between them.",
+      "exampleZh": "把DMZ和内部网络分段——它们之间不能有直接流量。"
+    },
+    {
+      "word": "segmentation",
+      "pos": "n.",
+      "ipa": "/ˌseɡmenˈteɪʃn/",
+      "meanings": [
+        "分割",
+        "分段",
+        "网络分段"
+      ],
+      "definition": "",
+      "example": "Network segmentation limits blast radius if one subnet gets compromised.",
+      "exampleZh": "网络分段可以限制一个子网被攻破时的影响范围。"
+    },
+    {
+      "word": "serverless",
+      "pos": "adj.",
+      "ipa": "/ˈsɜːvələs/",
+      "meanings": [
+        "无服务器的"
+      ],
+      "definition": "",
+      "example": "We went serverless for the log parser — Lambda spins up only when logs arrive.",
+      "exampleZh": "日志解析器我们用无服务器架构——有日志来的时候Lambda才启动。"
+    },
+    {
+      "word": "session",
+      "pos": "n.",
+      "ipa": "/ˈseʃn/",
+      "meanings": [
+        "会话",
+        "连接"
+      ],
+      "definition": "",
+      "example": "That session lasted 8 hours without any user activity — definitely suspicious.",
+      "exampleZh": "那个会话持续了8个小时，期间没有任何用户活动——绝对可疑。"
+    },
+    {
+      "word": "shadow-IT",
+      "pos": "n.",
+      "ipa": "/ˈʃædəʊ ˌaɪ ˈtiː/",
+      "meanings": [
+        "影子IT",
+        "未经批准的业务系统"
+      ],
+      "definition": "",
+      "example": "Shadow-IT means marketing signed up for a CRM we have never heard of.",
+      "exampleZh": "影子IT意味着市场部门注册了一个我们从未听说过的CRM。"
+    },
+    {
+      "word": "shard",
+      "pos": "n./v.",
+      "ipa": "/ʃɑːd/",
+      "meanings": [
+        "分片",
+        "碎片",
+        "分片存储"
+      ],
+      "definition": "",
+      "example": "Each shard holds roughly 50GB, and we replicate them across two nodes for failover.",
+      "exampleZh": "每个分片大概存50GB，我们在两个节点上做副本以实现故障转移。"
+    },
+    {
+      "word": "sharding",
+      "pos": "n.",
+      "ipa": "/ˈʃɑːdɪŋ/",
+      "meanings": [
+        "分片",
+        "分片技术"
+      ],
+      "definition": "",
+      "example": "Sharding by tenant ID keeps each customer data in isolated partitions.",
+      "exampleZh": "按租户ID分片让每个客户的数据都在独立分区里。"
+    },
+    {
+      "word": "shielding",
+      "pos": "n.",
+      "ipa": "/ˈʃiːldɪŋ/",
+      "meanings": [
+        "防护",
+        "屏蔽"
+      ],
+      "definition": "Protective controls that reduce exposure or block likely attack paths.",
+      "example": "Shielding rules protect the new web app from SQL injection.",
+      "exampleZh": "??????? Web ???? SQL ???"
+    },
+    {
+      "word": "shift-left",
+      "pos": "n./v.",
+      "ipa": "/ˌʃɪft ˈleft/",
+      "meanings": [
+        "安全左移",
+        "在开发早期引入安全"
+      ],
+      "definition": "",
+      "example": "Shift-left means security scans run on every pull request, not just release day.",
+      "exampleZh": "安全左移意味着每次拉取请求都跑安全扫描，而不只是发布日。"
+    },
+    {
+      "word": "shipper",
+      "pos": "n.",
+      "ipa": "/ˈʃɪpə/",
+      "meanings": [
+        "发送器",
+        "传输代理"
+      ],
+      "definition": "",
+      "example": "We're replacing Filebeat with a lightweight log shipper we built in-house.",
+      "exampleZh": "我们正用自研的轻量级日志发送器替换Filebeat。"
+    },
+    {
+      "word": "SIEM",
+      "pos": "abbr.",
+      "ipa": "/siːm/",
+      "meanings": [
+        "安全信息与事件管理"
+      ],
+      "fullForm": "Security Information and Event Management",
+      "definition": "A platform that collects, normalizes, analyzes, and correlates security events from multiple sources.",
+      "example": "SIEM correlation rules fired 50 times. Most are false positives, though.",
+      "exampleZh": "SIEM关联规则触发了50次。不过大部分是误报。"
+    },
+    {
+      "word": "signature-based",
+      "pos": "adj.",
+      "ipa": "/ˈsɪɡnətʃə beɪst/",
+      "meanings": [
+        "基于特征的",
+        "基于签名的"
+      ],
+      "definition": "",
+      "example": "Signature-based detection catches known malware but won't stop zero-days.",
+      "exampleZh": "基于特征的检测能抓住已知恶意软件，但挡不住零日攻击。"
+    },
+    {
+      "word": "silver-ticket",
+      "pos": "n.",
+      "ipa": "/ˌsɪlvə ˈtɪkɪt/",
+      "meanings": [
+        "白银票据",
+        "Kerberos白银票据攻击"
+      ],
+      "definition": "",
+      "example": "Silver Ticket is limited to one service — harder to detect than Golden Ticket.",
+      "exampleZh": "白银票据只针对单一服务——比黄金票据更难检测。"
+    },
+    {
+      "word": "SLA",
+      "pos": "abbr.",
+      "ipa": "/ˌes el ˈeɪ/",
+      "meanings": [
+        "服务等级协议",
+        "Service Level Agreement"
+      ],
+      "definition": "",
+      "example": "Our SLA guarantees 99.9% uptime and sub-minute alert notification.",
+      "exampleZh": "我们的SLA保证99.9%可用性和一分钟内告警通知。"
+    },
+    {
+      "word": "snippet",
+      "pos": "n.",
+      "ipa": "/ˈsnɪpɪt/",
+      "meanings": [
+        "片段",
+        "代码片段",
+        "日志片段"
+      ],
+      "definition": "",
+      "example": "This log snippet shows the exact moment the service crashed — look at the stack trace.",
+      "exampleZh": "这段日志片段显示了服务崩溃的确切时刻——看看堆栈跟踪。"
+    },
+    {
+      "word": "SOAR",
+      "pos": "abbr.",
+      "ipa": "/sɔː(r)/",
+      "meanings": [
+        "安全编排自动化与响应"
+      ],
+      "fullForm": "Security Orchestration, Automation and Response",
+      "definition": "A platform that automates and orchestrates security response workflows.",
+      "example": "SOAR handled the entire response automatically. No analyst intervention needed.",
+      "exampleZh": "SOAR自动处理了整个响应过程。不需要分析师干预。"
+    },
+    {
+      "word": "SOC",
+      "pos": "abbr.",
+      "ipa": "/es əʊ siː/",
+      "meanings": [
+        "安全运营中心"
+      ],
+      "fullForm": "Security Operations Center",
+      "definition": "A team or function responsible for monitoring, detecting, and responding to security threats.",
+      "example": "Our SOC operates 24/7. Three shifts cover the whole week.",
+      "exampleZh": "我们的SOC 7×24小时运作。三个班次覆盖整周。"
+    },
+    {
+      "word": "socket",
+      "pos": "n.",
+      "ipa": "/ˈsɒkɪt/",
+      "meanings": [
+        "套接字",
+        "端口",
+        "插座"
+      ],
+      "definition": "",
+      "example": "The application binds to a Unix socket instead of TCP for local log collection.",
+      "exampleZh": "应用绑定了Unix套接字而不是TCP来做本地日志采集。"
+    },
+    {
+      "word": "span",
+      "pos": "n.",
+      "ipa": "/spæn/",
+      "meanings": [
+        "跨度",
+        "追踪单元"
+      ],
+      "definition": "",
+      "example": "Each API call creates a parent span with child spans for downstream services.",
+      "exampleZh": "每个API调用创建一个父跨度，下游服务各有一个子跨度。"
+    },
+    {
+      "word": "spark",
+      "pos": "n.",
+      "ipa": "/spɑːk/",
+      "meanings": [
+        "Spark",
+        "大数据计算引擎"
+      ],
+      "definition": "",
+      "example": "Spark jobs process yesterday's batch logs for compliance reporting.",
+      "exampleZh": "Spark ??????????????????"
+    },
+    {
+      "word": "sprint",
+      "pos": "n.",
+      "ipa": "/sprɪnt/",
+      "meanings": [
+        "冲刺",
+        "迭代周期"
+      ],
+      "definition": "",
+      "example": "This sprint we're adding three new cloud log sources and fixing the Kafka parser.",
+      "exampleZh": "这个冲刺我们要加三个新的云日志源，还要修Kafka解析器。"
+    },
+    {
+      "word": "SRE",
+      "pos": "abbr.",
+      "ipa": "/ˌes ɑːr ˈiː/",
+      "meanings": [
+        "站点可靠性工程",
+        "Site Reliability Engineering"
+      ],
+      "definition": "",
+      "example": "Our SRE team owns the SLIs and SLOs for the log ingestion pipeline.",
+      "exampleZh": "我们的SRE团队负责日志采集管道的SLI和SLO。"
+    },
+    {
+      "word": "SSE",
+      "pos": "abbr.",
+      "ipa": "/ˌes iː ˈiː/",
+      "meanings": [
+        "安全服务边缘",
+        "Security Service Edge"
+      ],
+      "definition": "",
+      "example": "SSE is the security half of SASE — no SD-WAN, just ZTNA and CASB.",
+      "exampleZh": "SSE是SASE的安全部分——没有SD-WAN，只有零信任网络访问和云访问安全代理。"
+    },
+    {
+      "word": "SSO",
+      "pos": "abbr.",
+      "ipa": "/es es əʊ/",
+      "meanings": [
+        "单点登录"
+      ],
+      "fullForm": "Single Sign-On",
+      "definition": "A login model that lets users access multiple applications with one authenticated session.",
+      "example": "SSO lets employees access internal apps with one login.",
+      "exampleZh": "SSO ???????????????"
+    },
+    {
+      "word": "stakeholder",
+      "pos": "n.",
+      "ipa": "/ˈsteɪkhəʊldə/",
+      "meanings": [
+        "利益相关者",
+        "干系人"
+      ],
+      "definition": "",
+      "example": "Loop in all stakeholders — security, ops, compliance — before changing retention.",
+      "exampleZh": "改留存策略之前把所有干系人拉进来——安全、运维、合规。"
+    },
+    {
+      "word": "strategy",
+      "pos": "n.",
+      "ipa": "/ˈstrætədʒi/",
+      "meanings": [
+        "战略",
+        "策略"
+      ],
+      "definition": "A high-level plan for achieving business, security, or technical goals.",
+      "example": "The security strategy focuses on early detection and fast response.",
+      "exampleZh": "????????????????"
+    },
+    {
+      "word": "stream",
+      "pos": "n./v.",
+      "ipa": "/striːm/",
+      "meanings": [
+        "流",
+        "数据流",
+        "流式传输"
+      ],
+      "definition": "",
+      "example": "Stream processing handles events as they arrive instead of batch delay.",
+      "exampleZh": "流处理让事件到达时就处理，而不是等批量延迟。"
+    },
+    {
+      "word": "streaming",
+      "pos": "n./adj.",
+      "ipa": "/ˈstriːmɪŋ/",
+      "meanings": [
+        "流式",
+        "流处理",
+        "实时传输"
+      ],
+      "definition": "",
+      "example": "Streaming analytics lets us detect anomalies in real-time instead of batch delay.",
+      "exampleZh": "流式分析让我们能实时检测异常，而不是等批量处理的延迟。"
+    },
+    {
+      "word": "suppress",
+      "pos": "v.",
+      "ipa": "/səˈpres/",
+      "meanings": [
+        "抑制",
+        "压制",
+        "屏蔽"
+      ],
+      "definition": "",
+      "example": "We should suppress alerts during maintenance windows to avoid noise.",
+      "exampleZh": "维护窗口期间我们应该把告警屏蔽掉，避免噪声。"
+    },
+    {
+      "word": "suppression",
+      "pos": "n.",
+      "ipa": "/səˈpreʃn/",
+      "meanings": [
+        "抑制",
+        "压制"
+      ],
+      "definition": "A rule or action that reduces repetitive or low-value alerts.",
+      "example": "Suppression hides alerts during approved maintenance windows.",
+      "exampleZh": "???????????????????"
+    },
+    {
+      "word": "syslog",
+      "pos": "n.",
+      "ipa": "/ˈsɪslɒɡ/",
+      "meanings": [
+        "系统日志",
+        "系统日志协议"
+      ],
+      "definition": "",
+      "example": "Most network gear still sends syslog over UDP port 514 by default.",
+      "exampleZh": "大部分网络设备默认还是通过UDP 514端口发syslog。"
+    },
+    {
+      "word": "syslog-ng",
+      "pos": "n.",
+      "ipa": "/ˈsɪslɒɡ ɛn dʒiː/",
+      "meanings": [
+        "新一代系统日志",
+        "syslog下一代协议"
+      ],
+      "definition": "",
+      "example": "We switched to syslog-ng because it handles TLS encryption and filtering natively.",
+      "exampleZh": "我们换成了syslog-ng，因为它原生支持TLS加密和过滤。"
+    },
+    {
+      "word": "tactic",
+      "pos": "n.",
+      "ipa": "/ˈtæktɪk/",
+      "meanings": [
+        "战术"
+      ],
+      "definition": "A high-level method or behavior used by an attacker to achieve a goal.",
+      "example": "This tactic matches credential dumping in the ATT&CK framework.",
+      "exampleZh": "?????? ATT&CK ?????????"
+    },
+    {
+      "word": "tagging",
+      "pos": "n.",
+      "ipa": "/ˈtæɡɪŋ/",
+      "meanings": [
+        "打标签",
+        "标记"
+      ],
+      "definition": "",
+      "example": "Tagging logs by environment makes it easy to filter dev versus prod events.",
+      "exampleZh": "按环境给日志打标签，这样过滤开发环境和生产环境的事件就很容易。"
+    },
+    {
+      "word": "tail",
+      "pos": "n./v.",
+      "ipa": "/teɪl/",
+      "meanings": [
+        "尾部",
+        "跟踪",
+        "实时查看"
+      ],
+      "definition": "",
+      "example": "Just tail -f the application log and watch for the error pattern to show up.",
+      "exampleZh": "直接用tail -f跟踪应用日志，等错误模式出现的时候就能看见。"
+    },
+    {
+      "word": "telemetry",
+      "pos": "n.",
+      "ipa": "/təˈlemɪtri/",
+      "meanings": [
+        "遥测",
+        "远程数据采集"
+      ],
+      "definition": "",
+      "example": "Agent telemetry tells us memory, CPU, and disk health every 30 seconds.",
+      "exampleZh": "Agent的遥测数据每30秒告诉我们内存、CPU和磁盘的健康状态。"
+    },
+    {
+      "word": "template",
+      "pos": "n.",
+      "ipa": "/ˈtempleɪt/",
+      "meanings": [
+        "模板",
+        "样板"
+      ],
+      "definition": "",
+      "example": "Save that query as a template so the team can reuse it for similar investigations.",
+      "exampleZh": "把那个查询存成模板，团队做类似调查的时候可以复用。"
+    },
+    {
+      "word": "tenant",
+      "pos": "n.",
+      "ipa": "/ˈtenənt/",
+      "meanings": [
+        "租户"
+      ],
+      "definition": "",
+      "example": "Create a new tenant for the finance team — they need isolated log storage.",
+      "exampleZh": "给财务团队创建一个新租户——他们需要隔离的日志存储。"
+    },
+    {
+      "word": "threat",
+      "pos": "n.",
+      "ipa": "/θret/",
+      "meanings": [
+        "威胁"
+      ],
+      "definition": "",
+      "example": "That threat actor has been targeting our industry for the past six months.",
+      "exampleZh": "那个威胁行为者过去六个月一直在针对我们行业。"
+    },
+    {
+      "word": "threshold",
+      "pos": "n.",
+      "ipa": "/ˈθreʃhəʊld/",
+      "meanings": [
+        "阈值",
+        "临界值"
+      ],
+      "definition": "",
+      "example": "Bump the threshold up to 50 failed attempts — 10 is way too sensitive.",
+      "exampleZh": "把阈值调到50次失败尝试——10次太敏感了。"
+    },
+    {
+      "word": "threshold-based",
+      "pos": "adj.",
+      "ipa": "/ˈθreʃhəʊld beɪst/",
+      "meanings": [
+        "基于阈值的"
+      ],
+      "definition": "",
+      "example": "Threshold-based rules miss slow and low attacks — you need behavioral detection too.",
+      "exampleZh": "基于阈值的规则会漏掉慢速低强度攻击——你还需要行为检测。"
+    },
+    {
+      "word": "throughput",
+      "pos": "n.",
+      "ipa": "/ˈθruːpʊt/",
+      "meanings": [
+        "吞吐量"
+      ],
+      "definition": "",
+      "example": "The ingestion throughput peaked at 120K EPS during the security audit.",
+      "exampleZh": "安全审计期间采集吞吐量峰值达到了每秒12万条。"
+    },
+    {
+      "word": "timestamp",
+      "pos": "n.",
+      "ipa": "/ˈtɪmstæmp/",
+      "meanings": [
+        "时间戳",
+        "时间标记"
+      ],
+      "definition": "",
+      "example": "Check the timestamp on that error — it's way off from the actual event time.",
+      "exampleZh": "看看那个错误的时间戳——跟实际事件时间差太远了。"
+    },
+    {
+      "word": "TIP",
+      "pos": "abbr.",
+      "ipa": "/ˌtiː aɪ ˈpiː/",
+      "meanings": [
+        "威胁情报平台",
+        "Threat Intelligence Platform"
+      ],
+      "definition": "",
+      "example": "The TIP enriches every alert with reputation scores from 12 threat feeds.",
+      "exampleZh": "威胁情报平台用12个威胁源的情报为每个告警补充信誉评分。"
+    },
+    {
+      "word": "topology",
+      "pos": "n.",
+      "ipa": "/təˈpɒlədʒi/",
+      "meanings": [
+        "拓扑",
+        "拓扑结构"
+      ],
+      "definition": "",
+      "example": "The network topology view helps us understand log flow between data centers.",
+      "exampleZh": "网络拓扑视图帮我们理解数据中心之间的日志流向。"
+    },
+    {
+      "word": "trace",
+      "pos": "n./v.",
+      "ipa": "/treɪs/",
+      "meanings": [
+        "跟踪",
+        "追踪",
+        "痕迹"
+      ],
+      "definition": "",
+      "example": "We can trace that request through every hop using the correlation ID in the logs.",
+      "exampleZh": "我们可以用日志里的关联ID追踪那个请求经过的每一跳。"
+    },
+    {
+      "word": "traceability",
+      "pos": "n.",
+      "ipa": "/ˌtreɪsəˈbɪlɪti/",
+      "meanings": [
+        "可追溯性"
+      ],
+      "definition": "",
+      "example": "Full traceability means we can track any event from source to dashboard.",
+      "exampleZh": "完整的可追溯性意味着我们能追踪任意事件从源到仪表盘的全过程。"
+    },
+    {
+      "word": "training",
+      "pos": "n.",
+      "ipa": "/ˈtreɪnɪŋ/",
+      "meanings": [
+        "训练",
+        "模型训练"
+      ],
+      "definition": "",
+      "example": "Training helps analysts handle phishing incidents consistently.",
+      "exampleZh": "?????????????????"
+    },
+    {
+      "word": "transformation",
+      "pos": "n.",
+      "ipa": "/ˌtrænsfəˈmeɪʃn/",
+      "meanings": [
+        "转换",
+        "变换",
+        "数字化转型"
+      ],
+      "definition": "",
+      "example": "Digital transformation of the SOC means replacing playbooks with code.",
+      "exampleZh": "SOC的数字化转型意味着用代码替换传统运维手册。"
+    },
+    {
+      "word": "transformer",
+      "pos": "n.",
+      "ipa": "/trænsˈfɔːmə/",
+      "meanings": [
+        "Transformer",
+        "转换器",
+        "变压器"
+      ],
+      "definition": "",
+      "example": "The Transformer architecture powers most modern NLP threat intel parsers.",
+      "exampleZh": "Transformer架构驱动了大多数现代NLP威胁情报解析器。"
+    },
+    {
+      "word": "triage",
+      "pos": "n./v.",
+      "ipa": "/ˈtriːɑːʒ/",
+      "meanings": [
+        "分诊",
+        "优先级排序"
+      ],
+      "definition": "The process of prioritizing alerts or incidents based on urgency and impact.",
+      "example": "Triage these critical alerts before reviewing low-risk noise.",
+      "exampleZh": "??????????????????"
+    },
+    {
+      "word": "trigger",
+      "pos": "v./n.",
+      "ipa": "/ˈtrɪɡə/",
+      "meanings": [
+        "触发",
+        "引发",
+        "扳机"
+      ],
+      "definition": "",
+      "example": "Any brute-force pattern will trigger an automatic block on the firewall.",
+      "exampleZh": "任何暴力破解模式都会自动触发防火墙的阻断。"
+    },
+    {
+      "word": "trojan",
+      "pos": "n.",
+      "ipa": "/ˈtrəʊdʒən/",
+      "meanings": [
+        "木马"
+      ],
+      "definition": "Malware that disguises itself as legitimate software or content.",
+      "example": "The trojan disguised itself as a PDF invoice.",
+      "exampleZh": "??????? PDF ???"
+    },
+    {
+      "word": "TTP",
+      "pos": "abbr.",
+      "ipa": "/tiː tiː piː/",
+      "meanings": [
+        "战术、技术和程序"
+      ],
+      "fullForm": "Tactics, Techniques, and Procedures",
+      "definition": "The behaviors and methods attackers use to conduct operations.",
+      "example": "The TTP matches the same group we tracked last month.",
+      "exampleZh": "?? TTP ???????????????"
+    },
+    {
+      "word": "UEBA",
+      "pos": "abbr.",
+      "ipa": "/juː iː biː eɪ/",
+      "meanings": [
+        "用户与实体行为分析"
+      ],
+      "fullForm": "User and Entity Behavior Analytics",
+      "definition": "Analytics that detect risky behavior from users and entities.",
+      "example": "UEBA flagged a user downloading 10GB at midnight. That's not normal behavior.",
+      "exampleZh": "UEBA标记了一个用户在午夜下载了10GB。这不正常。"
+    },
+    {
+      "word": "underfitting",
+      "pos": "n.",
+      "ipa": "/ˌʌndəˈfɪtɪŋ/",
+      "meanings": [
+        "欠拟合"
+      ],
+      "definition": "",
+      "example": "Underfitting shows up as poor accuracy on both training and test logs.",
+      "exampleZh": "欠拟合表现为在训练日志和测试日志上准确率都差。"
+    },
+    {
+      "word": "unified",
+      "pos": "adj.",
+      "ipa": "/ˈjuːnɪfaɪd/",
+      "meanings": [
+        "统一的",
+        "合一的"
+      ],
+      "definition": "",
+      "example": "A unified log schema lets every team query across sources with one syntax.",
+      "exampleZh": "统一的日志模式让每个团队都能用一种语法跨源查询。"
+    },
+    {
+      "word": "vector",
+      "pos": "n.",
+      "ipa": "/ˈvektə(r)/",
+      "meanings": [
+        "向量",
+        "攻击向量"
+      ],
+      "definition": "The path or method used to deliver an attack.",
+      "example": "The initial vector was a phishing email with a malicious link.",
+      "exampleZh": "????????????????????"
+    },
+    {
+      "word": "virtual",
+      "pos": "adj.",
+      "ipa": "/ˈvɜːtʃuəl/",
+      "meanings": [
+        "虚拟的"
+      ],
+      "definition": "",
+      "example": "Virtual machines leave hypervisor logs that are easy to miss.",
+      "exampleZh": "虚拟机会留下容易被忽略的虚拟机监控程序日志。"
+    },
+    {
+      "word": "visualization",
+      "pos": "n.",
+      "ipa": "/ˌvɪʒuəlaɪˈzeɪʃn/",
+      "meanings": [
+        "可视化",
+        "图形展示"
+      ],
+      "definition": "",
+      "example": "Good visualization makes it easy to spot trends that raw logs hide.",
+      "exampleZh": "好的可视化让人很容易发现原始日志里看不到的趋势。"
+    },
+    {
+      "word": "visualize",
+      "pos": "v.",
+      "ipa": "/ˈvɪʒuəlaɪz/",
+      "meanings": [
+        "可视化",
+        "使可见"
+      ],
+      "definition": "",
+      "example": "I'd like to visualize the top 10 source IPs hitting our web servers.",
+      "exampleZh": "我想可视化一下访问我们Web服务器最多的前10个源IP。"
+    },
+    {
+      "word": "VPN",
+      "pos": "abbr.",
+      "ipa": "/viː piː en/",
+      "meanings": [
+        "虚拟专用网络"
+      ],
+      "fullForm": "Virtual Private Network",
+      "definition": "A secure tunnel that allows remote users or networks to connect privately.",
+      "example": "The VPN tunnel dropped three times during the night shift.",
+      "exampleZh": "VPN ?????????????"
+    },
+    {
+      "word": "vulnerability",
+      "pos": "n.",
+      "ipa": "/ˌvʌlnərəˈbɪləti/",
+      "meanings": [
+        "漏洞",
+        "脆弱性"
+      ],
+      "definition": "",
+      "example": "That vulnerability has a CVSS score of 9.8. We need to patch it today.",
+      "exampleZh": "那个漏洞的CVSS评分是9.8。我们今天就得打补丁。"
+    },
+    {
+      "word": "WAF",
+      "pos": "abbr.",
+      "ipa": "/wæf/",
+      "meanings": [
+        "Web应用防火墙"
+      ],
+      "fullForm": "Web Application Firewall",
+      "definition": "",
+      "example": "The WAF blocked a SQL injection attempt. The payload was pretty obvious.",
+      "exampleZh": "WAF阻止了一次SQL注入尝试。载荷相当明显。"
+    },
+    {
+      "word": "webhook",
+      "pos": "n.",
+      "ipa": "/ˈwebhʊk/",
+      "meanings": [
+        "网络钩子",
+        "HTTP回调"
+      ],
+      "definition": "",
+      "example": "The alert triggers a webhook that posts the event details straight to our Slack channel.",
+      "exampleZh": "告警触发了一个webhook，把事件详情直接发到我们的Slack频道。"
+    },
+    {
+      "word": "whitelist",
+      "pos": "n./v.",
+      "ipa": "/ˈwaɪtlɪst/",
+      "meanings": [
+        "白名单",
+        "列入白名单"
+      ],
+      "definition": "A list of approved or trusted items that are allowed by policy.",
+      "example": "Add the trusted scanner to the whitelist to reduce noise.",
+      "exampleZh": "?????????????????"
+    },
+    {
+      "word": "window",
+      "pos": "n.",
+      "ipa": "/ˈwɪndəʊ/",
+      "meanings": [
+        "窗口",
+        "时间窗口"
+      ],
+      "definition": "",
+      "example": "Set the aggregation window to 5 minutes — shorter and it gets too noisy.",
+      "exampleZh": "把聚合窗口设为5分钟——再短就太吵了。"
+    },
+    {
+      "word": "workflow",
+      "pos": "n.",
+      "ipa": "/ˈwɜːkfləʊ/",
+      "meanings": [
+        "工作流",
+        "工作流程"
+      ],
+      "definition": "",
+      "example": "The incident workflow auto-creates a ticket, assigns it, and pings the team lead.",
+      "exampleZh": "事件工作流会自动创建工单、分配工单，然后@团队负责人。"
+    },
+    {
+      "word": "XAI",
+      "pos": "abbr.",
+      "ipa": "/ˌeks eɪ ˈaɪ/",
+      "meanings": [
+        "可解释人工智能",
+        "Explainable AI"
+      ],
+      "fullForm": "Explainable Artificial Intelligence",
+      "definition": "AI methods that make model decisions easier for people to understand.",
+      "example": "XAI explains why the model flagged that login as risky.",
+      "exampleZh": "XAI ???????????????????"
+    },
+    {
+      "word": "XDR",
+      "pos": "abbr.",
+      "ipa": "/eks diː ɑː(r)/",
+      "meanings": [
+        "扩展检测与响应"
+      ],
+      "fullForm": "Extended Detection and Response",
+      "definition": "A security approach that correlates detection and response across multiple telemetry sources.",
+      "example": "XDR correlates endpoint, network, cloud, and identity signals.",
+      "exampleZh": "XDR ???????????????"
+    },
+    {
+      "word": "year-over-year",
+      "pos": "adj./adv.",
+      "ipa": "/ˌjɪr əʊvə ˈjɪr/",
+      "meanings": [
+        "同比的",
+        "年度比较"
+      ],
+      "definition": "",
+      "example": "Year-over-year growth in log volume is 35% — we need more indexers.",
+      "exampleZh": "日志量同比增长35%——我们需要更多索引器。"
+    },
+    {
+      "word": "ZTNA",
+      "pos": "abbr.",
+      "ipa": "/ziː tiː en eɪ/",
+      "meanings": [
+        "零信任网络访问"
+      ],
+      "fullForm": "Zero Trust Network Access",
+      "definition": "A zero-trust access model that grants application access based on identity, device, and context.",
+      "example": "ZTNA grants application access only after device posture checks.",
+      "exampleZh": "ZTNA ????????????????????"
+    }
+  ]
+}

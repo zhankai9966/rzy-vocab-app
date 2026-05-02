@@ -65,7 +65,7 @@ export default function LearnSession({ words, onFinish, onQuit }: Props) {
       {/* Word card */}
       <div key={idx} className="card p-8 animate-fade-up">
         <div className="flex items-start justify-between mb-3">
-          <span className="chip">{current.pos}</span>
+          <span className="chip text-base font-semibold px-4 py-2">{current.pos}</span>
           <span className="chip font-mono text-[11px]">
             首字母 {current.word[0].toUpperCase()}
           </span>
@@ -95,9 +95,18 @@ export default function LearnSession({ words, onFinish, onQuit }: Props) {
           </button>
         </div>
 
+        {current.fullForm && (
+          <div className="mb-6 rounded-2xl bg-amber/10 border border-amber/30 px-4 py-3">
+            <div className="text-sm font-semibold text-mute mb-1.5">【全称】</div>
+            <p className="font-display text-lg md:text-xl text-ink leading-relaxed">
+              {current.fullForm}
+            </p>
+          </div>
+        )}
+
         {/* Meanings */}
         <div className="mb-6">
-          <div className="text-xs uppercase tracking-wider text-mute mb-2">中文释义</div>
+          <div className="text-sm font-semibold text-mute mb-2">【中文释义】</div>
           <div className="font-zh text-xl text-ink leading-relaxed">
             {current.meanings.join(' · ')}
           </div>
@@ -114,7 +123,7 @@ export default function LearnSession({ words, onFinish, onQuit }: Props) {
 
         {/* Example */}
         <div className="pt-5 border-t border-line">
-          <div className="text-xs uppercase tracking-wider text-mute mb-2">例句</div>
+          <div className="text-sm font-semibold text-mute mb-2">【例句】</div>
           <p className="font-display text-xl md:text-2xl leading-snug mb-2">
             {highlightTarget(current.example, current.word)}
           </p>
