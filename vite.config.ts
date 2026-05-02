@@ -9,8 +9,11 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['wordpacks/default.json'],
       workbox: {
+        cleanupOutdatedCaches: true,
+        clientsClaim: true,
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff2}'],
         navigateFallback: '/index.html',
+        skipWaiting: true,
       },
       manifest: {
         name: '远航英语学习',
