@@ -83,7 +83,7 @@ export default function HighlightedExample({
     nodes.push(
       <span
         key={`hit-${wordStart}`}
-        className="rounded-md bg-amber/10 px-1.5 text-amber font-semibold leading-normal box-decoration-clone [-webkit-box-decoration-break:clone]"
+        className="text-amber font-semibold"
       >
         {word}
       </span>

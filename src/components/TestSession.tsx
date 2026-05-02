@@ -201,13 +201,6 @@ export default function TestSession({ vaultId, words, mode, onFinish, onQuit }: 
 
       {phase === 'feedback' && (
         <div className="card p-5 animate-pop space-y-3">
-          {selected !== quiz.correctIndex && (
-            <div className="text-sm text-rose">
-              答错了。正确答案是{' '}
-              <span className="font-medium">{quiz.options[quiz.correctIndex]}</span>
-              {!current.isReQuiz && <span className="text-mute"> · 这个词稍后会再出现一次</span>}
-            </div>
-          )}
           {current.word.example && (
             <div className="pt-2 border-t border-line">
               <div className="text-sm font-semibold text-mute mb-1.5">【例句】</div>
