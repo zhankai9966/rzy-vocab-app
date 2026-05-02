@@ -4,6 +4,7 @@ import { buildQuiz } from '../lib/session';
 import { recordReview } from '../lib/srs';
 import { db, getVaultWords } from '../lib/db';
 import { isSpeechAvailable, speak } from '../lib/speech';
+import HighlightedExample from './HighlightedExample';
 
 interface Props {
   vaultId: VaultId;
@@ -212,7 +213,7 @@ export default function TestSession({ vaultId, words, mode, onFinish, onQuit }: 
               <div className="text-sm font-semibold text-mute mb-1.5">【例句】</div>
               <div className="flex items-start gap-2 mb-1">
                 <p className="font-display text-lg md:text-xl leading-snug flex-1">
-                  {current.word.example}
+                  <HighlightedExample example={current.word.example} target={current.word.word} />
                 </p>
                 <button
                   onClick={() => speak(current.word.example)}

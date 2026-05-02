@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Word } from '../types';
 import { speak, isSpeechAvailable, getVoiceLabel, ensureVoicesLoaded } from '../lib/speech';
+import HighlightedExample from './HighlightedExample';
 
 interface Props {
   words: Word[];
@@ -125,7 +126,7 @@ export default function LearnSession({ words, onFinish, onQuit }: Props) {
         <div className="pt-5 border-t border-line">
           <div className="text-sm font-semibold text-mute mb-2">【例句】</div>
           <p className="font-display text-xl md:text-2xl leading-snug mb-2">
-            {highlightTarget(current.example, current.word)}
+            <HighlightedExample example={current.example} target={current.word} />
           </p>
           <p className="font-zh text-base md:text-lg text-mute leading-relaxed">{current.exampleZh}</p>
         </div>
@@ -156,46 +157,5 @@ export default function LearnSession({ words, onFinish, onQuit }: Props) {
         </p>
       )}
     </div>
-  );
-}
-
-/** Highlight the target word inside the example, including common inflected forms (-s, -es, -ed, -ing, -ies) */
-function highlightTarget(example: string, target: string) {
-  // Build a regex that matches: target, target+s, target+es, target+ed, target+ing, target+ies
-  //   and handles final-e drop (make → makes/made/making) and y→ies (carry → carries/carried)
-  const t = target.toLowerCase();
-  const alternatives = new Set<string>([t]);
-  alternatives.add(t + 's');
-  alternatives.add(t + 'es');
-  alternatives.add(t + 'ed');
-  alternatives.add(t + 'ing');
-  if (t.endsWith('e')) {
-    const stem = t.slice(0, -1);
-    alternatives.add(stem + 'ed');
-    alternatives.add(stem + 'ing');
-  }
-  if (t.endsWith('y') && t.length > 2) {
-    const stem = t.slice(0, -1);
-    alternatives.add(stem + 'ies');
-    alternatives.add(stem + 'ied');
-  }
-  // Order by length desc so longer matches take precedence
-  const pattern = Array.from(alternatives)
-    .sort((a, b) => b.length - a.length)
-    .join('|');
-  const regex = new RegExp(`\\b(${pattern})\\b`, 'ig');
-  const parts = example.split(regex);
-  return (
-    <>
-      {parts.map((p, i) =>
-        alternatives.has(p.toLowerCase()) ? (
-          <span key={i} className="text-amber font-medium">
-            {p}
-          </span>
-        ) : (
-          <span key={i}>{p}</span>
-        )
-      )}
-    </>
   );
 }
