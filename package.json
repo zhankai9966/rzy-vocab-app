@@ -1,13 +1,16 @@
 {
   "name": "rzy-vocab-app",
   "private": true,
-  "version": "2.0.5",
+  "version": "2.0.6",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "verify:wordpacks": "node scripts/verify-wordpacks.cjs"
+    "verify": "npm run verify:wordpacks && npm run verify:highlight && npm run verify:highlight-dom && npm run build",
+    "verify:wordpacks": "node scripts/verify-wordpacks.cjs",
+    "verify:highlight": "node scripts/verify-highlight.cjs",
+    "verify:highlight-dom": "node scripts/verify-highlight-dom.cjs"
   },
   "dependencies": {
     "dexie": "^4.0.10",

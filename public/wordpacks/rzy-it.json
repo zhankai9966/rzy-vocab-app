@@ -1,6 +1,6 @@
 {
   "name": "rzy-IT Professional Vocabulary v1",
-  "version": 2,
+  "version": 3,
   "description": "Cleaned IT vocabulary pack for log analysis, SecOps, cloud, DevOps, AI, and solution-sales scenarios. Acronyms include fullForm where available.",
   "source": "rzy-it-formal-packs",
   "words": [
@@ -462,7 +462,7 @@
       "exampleZh": "审计发现几个管理员账号没有启用 MFA。"
     },
     {
-      "word": "authenticat",
+      "word": "authenticate",
       "pos": "v.",
       "ipa": "/ɔːˈθentɪkeɪt/",
       "meanings": [
@@ -470,11 +470,11 @@
         "验证身份"
       ],
       "definition": "",
-      "example": "The service failed to authenticat the expired service account.",
+      "example": "The service failed to authenticate the expired service account.",
       "exampleZh": "该服务未能认证这个已过期的服务账号。"
     },
     {
-      "word": "authoriz",
+      "word": "authorize",
       "pos": "v.",
       "ipa": "/ˈɔːθəraɪz/",
       "meanings": [
@@ -482,7 +482,7 @@
         "批准"
       ],
       "definition": "",
-      "example": "Authoriz only the security team to access raw investigation logs.",
+      "example": "Authorize only the security team to access raw investigation logs.",
       "exampleZh": "只授权安全团队访问原始调查日志。"
     },
     {

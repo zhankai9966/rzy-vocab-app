@@ -83,7 +83,8 @@ export default function HighlightedExample({
     nodes.push(
       <span
         key={`hit-${wordStart}`}
-        className="text-amber font-semibold"
+        className="example-target-highlight text-amber font-semibold"
+        data-example-target="true"
       >
         {word}
       </span>

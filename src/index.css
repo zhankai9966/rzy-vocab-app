@@ -44,6 +44,14 @@
     @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium
            bg-ink/5 text-mute;
   }
+  .example-target-highlight {
+    color: #c2410c !important;
+    font-weight: 700 !important;
+    background: transparent !important;
+    border: 0 !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+  }
 }
 
 /* Cross-fade animation helpers */
