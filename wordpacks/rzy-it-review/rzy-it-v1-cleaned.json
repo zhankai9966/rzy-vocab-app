@@ -1,6 +1,6 @@
 {
   "name": "rzy-IT Professional Vocabulary v1",
-  "version": 1,
+  "version": 2,
   "description": "Cleaned IT vocabulary pack for log analysis, SecOps, cloud, DevOps, AI, and solution-sales scenarios. Acronyms include fullForm where available.",
   "source": "rzy-it-formal-packs",
   "words": [
@@ -64,7 +64,7 @@
       ],
       "definition": "A person, group, or organization that attempts to attack or compromise a system.",
       "example": "The adversary used a stolen API key to access the cloud account.",
-      "exampleZh": "???????? API ?????????"
+      "exampleZh": "对手使用被盗的 API 密钥访问了云账号。"
     },
     {
       "word": "agent",
@@ -76,7 +76,7 @@
       ],
       "definition": "",
       "example": "Deploy the new agent to all endpoints through the management console.",
-      "exampleZh": "????????????????????"
+      "exampleZh": "通过管理控制台把新的代理部署到所有终端。"
     },
     {
       "word": "agent-based",
@@ -338,7 +338,7 @@
       "fullForm": "Application Performance Monitoring",
       "definition": "Tools and practices used to monitor application performance and user experience.",
       "example": "APM traces showed the delay came from the authentication service.",
-      "exampleZh": "APM ?????????????"
+      "exampleZh": "APM 跟踪显示延迟来自认证服务。"
     },
     {
       "word": "APT",
@@ -400,7 +400,7 @@
       ],
       "definition": "Evidence or output collected during an investigation, build, or security process.",
       "example": "Collect every artifact from the host before rebuilding the server.",
-      "exampleZh": "?????????????????????"
+      "exampleZh": "重建服务器之前，先收集主机上的所有取证材料。"
     },
     {
       "word": "ASM",
@@ -424,7 +424,7 @@
       ],
       "definition": "",
       "example": "The risk assessment rated the exposed database as high priority.",
-      "exampleZh": "??????????????????"
+      "exampleZh": "风险评估将暴露的数据库列为高优先级。"
     },
     {
       "word": "attack",
@@ -447,7 +447,7 @@
       ],
       "definition": "All exposed systems, services, identities, and paths that an attacker could target.",
       "example": "The attack surface grew after we exposed more APIs to partners.",
-      "exampleZh": "????????? API ?????????"
+      "exampleZh": "向合作伙伴开放更多 API 后，攻击面扩大了。"
     },
     {
       "word": "audit",
@@ -459,7 +459,7 @@
       ],
       "definition": "A formal review of systems, logs, controls, or processes for compliance and risk.",
       "example": "The audit found that several admin accounts had no MFA enabled.",
-      "exampleZh": "??????????????? MFA?"
+      "exampleZh": "审计发现几个管理员账号没有启用 MFA。"
     },
     {
       "word": "authenticat",
@@ -471,7 +471,7 @@
       ],
       "definition": "",
       "example": "The service failed to authenticat the expired service account.",
-      "exampleZh": "???????????????"
+      "exampleZh": "该服务未能认证这个已过期的服务账号。"
     },
     {
       "word": "authoriz",
@@ -483,7 +483,7 @@
       ],
       "definition": "",
       "example": "Authoriz only the security team to access raw investigation logs.",
-      "exampleZh": "????????????????"
+      "exampleZh": "只授权安全团队访问原始调查日志。"
     },
     {
       "word": "auto-schematization",
@@ -564,7 +564,7 @@
       ],
       "definition": "A hidden method that allows unauthorized access to a system.",
       "example": "The backdoor allowed the attacker to reconnect after reboot.",
-      "exampleZh": "???????????????????"
+      "exampleZh": "后门让攻击者在重启后仍能重新连接。"
     },
     {
       "word": "backlog",
@@ -649,7 +649,7 @@
       ],
       "definition": "A list of blocked or known-bad items such as IPs, domains, or file hashes.",
       "example": "The blacklist was updated with 500 new malicious domains.",
-      "exampleZh": "?????? 500 ??????"
+      "exampleZh": "黑名单新增了 500 个恶意域名。"
     },
     {
       "word": "blast radius",
@@ -661,7 +661,7 @@
       ],
       "definition": "The total scope of damage or impact caused by an incident or failure.",
       "example": "The blast radius was limited to two subnets after segmentation.",
-      "exampleZh": "?????????????????"
+      "exampleZh": "分段隔离后，影响范围被限制在两个子网内。"
     },
     {
       "word": "blast-radius",
@@ -686,7 +686,7 @@
       ],
       "definition": "To prevent traffic, access, or execution based on policy or detection.",
       "example": "Block that IP range at the edge firewall immediately.",
-      "exampleZh": "????????????? IP ??"
+      "exampleZh": "立即在边界防火墙上阻断那个 IP 段。"
     },
     {
       "word": "blocklist",
@@ -709,7 +709,7 @@
       ],
       "definition": "A network of compromised devices controlled by an attacker.",
       "example": "The botnet generated traffic from thousands of infected devices.",
-      "exampleZh": "????????????????????"
+      "exampleZh": "僵尸网络从数千台受感染设备产生流量。"
     },
     {
       "word": "branch",
@@ -744,7 +744,7 @@
       ],
       "definition": "The time it takes an attacker to move from initial compromise to broader access.",
       "example": "Breakout time dropped to 48 minutes in the latest threat report.",
-      "exampleZh": "????????????????? 48 ???"
+      "exampleZh": "最新威胁报告中的突破时间降到了 48 分钟。"
     },
     {
       "word": "broker",
@@ -1097,7 +1097,7 @@
       ],
       "definition": "Additional information that helps analysts understand the meaning and risk of an event.",
       "example": "Without context, this alert is hard to prioritize.",
-      "exampleZh": "??????????????????"
+      "exampleZh": "没有上下文，这条告警很难确定优先级。"
     },
     {
       "word": "contextual",
@@ -1230,7 +1230,7 @@
       "fullForm": "Common Vulnerabilities and Exposures",
       "definition": "A public identifier for a known cybersecurity vulnerability.",
       "example": "CVE-2026-2843 is actively exploited and needs an emergency patch.",
-      "exampleZh": "CVE-2026-2843 ???????????????"
+      "exampleZh": "CVE-2026-2843 正在被积极利用，需要紧急打补丁。"
     },
     {
       "word": "CVSS",
@@ -1242,7 +1242,7 @@
       "fullForm": "Common Vulnerability Scoring System",
       "definition": "A scoring system used to rate the severity of security vulnerabilities.",
       "example": "The vulnerability has a CVSS score of 9.8.",
-      "exampleZh": "????? CVSS ??? 9.8?"
+      "exampleZh": "该漏洞的 CVSS 评分为 9.8。"
     },
     {
       "word": "CWPP",
@@ -1347,7 +1347,7 @@
       "fullForm": "Distributed Denial of Service",
       "definition": "An attack that overwhelms a service with traffic from many sources.",
       "example": "DDoS traffic hit the CDN edge at 500 Gbps.",
-      "exampleZh": "DDoS ??? 500Gbps ??? CDN ???"
+      "exampleZh": "DDoS 流量以 500 Gbps 冲击了 CDN 边缘节点。"
     },
     {
       "word": "deception",
@@ -1383,7 +1383,7 @@
       ],
       "definition": "The process of grouping duplicate events or alerts to reduce noise.",
       "example": "Deduplication reduced our alert volume by 60 percent.",
-      "exampleZh": "???????????? 60%?"
+      "exampleZh": "去重将我们的告警量减少了 60%。"
     },
     {
       "word": "delimiter",
@@ -1478,7 +1478,7 @@
       ],
       "definition": "Related to computer-based systems, data, services, or channels.",
       "example": "Digital resilience is a board-level priority this year.",
-      "exampleZh": "??????????????????"
+      "exampleZh": "数字韧性是今年董事会层面的重点事项。"
     },
     {
       "word": "disk",
@@ -1709,7 +1709,7 @@
       ],
       "definition": "The process of raising an issue to a higher support, operations, or management level.",
       "example": "Escalation sends critical incidents to the on-call lead.",
-      "exampleZh": "??????????????????"
+      "exampleZh": "升级流程会把关键事件发送给值班负责人。"
     },
     {
       "word": "ETL",
@@ -1781,7 +1781,7 @@
       ],
       "definition": "The act of using a vulnerability to gain unauthorized access or impact.",
       "example": "Active exploitation was confirmed in the customer environment.",
-      "exampleZh": "???????????????"
+      "exampleZh": "客户环境中已确认存在主动利用。"
     },
     {
       "word": "extensibility",
@@ -1829,7 +1829,7 @@
       ],
       "definition": "A missed detection where a real problem is not flagged.",
       "example": "A false negative is dangerous because the real attack is missed.",
-      "exampleZh": "???????????????????"
+      "exampleZh": "漏报很危险，因为真正的攻击会被错过。"
     },
     {
       "word": "false positive",
@@ -1841,7 +1841,7 @@
       ],
       "definition": "An alert that looks suspicious but is not a real problem.",
       "example": "This alert is a false positive caused by maintenance activity.",
-      "exampleZh": "???????????????"
+      "exampleZh": "这条告警是维护活动导致的误报。"
     },
     {
       "word": "federated",
@@ -1973,7 +1973,7 @@
       ],
       "definition": "A structured model or set of guidance used to design and manage work.",
       "example": "The NIST framework guides our security program.",
-      "exampleZh": "NIST ????????????"
+      "exampleZh": "NIST 框架指导我们的安全计划。"
     },
     {
       "word": "gaap",
@@ -2129,7 +2129,7 @@
       ],
       "definition": "The process of reducing security risk by removing weaknesses and tightening configuration.",
       "example": "Server hardening closed unnecessary ports and disabled weak ciphers.",
-      "exampleZh": "???????????????????????"
+      "exampleZh": "服务器加固关闭了不必要的端口，并禁用了弱密码套件。"
     },
     {
       "word": "header",
@@ -2200,7 +2200,7 @@
       ],
       "definition": "A decoy system designed to attract attackers and observe their behavior.",
       "example": "The honeypot captured the attacker scanning fake admin services.",
-      "exampleZh": "????????????????????"
+      "exampleZh": "蜜罐捕获了攻击者扫描伪造管理服务的行为。"
     },
     {
       "word": "hunt",
@@ -2273,7 +2273,7 @@
       "fullForm": "Intrusion Detection System",
       "definition": "A system that detects suspicious or malicious activity and generates alerts.",
       "example": "The IDS flagged a suspicious scan but did not block it.",
-      "exampleZh": "IDS ???????????????"
+      "exampleZh": "IDS 标记了一次可疑扫描，但没有阻断它。"
     },
     {
       "word": "in-memory",
@@ -2333,7 +2333,7 @@
       ],
       "definition": "A data point that may show compromise, attack activity, or suspicious behavior.",
       "example": "This indicator points to a possible Cobalt Strike beacon.",
-      "exampleZh": "????????? Cobalt Strike ???"
+      "exampleZh": "这个指标指向一个可能的 Cobalt Strike 信标。"
     },
     {
       "word": "inference",
@@ -2443,7 +2443,7 @@
       ],
       "definition": "Processed information that helps teams understand threats, risks, or decisions.",
       "example": "Threat intelligence linked the IP address to an active campaign.",
-      "exampleZh": "?????? IP ??????????????"
+      "exampleZh": "威胁情报将该 IP 地址关联到一个活跃攻击活动。"
     },
     {
       "word": "interoperability",
@@ -2501,7 +2501,7 @@
       "fullForm": "Indicator of Compromise",
       "definition": "A sign such as an IP, domain, hash, or behavior that may indicate compromise.",
       "example": "The IOC list includes file hashes, domains, and suspicious IPs.",
-      "exampleZh": "IOC ?????????????? IP?"
+      "exampleZh": "IOC 列表包含文件哈希、域名和可疑 IP。"
     },
     {
       "word": "IPS",
@@ -2513,7 +2513,7 @@
       "fullForm": "Intrusion Prevention System",
       "definition": "A system that detects and blocks malicious activity inline.",
       "example": "The IPS dropped the malicious connection inline.",
-      "exampleZh": "IPS ??????????"
+      "exampleZh": "IPS 在线丢弃了恶意连接。"
     },
     {
       "word": "ISAC",
@@ -2536,7 +2536,7 @@
       ],
       "definition": "The act of separating a host, network, or workload to limit risk or spread.",
       "example": "Network isolation stopped the infected VLAN from reaching production.",
-      "exampleZh": "????????? VLAN ???????"
+      "exampleZh": "网络隔离阻止了受感染 VLAN 访问生产环境。"
     },
     {
       "word": "ITDR",
@@ -2548,7 +2548,7 @@
       "fullForm": "Identity Threat Detection and Response",
       "definition": "Security capabilities focused on detecting and responding to identity-based threats.",
       "example": "ITDR detected a suspicious privilege change in Azure AD.",
-      "exampleZh": "ITDR ??? Azure AD ?????????"
+      "exampleZh": "ITDR 在 Azure AD 中检测到一次可疑的权限变更。"
     },
     {
       "word": "Kerberos",
@@ -2572,7 +2572,7 @@
       ],
       "definition": "A model describing the stages of an attack from reconnaissance to impact.",
       "example": "Follow the kill chain to find where the attacker first entered.",
-      "exampleZh": "??????????????????"
+      "exampleZh": "沿着杀伤链追踪，找出攻击者最初进入的位置。"
     },
     {
       "word": "Kubernetes",
@@ -2751,7 +2751,7 @@
       ],
       "definition": "Operated or provided by an external service provider or centralized team.",
       "example": "Managed services cover overnight monitoring for the SOC.",
-      "exampleZh": "?????? SOC ??????"
+      "exampleZh": "托管服务覆盖 SOC 的夜间监控。"
     },
     {
       "word": "mapping",
@@ -2774,7 +2774,7 @@
       ],
       "definition": "The level of capability, consistency, and effectiveness in a process or program.",
       "example": "Our SOC maturity must improve before the next audit.",
-      "exampleZh": "????????? SOC ????????"
+      "exampleZh": "下一次审计前，我们的 SOC 成熟度必须提高。"
     },
     {
       "word": "MDR",
@@ -2786,7 +2786,7 @@
       "fullForm": "Managed Detection and Response",
       "definition": "A managed service that provides threat detection, investigation, and response.",
       "example": "The MDR provider handles threat detection during night shifts.",
-      "exampleZh": "MDR ???????????????"
+      "exampleZh": "MDR 服务商负责夜班期间的威胁检测。"
     },
     {
       "word": "memory-forensics",
@@ -2868,7 +2868,7 @@
       "fullForm": "Multi-Factor Authentication",
       "definition": "An authentication method that requires two or more verification factors.",
       "example": "MFA is required for every administrator account.",
-      "exampleZh": "???????????? MFA?"
+      "exampleZh": "每个管理员账号都必须启用 MFA。"
     },
     {
       "word": "microservice",
@@ -2949,7 +2949,7 @@
       "fullForm": "Managed Security Service Provider",
       "definition": "A provider that delivers outsourced security monitoring or security operations services.",
       "example": "The MSSP monitors alerts when the internal team is offline.",
-      "exampleZh": "????????MSSP ???????"
+      "exampleZh": "内部团队离线时，MSSP 会监控告警。"
     },
     {
       "word": "multi-tenant",
@@ -2984,7 +2984,7 @@
       "fullForm": "Network Detection and Response",
       "definition": "A security tool that detects and responds to threats using network telemetry.",
       "example": "NDR detected lateral movement that firewall logs missed.",
-      "exampleZh": "NDR ?????????????????"
+      "exampleZh": "NDR 检测到了防火墙日志漏掉的横向移动。"
     },
     {
       "word": "network-forensics",
@@ -3380,7 +3380,7 @@
       ],
       "definition": "An update that fixes a bug, vulnerability, or system weakness.",
       "example": "Patch the vulnerable server before exploitation starts.",
-      "exampleZh": "????????????????????"
+      "exampleZh": "在攻击利用开始前，给这台有漏洞的服务器打补丁。"
     },
     {
       "word": "payload",
@@ -3392,7 +3392,7 @@
       ],
       "definition": "The part of malware or an exploit that performs the intended malicious action.",
       "example": "The payload encrypted files after the user opened the attachment.",
-      "exampleZh": "????????????????"
+      "exampleZh": "用户打开附件后，载荷加密了文件。"
     },
     {
       "word": "penetration",
@@ -3524,7 +3524,7 @@
       ],
       "definition": "A rule or standard that defines acceptable behavior, configuration, or access.",
       "example": "The access policy blocks log exports to personal accounts.",
-      "exampleZh": "?????????????????"
+      "exampleZh": "访问策略会阻止把日志导出到个人账号。"
     },
     {
       "word": "post-quantum",
@@ -3548,7 +3548,7 @@
       ],
       "definition": "The overall security condition or readiness of an environment.",
       "example": "Our security posture improved after closing public storage buckets.",
-      "exampleZh": "????????????????????"
+      "exampleZh": "关闭公共存储桶后，我们的安全态势得到改善。"
     },
     {
       "word": "prediction",
@@ -3571,7 +3571,7 @@
       ],
       "definition": "Using data or models to estimate future risk, behavior, or outcomes.",
       "example": "Predictive analytics spotted the risky pattern before impact.",
-      "exampleZh": "??????????????????"
+      "exampleZh": "预测分析在造成影响前发现了高风险模式。"
     },
     {
       "word": "predicts",
@@ -3606,7 +3606,7 @@
       ],
       "definition": "A level of access or permission granted to a user, account, or process.",
       "example": "The attacker gained privilege through a misconfigured role.",
-      "exampleZh": "??????????????????"
+      "exampleZh": "攻击者通过配置错误的角色获得了权限。"
     },
     {
       "word": "privilege-escalation",
@@ -3630,7 +3630,7 @@
       ],
       "definition": "Acting before an incident or problem happens.",
       "example": "A proactive control blocks risky behavior before an incident happens.",
-      "exampleZh": "??????????????????"
+      "exampleZh": "主动控制会在事件发生前阻断高风险行为。"
     },
     {
       "word": "profiling",
@@ -3691,7 +3691,7 @@
       ],
       "definition": "To isolate a suspicious file, host, or process so it cannot cause harm.",
       "example": "Quarantine the laptop before malware spreads to file shares.",
-      "exampleZh": "?????????????????????"
+      "exampleZh": "在恶意软件扩散到文件共享前，先隔离这台笔记本。"
     },
     {
       "word": "query",
@@ -3728,7 +3728,7 @@
       "fullForm": "Retrieval-Augmented Generation",
       "definition": "An AI pattern that retrieves relevant knowledge before generating an answer.",
       "example": "RAG retrieves relevant runbook sections for the analyst.",
-      "exampleZh": "RAG ?????????????????"
+      "exampleZh": "RAG 会为分析师检索相关的运行手册章节。"
     },
     {
       "word": "ransomware",
@@ -3751,7 +3751,7 @@
       "fullForm": "Role-Based Access Control",
       "definition": "An access control model that grants permissions based on roles.",
       "example": "RBAC prevents interns from getting write access to production logs.",
-      "exampleZh": "RBAC ????????????????"
+      "exampleZh": "RBAC 可以防止实习生获得生产日志的写入权限。"
     },
     {
       "word": "reactive",
@@ -3763,7 +3763,7 @@
       ],
       "definition": "Responding after an event, incident, or problem has already happened.",
       "example": "A reactive process starts only after the alert fires.",
-      "exampleZh": "????????????????"
+      "exampleZh": "被动流程只有在告警触发后才会启动。"
     },
     {
       "word": "real-time",
@@ -3882,7 +3882,7 @@
       ],
       "definition": "The ability of a system or organization to continue operating and recover from disruption.",
       "example": "Resilience helps the service recover after a regional outage.",
-      "exampleZh": "???????????????"
+      "exampleZh": "韧性帮助服务在区域故障后恢复。"
     },
     {
       "word": "retain",
@@ -3966,7 +3966,7 @@
       ],
       "definition": "Malware designed to hide itself and maintain privileged access.",
       "example": "The rootkit hid malicious processes from normal monitoring tools.",
-      "exampleZh": "rootkit ???????????????"
+      "exampleZh": "rootkit 将恶意进程隐藏在常规监控工具之外。"
     },
     {
       "word": "rotation",
@@ -4026,7 +4026,7 @@
       ],
       "definition": "An isolated environment used to safely run and analyze code or files.",
       "example": "Run the suspicious file in a sandbox before opening it on a workstation.",
-      "exampleZh": "??????????????????????"
+      "exampleZh": "先在沙箱中运行这个可疑文件，再考虑在工作站上打开。"
     },
     {
       "word": "SASE",
@@ -4256,7 +4256,7 @@
       ],
       "definition": "Protective controls that reduce exposure or block likely attack paths.",
       "example": "Shielding rules protect the new web app from SQL injection.",
-      "exampleZh": "??????? Web ???? SQL ???"
+      "exampleZh": "防护规则保护新的 Web 应用免受 SQL 注入。"
     },
     {
       "word": "shift-left",
@@ -4402,7 +4402,7 @@
       ],
       "definition": "",
       "example": "Spark jobs process yesterday's batch logs for compliance reporting.",
-      "exampleZh": "Spark ??????????????????"
+      "exampleZh": "Spark 作业会处理昨天的批量日志，用于合规报告。"
     },
     {
       "word": "sprint",
@@ -4450,7 +4450,7 @@
       "fullForm": "Single Sign-On",
       "definition": "A login model that lets users access multiple applications with one authenticated session.",
       "example": "SSO lets employees access internal apps with one login.",
-      "exampleZh": "SSO ???????????????"
+      "exampleZh": "SSO 让员工用一次登录访问内部应用。"
     },
     {
       "word": "stakeholder",
@@ -4474,7 +4474,7 @@
       ],
       "definition": "A high-level plan for achieving business, security, or technical goals.",
       "example": "The security strategy focuses on early detection and fast response.",
-      "exampleZh": "????????????????"
+      "exampleZh": "安全策略聚焦于早期检测和快速响应。"
     },
     {
       "word": "stream",
@@ -4525,7 +4525,7 @@
       ],
       "definition": "A rule or action that reduces repetitive or low-value alerts.",
       "example": "Suppression hides alerts during approved maintenance windows.",
-      "exampleZh": "???????????????????"
+      "exampleZh": "抑制规则会在已批准的维护窗口内隐藏告警。"
     },
     {
       "word": "syslog",
@@ -4560,7 +4560,7 @@
       ],
       "definition": "A high-level method or behavior used by an attacker to achieve a goal.",
       "example": "This tactic matches credential dumping in the ATT&CK framework.",
-      "exampleZh": "?????? ATT&CK ?????????"
+      "exampleZh": "这种战术符合 ATT&CK 框架中的凭证转储。"
     },
     {
       "word": "tagging",
@@ -4737,7 +4737,7 @@
       ],
       "definition": "",
       "example": "Training helps analysts handle phishing incidents consistently.",
-      "exampleZh": "?????????????????"
+      "exampleZh": "培训帮助分析师一致地处理钓鱼事件。"
     },
     {
       "word": "transformation",
@@ -4775,7 +4775,7 @@
       ],
       "definition": "The process of prioritizing alerts or incidents based on urgency and impact.",
       "example": "Triage these critical alerts before reviewing low-risk noise.",
-      "exampleZh": "??????????????????"
+      "exampleZh": "先分诊这些关键告警，再查看低风险噪声。"
     },
     {
       "word": "trigger",
@@ -4799,7 +4799,7 @@
       ],
       "definition": "Malware that disguises itself as legitimate software or content.",
       "example": "The trojan disguised itself as a PDF invoice.",
-      "exampleZh": "??????? PDF ???"
+      "exampleZh": "这个木马把自己伪装成 PDF 发票。"
     },
     {
       "word": "TTP",
@@ -4811,7 +4811,7 @@
       "fullForm": "Tactics, Techniques, and Procedures",
       "definition": "The behaviors and methods attackers use to conduct operations.",
       "example": "The TTP matches the same group we tracked last month.",
-      "exampleZh": "?? TTP ???????????????"
+      "exampleZh": "该 TTP 与我们上个月跟踪的同一组织相匹配。"
     },
     {
       "word": "UEBA",
@@ -4858,7 +4858,7 @@
       ],
       "definition": "The path or method used to deliver an attack.",
       "example": "The initial vector was a phishing email with a malicious link.",
-      "exampleZh": "????????????????????"
+      "exampleZh": "初始攻击向量是一封带恶意链接的钓鱼邮件。"
     },
     {
       "word": "virtual",
@@ -4905,7 +4905,7 @@
       "fullForm": "Virtual Private Network",
       "definition": "A secure tunnel that allows remote users or networks to connect privately.",
       "example": "The VPN tunnel dropped three times during the night shift.",
-      "exampleZh": "VPN ?????????????"
+      "exampleZh": "VPN 隧道在夜班期间断开了三次。"
     },
     {
       "word": "vulnerability",
@@ -4953,7 +4953,7 @@
       ],
       "definition": "A list of approved or trusted items that are allowed by policy.",
       "example": "Add the trusted scanner to the whitelist to reduce noise.",
-      "exampleZh": "?????????????????"
+      "exampleZh": "将可信扫描器加入白名单以减少噪声。"
     },
     {
       "word": "window",
@@ -4990,7 +4990,7 @@
       "fullForm": "Explainable Artificial Intelligence",
       "definition": "AI methods that make model decisions easier for people to understand.",
       "example": "XAI explains why the model flagged that login as risky.",
-      "exampleZh": "XAI ???????????????????"
+      "exampleZh": "XAI 会解释模型为什么把那次登录标记为高风险。"
     },
     {
       "word": "XDR",
@@ -5002,7 +5002,7 @@
       "fullForm": "Extended Detection and Response",
       "definition": "A security approach that correlates detection and response across multiple telemetry sources.",
       "example": "XDR correlates endpoint, network, cloud, and identity signals.",
-      "exampleZh": "XDR ???????????????"
+      "exampleZh": "XDR 会关联终端、网络、云和身份信号。"
     },
     {
       "word": "year-over-year",
@@ -5026,7 +5026,7 @@
       "fullForm": "Zero Trust Network Access",
       "definition": "A zero-trust access model that grants application access based on identity, device, and context.",
       "example": "ZTNA grants application access only after device posture checks.",
-      "exampleZh": "ZTNA ????????????????????"
+      "exampleZh": "ZTNA 只会在设备态势检查后授予应用访问权限。"
     }
   ]
 }

@@ -60,7 +60,7 @@ export default function HighlightedExample({
     nodes.push(
       <span
         key={`hit-${wordStart}`}
-        className="inline-block rounded-md border-[4px] border-rose px-1 text-amber font-medium leading-none"
+        className="rounded-md border-[4px] border-rose px-1 text-amber font-medium leading-normal box-decoration-clone [-webkit-box-decoration-break:clone]"
       >
         {word}
       </span>

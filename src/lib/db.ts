@@ -219,7 +219,7 @@ export function getLastBackupTime(vaultId: VaultId): number | null {
 const DEFAULT_PACK_LOADED_KEY = 'rzy.defaultPackLoaded';
 const DEFAULT_PACK_VERSION: Record<VaultId, number> = {
   longman3000: 3,
-  rzy: 1,
+  rzy: 2,
 };
 const DEFAULT_PACK_FILE: Record<VaultId, string> = {
   longman3000: 'default.json',
