@@ -126,7 +126,11 @@ export default function LearnSession({ words, onFinish, onQuit }: Props) {
         <div className="pt-5 border-t border-line">
           <div className="text-sm font-semibold text-mute mb-2">【例句】</div>
           <p className="font-display text-xl md:text-2xl leading-snug mb-2">
-            <HighlightedExample example={current.example} target={current.word} />
+            <HighlightedExample
+              key={`${current.word}:${current.example}`}
+              example={current.example}
+              target={current.word}
+            />
           </p>
           <p className="font-zh text-base md:text-lg text-mute leading-relaxed">{current.exampleZh}</p>
         </div>

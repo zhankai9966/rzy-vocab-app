@@ -1,3 +1,5 @@
+import { useEffect, useRef, useState } from 'react';
+
 function escapeRegex(text: string) {
   return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
@@ -60,8 +62,54 @@ export default function HighlightedExample({
   example: string;
   target: string;
 }) {
+  const rootRef = useRef<HTMLSpanElement>(null);
+  const [revision, setRevision] = useState(0);
   const alternatives = buildAlternatives(target);
-  if (!example || alternatives.size === 0) return <>{example}</>;
+
+  useEffect(() => {
+    const root = rootRef.current;
+    if (!root || !example || alternatives.size === 0) return;
+
+    let timer = 0;
+    const pattern = Array.from(alternatives)
+      .sort((a, b) => b.length - a.length)
+      .map(escapeRegex)
+      .join('|');
+    const targetRegex = new RegExp(`(^|[^A-Za-z0-9])(${pattern})(?=$|[^A-Za-z0-9])`, 'i');
+    const restoreIfExternalRewriteRemovedHighlight = () => {
+      const hasMarker = root.querySelector('[data-example-target="true"]');
+      const stillHasTargetText = targetRegex.test(root.textContent || '');
+      if (stillHasTargetText && !hasMarker) {
+        setRevision(value => value + 1);
+      }
+    };
+
+    const observer = new MutationObserver(() => {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(restoreIfExternalRewriteRemovedHighlight, 80);
+    });
+    observer.observe(root, { childList: true, characterData: true, subtree: true });
+
+    return () => {
+      window.clearTimeout(timer);
+      observer.disconnect();
+    };
+  }, [example, target, revision]);
+
+  const wrapperProps = {
+    ref: rootRef,
+    className: "example-text",
+    translate: "no" as const,
+    spellCheck: false,
+    "data-gramm": "false",
+    "data-gramm_editor": "false",
+    "data-enable-grammarly": "false",
+    "data-ms-editor": "false",
+  };
+
+  if (!example || alternatives.size === 0) {
+    return <span {...wrapperProps}>{example}</span>;
+  }
 
   const pattern = Array.from(alternatives)
     .sort((a, b) => b.length - a.length)
@@ -78,11 +126,11 @@ export default function HighlightedExample({
     const wordStart = match.index + prefix.length;
 
     if (wordStart > lastIndex) {
-      nodes.push(<span key={`text-${lastIndex}`}>{example.slice(lastIndex, wordStart)}</span>);
+      nodes.push(<span key={`text-${revision}-${lastIndex}`}>{example.slice(lastIndex, wordStart)}</span>);
     }
     nodes.push(
       <span
-        key={`hit-${wordStart}`}
+        key={`hit-${revision}-${wordStart}`}
         className="example-target-highlight text-amber font-semibold"
         data-example-target="true"
       >
@@ -92,10 +140,10 @@ export default function HighlightedExample({
     lastIndex = wordStart + word.length;
   }
 
-  if (lastIndex === 0) return <>{example}</>;
+  if (lastIndex === 0) return <span {...wrapperProps}>{example}</span>;
   if (lastIndex < example.length) {
-    nodes.push(<span key={`text-${lastIndex}`}>{example.slice(lastIndex)}</span>);
+    nodes.push(<span key={`text-${revision}-${lastIndex}`}>{example.slice(lastIndex)}</span>);
   }
 
-  return <>{nodes}</>;
+  return <span {...wrapperProps}>{nodes}</span>;
 }

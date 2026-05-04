@@ -206,7 +206,11 @@ export default function TestSession({ vaultId, words, mode, onFinish, onQuit }: 
               <div className="text-sm font-semibold text-mute mb-1.5">【例句】</div>
               <div className="flex items-start gap-2 mb-1">
                 <p className="font-display text-lg md:text-xl leading-snug flex-1">
-                  <HighlightedExample example={current.word.example} target={current.word.word} />
+                  <HighlightedExample
+                    key={`${current.word.word}:${current.word.example}`}
+                    example={current.word.example}
+                    target={current.word.word}
+                  />
                 </p>
                 <button
                   onClick={() => speak(current.word.example)}

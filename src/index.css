@@ -44,11 +44,15 @@
     @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium
            bg-ink/5 text-mute;
   }
-  .example-target-highlight {
+  .example-target-highlight,
+  .example-target-highlight * {
     color: #c2410c !important;
     font-weight: 700 !important;
     background: transparent !important;
+    background-image: none !important;
     border: 0 !important;
+    border-bottom: 0 !important;
+    box-shadow: none !important;
     padding: 0 !important;
     text-decoration: none !important;
   }
