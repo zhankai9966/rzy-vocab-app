@@ -56,6 +56,10 @@
     padding: 0 !important;
     text-decoration: none !important;
   }
+  .example-sentence,
+  .example-sentence * {
+    text-decoration-skip-ink: none;
+  }
 }
 
 /* Cross-fade animation helpers */

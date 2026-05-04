@@ -93,6 +93,7 @@ const fixtures = [
   ['public/wordpacks/rzy-it.json', 'cryptomining', 'rzy compound'],
   ['public/wordpacks/rzy-it.json', 'decoupled', 'rzy inflected'],
   ['public/wordpacks/rzy-it.json', 'MFA', 'rzy abbreviation'],
+  ['public/wordpacks/rzy-it.json', 'IOC', 'rzy uppercase abbreviation'],
   ['public/wordpacks/rzy-it.json', 'ai-driven', 'rzy hyphenated'],
   ['public/wordpacks/rzy-it.json', 'blast radius', 'rzy phrase'],
   ['public/wordpacks/default.json', 'discuss', 'longman standard'],

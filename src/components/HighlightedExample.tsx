@@ -69,6 +69,7 @@ export default function HighlightedExample({
   useEffect(() => {
     const root = rootRef.current;
     if (!root || !example || alternatives.size === 0) return;
+    const observedRoot = root.parentElement ?? root;
 
     let timer = 0;
     const pattern = Array.from(alternatives)
@@ -77,8 +78,8 @@ export default function HighlightedExample({
       .join('|');
     const targetRegex = new RegExp(`(^|[^A-Za-z0-9])(${pattern})(?=$|[^A-Za-z0-9])`, 'i');
     const restoreIfExternalRewriteRemovedHighlight = () => {
-      const hasMarker = root.querySelector('[data-example-target="true"]');
-      const stillHasTargetText = targetRegex.test(root.textContent || '');
+      const hasMarker = observedRoot.querySelector('[data-example-target="true"]');
+      const stillHasTargetText = targetRegex.test(observedRoot.textContent || '');
       if (stillHasTargetText && !hasMarker) {
         setRevision(value => value + 1);
       }
@@ -88,7 +89,7 @@ export default function HighlightedExample({
       window.clearTimeout(timer);
       timer = window.setTimeout(restoreIfExternalRewriteRemovedHighlight, 80);
     });
-    observer.observe(root, { childList: true, characterData: true, subtree: true });
+    observer.observe(observedRoot, { childList: true, characterData: true, subtree: true });
 
     return () => {
       window.clearTimeout(timer);

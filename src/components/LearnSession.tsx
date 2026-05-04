@@ -125,7 +125,15 @@ export default function LearnSession({ words, onFinish, onQuit }: Props) {
         {/* Example */}
         <div className="pt-5 border-t border-line">
           <div className="text-sm font-semibold text-mute mb-2">【例句】</div>
-          <p className="font-display text-xl md:text-2xl leading-snug mb-2">
+          <p
+            className="example-sentence font-display text-xl md:text-2xl leading-snug mb-2"
+            translate="no"
+            spellCheck={false}
+            data-gramm="false"
+            data-gramm_editor="false"
+            data-enable-grammarly="false"
+            data-ms-editor="false"
+          >
             <HighlightedExample
               key={`${current.word}:${current.example}`}
               example={current.example}

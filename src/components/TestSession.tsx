@@ -205,7 +205,15 @@ export default function TestSession({ vaultId, words, mode, onFinish, onQuit }: 
             <div className="pt-2 border-t border-line">
               <div className="text-sm font-semibold text-mute mb-1.5">【例句】</div>
               <div className="flex items-start gap-2 mb-1">
-                <p className="font-display text-lg md:text-xl leading-snug flex-1">
+                <p
+                  className="example-sentence font-display text-lg md:text-xl leading-snug flex-1"
+                  translate="no"
+                  spellCheck={false}
+                  data-gramm="false"
+                  data-gramm_editor="false"
+                  data-enable-grammarly="false"
+                  data-ms-editor="false"
+                >
                   <HighlightedExample
                     key={`${current.word.word}:${current.word.example}`}
                     example={current.word.example}
